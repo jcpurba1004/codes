@@ -1,0 +1,74 @@
+body {
+    background-color: #40407A;
+    color: #40407A;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    min-width: 900px;
+    max-width: 1600px;
+}
+#wrapper {
+    background-color: #F5F5F5;
+    padding: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #40407A;
+    background-size: 100% 100%;
+    background-image: url(./images/sunrise.jpg);
+    color: #FFFFFF;
+    max-width: 1600px;
+}
+h2 {
+   margin: 0; 
+}
+#home{
+    font-size: 120%;
+    min-height: 300px;
+	height: 40vh;
+	padding-top: 6em;
+    padding-left: 8em;
+    
+}
+#content {
+    height: 200px;
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;
+}
+nav {
+    background-color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+nav a {
+    text-transform: none;
+    text-decoration: none;
+}
+li {
+    font-size: 90%;
+}
+dd {
+    font-size: 90%;
+}
+footer {
+    font-size: small;
+    text-align: center;
+    font-style: italic ; 
+}
+#mathhero {
+    height: 300px;
+    background-image: url(./images/yogamat.jpg);
+    background-color:100% 100%;
+    background-repeat: no-repeat;
+}
+#loungehero {
+    height: 300px;
+    background-image: url(./images/yogalounge.jpg);
+    background-color:100% 100%;
+    background-repeat: no-repeat;
+}
