@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Class 02 Lab Exercuse</title>
+
+	<script>
+
+		var riceCost = 1.5;
+
+		var riceQty  = 2;
+
+		alert("riceQty = " + riceQty);
+		var employeeDiscount = .05;
+        alert("employeeDiscount = " + employeeDiscount);
+		var shipping = 5;
+
+		var purchase = riceCost * riceQty;
+
+		//alert("the purcase cost is " + purchase);
+
+		var thisDiscount = purchase * employeeDiscount;
+
+		//alert("the purcase cost is "  + thisDiscount);
+
+		var finalCost = purchase - thisDiscount + shipping;
+
+		//alert("the purcase cost is "  + finalCost);
+	</script>
+
+</head>
+
+<body>
+
+	<h2>Details of your Purchase</h2>
+
+	<script>
+		//document.write("The purchase cost is" + purchase + "<br>");
+	</script>
+
+	<!-- The final purchase cost is $<script>document.write(finalCost)</script>
+	<br>
+	This discount is    <script>document.write(thisDiscount.toFixed(2));</script>
+    -->
+
+
+</body>
+</html>

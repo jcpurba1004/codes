@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+	8-31-2019
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<title>jp assignment 01</title>
+	
+	<script>
+	    // Initialize variables with given values 
+	    var initCost        = 200;   // initial cost is $200
+		var discountPercent = .10;   // discount percentage is 10%
+		var taxRate         = .0725; // tax rate is 7.25%
+		var shipCost        = 5.50;  // shipping cost is $5.50
+		
+		// Calculation part
+		var discountAmount  = discountPercent * initCost; 
+		var discountCost    = initCost - discountAmount; 				
+		var tax             = taxRate * discountCost; 		
+		var totalCost       = discountCost + tax;   //this is called final cost on JS-jQuery_Assignment_01.pdf	
+		var finalCost       = totalCost + shipCost; // final cost including shipping
+		
+		//Output the values to the website using the DOM		
+		window.onload = function() {
+		document.getElementById('initCost').innerHTML =  initCost.toFixed(2);
+		document.getElementById('discountCost').innerHTML =  discountCost.toFixed(2);
+		document.getElementById('tax').innerHTML =  tax.toFixed(2);
+		document.getElementById('totalCost').innerHTML = totalCost.toFixed(2);
+		document.getElementById('finalCost').innerHTML = finalCost.toFixed(2);
+		}
+	</script>	
+
+</head>
+
+<body>
+    <h1>Calculations</h1>		
+	The initial cost is <span id="initCost"> </span><br>
+	The discounted cost is <span id="discountCost"> </span><br>
+	The tax is <span id="tax"> </span><br>
+	The final cost is <span id="totalCost"> </span><br>
+	The final cost, including shipping is <span id="finalCost"> </span><br>
+</body>
+
+</html>
