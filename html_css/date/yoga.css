@@ -1,0 +1,39 @@
+body {
+    background-color: #F5F5F5;
+    color: #40407A;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #80CBC4;
+    color: #fff;
+    background-image: url(../images/yoga/lilyheader.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+nav {
+    /*background-color: #90c7e3;*/
+    font-weight: bold;
+    text-align: center;
+}
+nav a {
+    /*text-transform: none;*/
+    text-decoration: none;
+}
+h1 {
+    margin-bottom: 0;
+    line-height: 400%;
+    text-indent: 1em;
+}
+li {
+    font-size: 90%;
+}
+dd {
+    font-size: 90%;
+}
+footer {
+    background-color: #80CBC4;
+    font-size: small;
+    text-align: center;
+    font-style: italic ; 
+}
