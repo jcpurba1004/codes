@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box; /* bxz:bb */
+}
+body {
+    background-color: #40407A; /* bgc#40407A */
+    color: #40407A; /* c#40407A */
+    font-family: Verdana, Arial, sans-serif; /* ff:v */
+    margin: 0; /* m0 */
+    min-width: 900px; /* miw900 */
+    max-width: 1600px; /* maw1600 */
+}
+#wrapper {
+    background-color: #F5F5F5; /* bgc#F5F5F5 */
+    padding: 2em; /* p2 */
+    width: 80%; /* w80 */
+    margin-left: auto; /* ml:a */
+    margin-right: auto; /* mr:a */
+}
+header {
+    background-color: #40407A; /* bgc#40407A */
+    background-size: 100% 100%; /* bgsz100% */
+    background-image: url(./images/sunrise.jpg); /* bgi */
+    color: #FFFFFF; /* c#FFFFFF */
+    max-width: 1600px; /* maw1600 */    
+}
+header a {
+  text-decoration: none; /* tdn */
+}
+header a:link {
+  color: #fff; /* c#fff */
+}
+header a:visited {
+  color: #fff; /* c#fff */
+}
+header a:hover {
+  color: #EDF5F5; /* c#EDF5F5 */
+}
+h2 {
+   margin: 0; /* m0 */ 
+}
+#home{
+    font-size: 120%; /* fz120 */
+    min-height: 300px; /* mih300 */
+	height: 40vh; /* h40 */
+	padding-top: 6em; /* pt6 */
+    padding-left: 8em; /* pl8 */
+}
+#content {
+    height: 250px; /* h250 */
+    padding-top: 2em; /* pt2 */
+    padding-left: 8em; /* pl8 */
+    padding-bottom: 2em; /* pb2 */
+}
+nav {
+    background-color: #FFFFFF; /* bgc#FFFFFF */
+    left: 0;  /* l */
+    height: 50px; /* h50 */
+    margin: 0;   /* m0 */
+    padding-top: 0.25em; /* pt0 */
+    padding-right: 1em;  /* pr1 */
+    padding-bottom: 0.5em; /* pb0 */
+    text-align: right;  /* ta:r */
+    top: 0;    /* t */
+    width: 100%; /* w100 */
+    z-index: 9999; /* z9999 */
+}
+nav ul{
+    list-style-type: none; /* listn */
+    margin: 0; /* m0 */
+    padding-right: 2em; /* pr2 */
+    font-size: 1.2em; /* fz1.2em */
+}
+nav li {
+    display: inline; /* d:i */
+    padding-left: 2em; /* pl2 */
+}
+nav a {
+    margin: 0; /* m0 */
+    padding-right: 2em; /* pr2 */
+    font-size: 1.2em; /* fz1.2 */
+    text-transform: none; /* tt:n */
+    text-decoration: none; /* td:n */
+}
+nav a:link{
+  color: #3F2860; /* c#F2860 */ 
+}
+nav a:visited {
+   color: #497777; /* c#497777 */
+}
+nav a:hover {
+   color: #A26100; /* c#A26100 */
+}
+.onethird {
+    float: left; /* fl */
+    width: 33%; /* w33% */
+    padding-left: 2em; /* pl2 */
+    padding-right: 2em; /* pr2 */
+}
+.onehalf {
+    float: left; /* fl */
+    width: 50%; /* w50% */
+    padding-left: 2em; /* pl2 */
+    padding-right: 2em; /* pr2 */
+}
+li {
+    font-size: 90%; /* fz90 */
+}
+dd {
+    font-size: 90%; /* fz90 */
+}
+footer {
+    clear: right; /* cl:l */
+    font-size: small; /* fzsmall */
+    font-style: italic ; /* fs */
+    text-align: center; /* ta:c */
+}
+#mathero {
+    clear: both; /* cl:b */
+    background-image: url(./images/yogamat.jpg); /* bgi:url */
+    background-color:100% 100%; /* bgc100% */
+    background-repeat: no-repeat; /* bgr:n */
+    height: 300px; /* h */
+}
+#loungehero {
+    clear: both; /* cl:b */
+    background-image: url(./images/yogalounge.jpg); /* bgi:url */
+    background-color:100% 100%; /* bgc100% */
+    background-repeat: no-repeat; /* bgr:n */
+    height: 300px; /* h */
+}
+.address {
+    background-color: #F5F5F5; /* bgc#F5F5F5 */
+    overflow: auto; /* ov:a */
+    width: 100%; /* w100% */
+}
