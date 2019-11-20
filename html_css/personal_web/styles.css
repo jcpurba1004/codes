@@ -1,0 +1,32 @@
+/* HEADER */
+header {
+  background: lightskyblue;
+  text-align: center;
+}
+
+/* Body */
+body {
+    background: lightskyblue;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-sarif
+    margin: 0;
+    padding: 20px 40px 10px 50px;
+}
+
+.features {
+  background: lightskyblue;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row; 
+}
+
+.features figure {
+  margin: auto;
+  width: 100px;
+}
+
+.features figure img{
+  border-radius: 50%;
+  width: 200px;
+}
