@@ -1,0 +1,88 @@
+<a href="http://www.google.com">Click to go to Google</a>
+
+<a href="image.jpg" id="link">Click to show image</a>
+
+function showImage(event) {
+        // code here;
+        event.preventDefault();
+}
+
+document.getElementById('link').onclick = showImage;
+
+function preloadImages() {
+            // counter
+            var i = 0;
+            
+            // create object
+            var imageObj = new Image();
+            
+            // set image list
+            images = new Array();
+            images[0] = "image1.jpg"
+            images[1] = "image2.jpg"
+            images[2] = "image3.jpg"
+            images[3] = "image4.jpg"
+            
+            // start preloading
+            for (i = 0; i < images.length; i++) {
+                imageObj.src = images[i];
+                alert(images[i]);
+            }
+            
+            var links = document.getElementsByTagName("a");
+            var i, link, image;
+            for (i = 0; i < images.length; i++) {
+               link = links[i];
+               image = new Image();
+               image.src = link.href;
+            }
+           
+var imageLinks = listNode.getElementsByTagName("a");
+
+imageLinks[i].onclick = function(evt){
+link = this;
+
+imageNode.src = link.getAttribute("href");
+captionNode.firstChild.nodeValue = link.getAttribute("title");
+           
+            var image1 = $("image1");
+            var image2 = $("image2");
+           
+            image1.onmouseover = function(){
+             image1.src = "images/release.jpg";
+            };
+            image1.onmouseout = function(){
+             image1.src = "images/hero.jpg";
+            };
+           
+            image2.onmouseover = function(){
+             image2.src = "images/deer.jpg";
+            };
+            image2.onmouseout = function(){
+             image2.src = "images/bison.jpg";
+            };
+           
+setTimeout(function, milliseconds)
+
+clearTimeout(timeoutVariable)
+
+setInterval(function, milliseconds)
+
+clearInterval(intervalVariable)
+           
+<script>
+    
+     function showTime() {
+         var today = new Date();
+         document.getElementById('time').innerHTML = today.toLocaleTimeString();
+         setInterval(showTime, 1000);
+     } // end showDate
+    
+    
+    
+     
+     window.onload = function() {
+         showTime();
+     }
+     
+</script>

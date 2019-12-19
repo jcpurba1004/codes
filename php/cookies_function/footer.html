@@ -1,0 +1,30 @@
+<footer container class="siteFooter">
+  <p>Design uses <a href="http://concisecss.com/">Concise CSS Framework</a></p>
+  
+  <p class="float-right">
+      <!--Print the current date and timezone-->
+      <?php
+          /*$name = 'Jeremiah Purba';*/
+          date_default_timezone_set('Australia/Brisbane');
+
+          print date('g:i a l, F j');
+          print '<br>';
+          print(' (Australia/Brisbane time zone)');
+      ?>
+   </p>
+</footer>
+
+<p>
+    Copyright &copy; 2019 Path of Light Yoga Studio<br>
+    <?php print $name; ?>
+</p>
+</footer>
+</div>
+</body>
+</html>
+
+<?php // Script 8.12 - footer.html #3
+
+    // Send the buffer to the browser and turn off buffering:
+    ob_end_flush();
+?>

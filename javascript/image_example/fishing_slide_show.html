@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Slideshow</title>
+</head>
+
+<body>
+   <main>
+       <h1>Fishing Slide Show</h1>
+       <ul id="image_list">
+           <li><a href="images/release.jpg" title="Catch and Release"></a></li>
+           <li><a href="images/deer.jpg" title="Deer at Play"></a></li>
+           <li><a href="images/hero.jpg" title="The Big One!"></a></li>
+           <li><a href="images/bison.jpg" title="Roaming Bison"></a></li>
+       </ul>
+       
+       <p><img src="images/release.jpg" alt="Catch and Release" id="image"></p>
+       <h2 id="caption">Catch and Release</h2>
+       
+       var $ = function (id) { return document.getElementById(id); };
+       
+       function showImages() {
+           
+           if (i == images.length) {
+               i = 0;
+               
+               imageObj.src = images[i];
+               // need to write the img tag correctly
+               document.getElementById('images').innerHTML = '<img src="' + images[i] + '" alt="photo of dog ' + (i + 1) + '">';
+               i++;
+           } else {
+           
+               imageObj.src = images[i];
+               // need to write the img tag correctly
+               document.getElementById('images').innerHTML = '<img src="' + images[i] + '" alt="photo of dog ' + (i + 1) + '">';
+               i++;
+           }
+           
+       } // end showImages
+       
+       window.onload = function() {
+           var listNode = $("image_list");   // the ul element
+           var captionNode = $("caption");   // the h2 element for the caption
+           var imageNode = $("image");   // the img element for the show
+           
+           var links = listNode.getElementsByTagName("a");
+           
+           // Process image links
+           var i, linkNode, image;
+           var imageCache = {};
+           for ( i = 0; i < links.length; i++ ) {
+               linkNode = links[i];
+               
+               // Preload image and copy title properties
+               image = new Image();
+               image.src = linkNode.getAttribute("href");
+               image.title = linkNode.getAttribute("title");
+               imageCache[imageCache.length] = image;
+           }
+           
+           // Start slide show
+           var imageCounter = 0;
+           var timer = setInterval(
+              function () {
+                  imageCounter = (imageCounter + 1) % imageCache.length;
+                  image = imageCache[imageCounter];
+                  imageNode.src = image.src;
+                  captionNode.firstChild.nodeValue = image.title;
+              },
+              2000);
+       };
+   </main> 
+</body>
+</html>

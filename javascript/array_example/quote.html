@@ -1,0 +1,152 @@
+<html>
+<!--
+    Filename:jsjqas04.html
+    Student full name: Jeremiah Christian Purba
+    JS-jQuery_Assignment_04
+	10-8-2019
+-->
+<head>
+    <meta charset="utf-8">
+    <title data-id="jsjqas04_starter_file">JSJQ Assignment</title>
+
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            font-size: 100%;
+        }
+    </style>
+    
+    <script>
+	
+       //************************************************************
+       // 1: define variables for today's date,
+       //************************************************************
+       var today = new Date();             //retrieve the current date
+       var theDay   = today.getDay();      //return 0 - 6
+       var theDate  = today.getDate();     //return 0 - 31
+       var theMonth = today.getMonth();    //return 0 - 11
+       var theYear  = today.getFullYear(); //return four digit year
+       var month;
+       var comma    = ", ";
+        
+       //Convert from number to month
+       switch (theMonth) {
+         case 0:      
+           month = "January";     
+           break;  
+         case 1:      
+           month = "February";     
+           break; 
+         case 2:      
+           month = "March";     
+           break;  
+         case 3:      
+           month = "April";     
+           break;
+         case 4:      
+           month = "May";     
+           break;           
+         case 5:      
+           month = "June";     
+           break;       
+         case 6:      
+           month = "July";     
+           break;    
+          case 7:      
+           month = "August";     
+           break;      
+          case 8:      
+           month = "September";     
+           break;      
+          case 9:      
+           month = "October";     
+           break;         
+          case 10:      
+           month = "November";     
+           break;      
+          case 11:      
+           month = "December";     
+           break; 
+           default:
+           month = "error on the month";  
+       }
+    
+       //************************************************************
+       // 2: define an array to hold the day names 
+       //************************************************************
+	   var dayArray = new Array();
+       dayArray[0]  = "Sunday";
+       dayArray[1]  = "Monday";
+       dayArray[2]  = "Tuesday";
+       dayArray[3]  = "Wednesday";
+	   dayArray[4]  = "Thursday";
+       dayArray[5]  = "Friday";
+       dayArray[6]  = "Saturday"; 
+       
+       //************************************************************
+       // 3: define an array to hold the daily quotes
+       //************************************************************
+       var quoteArray = new Array(); 
+       quoteArray[0]  = "Ability is nothing without opportunity - Napoleon Bonaparte";
+       quoteArray[1]  = "Nothing happens unless first we dream - Carl Sandburg";
+       quoteArray[2]  = "Believe you can and you're halfway there - Theodore Roosevelt";
+       quoteArray[3]  = "A place for everything, everything in its place - Benjamin Franklin";
+	   quoteArray[4]  = "Don't let the fear of striking out hold you back - Babe Ruth";
+       quoteArray[5]  = "We can't help everyone, but everyone can help someone - Ronald Reagan";
+       quoteArray[6]  = "With self-discipline most anything is possible - Theodore Roosevelt";
+        
+        //************************************************************
+        // 5: create a window.onload function to format and display
+        //    the current day name and the quote for that day
+        //    And call the function to show all of the quotes
+        //************************************************************
+        window.onload = function() {
+           //To display quote of the day and the day of the week name 
+           document.getElementById('Quote').firstChild.nodeValue = quoteArray[theDay];
+           document.getElementById('day').firstChild.nodeValue = dayArray[theDay]; 
+           document.getElementById('comma').firstChild.nodeValue = comma;
+           document.getElementById('month').firstChild.nodeValue = month; 
+           document.getElementById('date').firstChild.nodeValue = theDate;
+           document.getElementById('comma1').firstChild.nodeValue = comma; 
+           document.getElementById('year').firstChild.nodeValue = theYear;
+           
+           //************************************************************
+           // 4:  loop through all of the quotes
+           //    and write the quotes to the page. Use DOM methods or innerHTML
+           //    to write to the page.
+           //    Place in a function createTextNode, createElement, appendChild
+           //************************************************************            
+           var output = document.getElementById('all');   
+           for(var i=0; i<quoteArray.length; i++){
+             
+               var txt = document.createTextNode(quoteArray[i]);
+               var br  = document.createElement('br');
+               output.appendChild(txt);
+               output.appendChild(br);
+           }
+            
+        } //end onload
+        
+    </script>
+</head>
+
+<body>
+    <h1>Quote of the Day</h1>
+    
+    <h2 id="Quote"> </h2>
+
+    <h3><span id="day"> </span>
+       <span id="comma"> </span>
+       <span id="month"> </span>
+       <span id="date"> </span> 
+       <span id="comma1"> </span>
+       <span id="year"> </span>  
+    </h3>
+   
+    <hr>
+    <p id="all"><strong>All the Quotes:</strong><br>
+    <br>
+    </p>
+   
+</body>
+</html>

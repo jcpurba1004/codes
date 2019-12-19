@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+	File 04_date.html
+	This page shows an example of the JavaScrpt
+	Date object and some of its methods.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Date object and methods</title>
+</head>
+
+<body>
+    <h2>We will use document.write to focus on the output
+		rather than placement in the document
+	</h2> 
+	
+	<script>
+	    var today = new Date();
+		document.write(today + "<br><br>");
+		
+		var theDate = today.getDate();
+		document.write("Today's date is " + theDate +"<br><br>");
+		
+		var theDay = today.getDay();
+		document.write("The zero-based day-of-the-week number is " + theDay + "<br><br>");
+		
+		var theMonth = today.getMonth();
+		document.write("The zero-based month number is " + theMonth + "<br><br>");
+		
+		var theFullYear = today.getFullYear();
+		document.write("The full year is " + theFullYear + "<br><br>");
+		
+		var daysChristmas  = new Date("December 25 2019");
+		var daysNewYear  = new Date("December 31 2019");
+		
+		var today = new Date();
+		
+		var days = Math.round((daysChristmas-today)/86400000);
+		var daysNewYear = Math.round((daysNewYear-today)/86400000);
+		
+		alert("There are " + days + " until Christmas");
+		alert("There are " + daysNewYear + " until New Year");
+		
+	</script>
+</body>
+</html>

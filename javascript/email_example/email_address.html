@@ -1,0 +1,14 @@
+<label for="email_address">E-Mail:</label>
+    <input type="text" name="email_address" id="email_address">
+    <span>*</span>
+    
+var email = $("email_address").value;
+
+// check user entries for email
+if (email == "") {
+    $("email_address").nextElementSibling.firstChild.nodeValue = "This field is required.";
+    isValid = false;
+}
+else {
+    $("email_address").nextElementSibling.firstChild.nodeValue = "";
+}

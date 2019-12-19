@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Using parseInt() or parseFloat</title>
+    </head>
+    <head>  
+       <style>     
+           span {
+               color: red;
+           }
+
+       </style>     
+        <script>
+           function clearAll(){
+                    document.getElementById('your_tax').innerHTML = "";
+                    document.getElementById('tax_rate_error').innerHTML = "";
+                    document.getElementById('cost_purchase_error').innerHTML = "";
+                    document.getElementById('tax_rate').innerHTML = "";
+                    document.getElementById('cost_purchase').innerHTML = "";
+           }
+
+           function calculateTax() {
+                 alert ("Hello stupid");
+                 document.getElementById('tax_rate_error').innerHTML = "";
+                 document.getElementById('cost_purchase_error').innerHTML = "";
+
+                 var theTaxRate = document.getElementById('tax_rate').value;
+                 var theCostPurchase = document.getElementById('cost_purchase').value;
+                 if (isNaN(theTaxRate) || theTaxRate <= 0) {
+                     document.getElementById('cost_purchase_error').innerHTML = "Please enter a valid number greater than zero for the tax rate";
+                 }
+                 else if (isNaN(theCostPurchase) || theCostPurchase <= 0) {
+                     document.getElementById('cost_purchase_error').innerHTML = "Please enter a valid number greater than zero for the cost";
+                 }
+                 else {
+                     var theResult = theTax Rate * theCostPurchase;
+                     var theTax = document.getElementById('your_tax');
+                     theTax.innerHTML = "Your tax is $" + theResult.toFixed(2);
+                 }   
+           }
+
+           window.onload = function() {
+                alert ("Hello stupid");
+                document.getElementById('btnCalc').onclick = calculateTax;
+                document.getElementById('btnClear').onclick = clearAll;
+           }
+
+        </script>
+    </head>
+
+
+    <body>
+        <h1>Calculate the Tax on the Purchase</h1>
+        <h2>Demo - one 'if' statement</h2>
+
+        <form>
+            <label for="tax_rate">Tax Rate: </label>
+            <input type="text" name="tax_rate" id="tax_rate">
+            <span id="tax_rate_error"> </span><br><br>
+
+            <label for="cost_purchase">Cost of Purchase: </label>
+            <input type="text" name="cost_purchase" id="cost_purchase">
+            <span id="cost_purchase_error"> </span><br><br>
+
+
+            <input type="button" id="btnCalc" value="Calculate the Tax"><br><br>
+            <input type="button" value="Clear Form" id="btnClear">
+        </form>
+
+        <p>
+            <span id="your tax"> </span>
+        </p>
+
+    </body>
+
+</html>

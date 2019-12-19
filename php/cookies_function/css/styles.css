@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #FFEC73;
+}
+p, legend, button {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    color: #A67100;
+}
+.number {
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,27 @@
+Pacific Trails Descriptive Meta Tags
+index.html
+<meta name="description" content="Pacific Trails Resort offers you luxury camping in spacious and well-appointed private yurts. All camp sites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort.">
+
+yurts.html
+<meta name="description" content="Pacific Trails Resort offers you luxury camping in spacious and well-appointed private yurts. All camp sites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort.">
+
+activities.html
+<meta name="description" content="Pacific Trails Resort offers you luxury camping in spacious and well-appointed private yurts. All camp sites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort.">
+
+reservations.html
+<meta name="description" content="Pacific Trails Resort offers you luxury camping in spacious and well-appointed private yurts. All camp sites have an ocean view. Enjoy the zen and natural beauty of Big Sur at Pacific Trails Resort.">
+
+
+************************************************************
+Path of Light Yoga Descriptive Meta Tags
+index.html
+<meta name="description" content="Path of Light Yoga Studio supports all levels of yoga practice in a tranquil, peaceful environment. Hatha, Vinyasa, and Restorative Yoga classes are offered.">
+
+classes.html
+<meta name="description" content="Path of Light Yoga Studio supports all levels of yoga practice in a tranquil, peaceful environment. Hatha, Vinyasa, and Restorative Yoga classes are offered.">
+
+schedule.html
+<meta name="description" content="Path of Light Yoga Studio supports all levels of yoga practice in a tranquil, peaceful environment. Hatha, Vinyasa, and Restorative Yoga classes are offered.">
+
+contact.html
+<meta name="description" content="Path of Light Yoga Studio supports all levels of yoga practice in a tranquil, peaceful environment. Hatha, Vinyasa, and Restorative Yoga classes are offered.">
