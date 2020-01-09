@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>$ function Demo</title>
+    
+    <script>
+        
+        var $ = function(id) {
+            return document.getElementById(id);
+        }
+        
+        var getId = function(id) {
+            return document.getElementById(id);
+        }
+        
+        
+        function getValue() {
+            //alert("Hello stupid");
+            //var firstNameValue = document.getElementById('first_name').value; 
+            //var firstNameValue = $('first_name').value; // $('first_name')
+            var firstNameValue = getId('first_name').value;
+            alert(firstNameValue);
+        }
+        
+        var getSquare = function (){
+            //var number1=document.getElementById("number1").value;
+            var number1=$('number1').value;
+            alert(number1*number1);
+        }
+        
+        window.onload = function() {
+            //var square  = document.getElementById("square");
+            var square = $('square');
+            //var btnShow = document.getElementById('show');
+            //var btnShow = $('show');
+            var btnShow = getId('show');
+            
+            btnShow.onclick = getValue;
+            square.onclick = getSquare;
+        }
+    </script>    
+    
+</head>
+    
+<body>   
+    
+    <h1>Anonymous function returns object reference to DOM element - takes a parameter</h1>
+    
+    <h2>This enables you to refer to an id in an easy manner</h2>
+    
+    <form>
+        Enter No: <input type="text" id="number1" name="number1"/><br/>
+        <input type="button" id = "square" value="square" /><br/><br/>
+    </form>
+    
+    <section>
+        <label for="first name">First name:</label>
+        <input type="text" id="first_name" name="first_name"><br><br>
+        
+        <input type="button" id="show" value="Click to see Value"><br>
+    </section>
+    
+</body>
+</html>
