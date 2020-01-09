@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#btn').click(function () {
+
+                //$(this).attr('checked', true);
+
+                $(":checkbox").each(function () {
+
+                    if ($(this).is(':checked')) {
+
+                        $(this).prop('checked', false);
+                    } else {
+                        $(this).prop('checked', true);
+                    }
+
+                }); //end each
+
+            }); // end click   
+
+
+        }); //end ready
+    </script>
+</head>
+
+<body>
+
+    <h2>How to check/uncheck all check boxes at once - uses the each() and prop() methods
+ </h2>
+
+
+    <form id="frm" name="frm" action="javascript: alert('form submitted');" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone">
+        <br>
+        <br> What type of pets do you have?
+        <br> Dog
+        <input type="checkbox" name="pets" value="dog" id="dog">
+        <br> Cat
+        <input type="checkbox" name="pets" value="cat" id="cat">
+        <br> Bird
+        <input type="checkbox" name="pets" value="bird" id="bird">
+        <br>
+        <input type="button" value="check all boxes" id="btn">
+
+        <br> What is your favorite color?
+        <br> Green
+        <input type="radio" name="color" value="green" id="green">
+        <br> Red
+        <input type="radio" name="color" value="red" id="red">
+        <br> Blue
+        <input type="radio" name="color" value="blue" id="blue">
+        <br>
+        <br> Which is your favorite car model?
+        <br>
+        <select name="cars" id="cars">
+            <option value="no_choice">Please select one</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="msg">Message</label>
+        <textarea rows="5" cols="50" name="msg" id="msg"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Clear Form">
+    </form>
+
+</body>
+
+</html>
