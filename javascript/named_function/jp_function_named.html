@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+	File 04_function_named.html
+	This page shows how to define and call/invoke a named function.
+-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Function Stored in an External JS File</title>
+	
+	
+	
+	<script>
+        // Define a function
+		function sayHello() {
+			alert("Hello");
+		}
+        
+		window.onload = function() {
+            var btn = document.getElementById("btn");
+            
+			btn.onclick = sayHello();
+		}
+		
+		
+	</script>
+	
+</head>
+
+<body>
+	<h2>Define and invoke a Nemed Function Stored in an External JS File</h2>
+	
+	<form>
+	    <input type="button" id="btn" value="Hello">
+	</form>
+	
+</body>	
+
+</html>
