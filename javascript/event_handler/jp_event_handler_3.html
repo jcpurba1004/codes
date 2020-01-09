@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+    File 05_event_handler.html
+    This page shows how to code an anonymous function
+    and how to attach an event handler to a button.
+    
+    In this example, the event handler function is
+    assigned to a variable name and that variable is
+    assigned as the event handler.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Attaching an event handler</title>
+
+    <script>
+        // a function that is invoked when the button is clicked
+        // note that the function is assigned "sayHello" variable
+        var sayHello  = function() {
+            alert("Hello World");
+            var myName =  document.getElementById("name1").value; 
+            sayName(myName);
+        }
+        
+        function sayHello2 () {
+            alert("Hello There 2");
+            var myName =  document.getElementById("name1").value; 
+            sayName(myName);
+        }
+        
+        var sayName = function (name) {
+            alert("Hello " + name);
+        }
+        
+        var getCube = function (){
+            var number=document.getElementById("number").value;
+            var c = number*number*number; 
+            alert(c);
+            var myName =  document.getElementById("name1").value; 
+            sayName(myName);
+            
+        }
+        
+        var getSquare = function (){
+            var number1=document.getElementById("number1").value;
+            var s = number1*number1;
+            alert(s);
+            var myName =  document.getElementById("name1").value; 
+            sayName(myName);
+           
+        }
+        
+        function showSum()
+         {
+          var x = 2 + 3;
+          return x;
+        }
+        
+         function sum2Num(a,b)
+         {
+          var x = a + b;
+          return x;
+        }
+        
+        
+        
+        // assign an anonymous function to the window.onload event
+        window.onload = function() {
+       
+            // get a reference to the button
+            var btn  = document.getElementById("btn");
+            var btn2  = document.getElementById("btn2");
+            var cube  = document.getElementById("cube");
+            var square  = document.getElementById("square");
+            name = document.getElementById("name");
+            var theSum = showSum();
+        
+            alert(theSum);
+            
+            // assign the event handler function that is
+            // to be invoked when the button is clicked
+            
+            btn.onclick = sayHello; 
+            btn2.onclick = sayHello2;
+            cube.onclick = getCube;
+            square.onclick = getSquare;
+            
+            
+            
+        }
+    </script>
+</head>
+
+<body> 
+    <h2>The event handler is attached to the click event of the button</h2>
+
+    <section>
+        <input type="button" id="btn" value="Click to call hello"><br><br>
+        <input type="button" id="btn2" value="Click to call hello2"><br><br>
+    </section>
+    
+    <form>
+    Enter No: <input type="text" id="number1" name="number1"/><br/>
+    <input type="button" id = "square" value="square" /><br/><br/>
+    </form>
+    
+    <form>
+    Enter No: <input type="text" id="number" name="number"/><br/>
+    <!-- <input type="button" value="cube" onclick="getcube()"/> -->
+    <input type="button" id = "cube" value="cube" />
+    </form>
+    
+     <form>
+    Enter Name: <input type="text" id="name1" name="name1"/><br/>
+    <!-- <input type="button" value="cube" onclick="getcube()"/> -->
+    <input type="button" id = "name" value="save name" />
+    </form>
+    
+    
+    
+</body>
+</html>
