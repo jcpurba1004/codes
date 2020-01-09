@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using parseInt() or parseFloat</title>
+</head>
+
+<head> 
+    <script>
+        function parse() {
+            var theCostPurchase = document.getElementById("cost_purchase").value;
+            alert(parseFloat(theCostPurchase));
+        }
+        
+        window.onload = function() {
+            document.getElementById('btn').onclick = parse;
+        }
+        
+    </script>
+</head>
+
+<body>
+    <h1>Parse Demo</h1>
+    
+    <form>
+        <label for="cost_purchase">Cost of Purchase: </label>
+        <input type="text" name="cost_purchase" id="cost_purchase"><br><br>
+        
+        
+        <input type="button" id="btn" value="Parse the Value"><br><br>
+        <input type="reset" value="Clear Form">
+    </form>
+    
+   
+</body>
