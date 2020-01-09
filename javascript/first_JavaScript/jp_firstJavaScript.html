@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "--//W3C//DTD XHTML 1.0 Transitional//EN"
+:http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+<!-- firstJavaScript.html - demonstrate how JavaScript works in a browser
+Written by: Peter K. Johnson - peter.johnson@southcentral.edu
+Written: 10-01-05
+Revised: 10-04-08 PKJ added JavaScript
+         02-04-09 PKJ added external JavaScript file
+-->
+<head>
+<title>JavaScript Demo</title>
+
+<!-- This is the JavaScript section for this specific web page.
+It contains functions that are available only to this page -->
+<script type="text/javascript">
+//<![CDATA[
+// function to display a String
+function displayHello( )
+{
+  document.write("Hello JavaScript - displayed from function displayHello()<br /><br />")
+  //create a variable to hold the user's input
+  var thisName = ""
+  // get the user's name setting up a default value for program testing
+  // save the value in a variable called thisName
+  thisName = prompt("What is your name?", "Jennifer JavaScript");
+  // display that value plus other information using the concentration operator "+"
+  alert(thisName + ", you are in the displayHello( ) function.<br />");
+  // display the information on the screen
+  document.writelm(thisName + ", you are in the displayHello( ) function.<br />);
+}
+                   
+/*
+********************
+function responseText( ) moved into the external JavaScript page
+********************
+*/
+                   
+//]]>
+                   
+</script>
+
+<!-- This is the CSS Cascading Style Sheet section.
+     These codes are used to change the look and appearance of the page -->
+<style type="text/css">
+/*set up some standard defaults for everything that displays */
+body {
+background-color: #EFEFEF; /* use a light grey background */
+color:            #000099; /* dark blue text */
+font-family:      Verdana. Helvetica, Arial, sansserif; /* change the default typeface */ 
+font-size:        110%; /* make the text a little larger than normal */
+}
+    
+/* change the appearance of the h1 heading text */
+h1 {
+background-color: #CECECE; /* Use darker gray */
+border:           1px solid #000099; /* thin blue border on top */
+padding:          10px;
+}
+    
+/* change the appearance of the paragraph text */
+p {
+color:            #000000; /* make paragraph text black for readability */
+padding:          10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>This is the main head of this page</h1>
+<h2>This is a sub head</h2>
+<p>
+  Each paragraph will start with a &lt;p> tag and end with a &lt;/p> tag.
+</p>
+<p>
+  <!-- This will call the displayHello( ) function from the head section -->
+  <script type="text/javascript">
+  //<![CDATA[
+     // just output some plain text
+     document.write("This is being displayed from the body section" + "br /><br />");
+     // use a function to display information
+     displayHello( );
+  //]]>
+  </script>
+</p>
+
+</body>
+</html>
