@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#btn').click(function () {
+
+                alert($('input:checkbox:checked').val());
+
+            }); // end click   
+
+
+        }); //end ready
+    </script>
+</head>
+
+<body>
+    <h2>Retrieve a value from a checkbox when you click the button - val()method and :checked filter
+  <br>
+  note that this is a single check box</h2>
+
+
+    <form id="frm" name="frm" action="javascript: alert('form submitted');" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone">
+        <br>
+        <br> Are you an animal lover?
+        <br> Yes
+        <input type="checkbox" name="animal_lover" value="yes" id="animal_lover">
+        <br>
+
+        <input type="button" value="show what was checked below" id="btn">
+        <div id="isChecked"></div>
+        <br> What is your favorite color?
+        <br> Green
+        <input type="radio" name="color" value="green" id="green">
+        <br> Red
+        <input type="radio" name="color" value="red" id="red">
+        <br> Blue
+        <input type="radio" name="color" value="blue" id="blue">
+        <br>
+        <br> Which is your favorite car model?
+        <br>
+        <select name="cars" id="cars">
+            <option value="no_choice">Please select one</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="msg">Message</label>
+        <textarea rows="5" cols="50" name="msg" id="msg"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Clear Form">
+    </form>
+
+</body>
+
+</html>
