@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	File 04_get_month_name_if_condition.html
+	
+	This page shows how to get the month name,
+	using a series of if/else if statements.
+-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Get the month name using a switch statement</title>
+	
+	<script>
+		var monthName;
+		var theMonth = new Date(). getMonth();
+		
+		// use switch statement to get the name of the day
+		
+		switch (theMonth) {
+			case 0:
+				monthName = "January";
+				break;
+				
+			case 1:
+				monthName = "February";
+				break;
+				
+			case 2:
+				monthName = "March";
+				break;
+
+			case 3:
+				monthName = "April";
+				break;
+				
+			case 4:
+				monthName = "May";
+				break;
+				
+			case 5:
+				monthName = "June";
+				break;
+				
+			case 6:
+				monthName = "July";
+				break;
+				
+			case 7:
+				monthName = "August";
+				break;
+				
+			case 8:
+				monthName = "September";
+				break;
+				
+			case 9:
+				monthName = "October";
+				break;
+				
+			case 10:
+				monthName = "November";
+				break;
+				
+			case 11:
+				monthName = "December";
+				break;
+				
+			default:
+				monthName = "Unknown";
+				break;
+		}
+		
+		alert("The month number is " + theMonth + "/n" +
+			"The month name is " + monthName);
+			
+	</script>
+</head>
+
+<body>
+	<h2>Get the month name, using a switch statement</h2>
+</body>
+
+</html>
+		
