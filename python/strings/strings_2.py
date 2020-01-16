@@ -16,8 +16,8 @@ user[2:]
 user[:]
 'Tuna McFish'
 print ('dsadasd')
-#dsadasd
+dsadasd
 len('dfjhf22893hfadfjkasdf')
 21
-#len(iser)
+len(iser)
 11
