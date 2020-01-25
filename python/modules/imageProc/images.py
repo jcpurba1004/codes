@@ -172,3 +172,9 @@ class Image:
     		
 _root = tk.Tk()
 _root.withdraw()
+
+
+
+  
+
+   
