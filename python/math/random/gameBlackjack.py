@@ -1,6 +1,5 @@
 from blackjack import Blackjack
-game = Blackjack()
-game.play()
+
 
 from cards import Deck, Card
 
@@ -114,3 +113,9 @@ class Blackjack(object):
                         print("Dealer wins")
                     else:
                         print("There is a tie")
+    def main():
+        game = Blackjack()
+        game.play()
+
+if __name__ == "__main__":
+    main()
