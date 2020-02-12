@@ -1,8 +1,7 @@
 // string.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-// This program illustrates how data in the variable are
-// manipulated.
+// This program illustrates how to read strings and numeric data.
 
 #include <iostream>
 #include <string>
@@ -11,25 +10,24 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
-    double sale;
-    char first;
-    string str;
+    string firstName;
+    string lastName;
+    int age;
+    double weight;
 
-    num1 = 4;
-    cout << "num1 = " << num1 << endl;
+    cout << "Enter first name, last name, age, "
+        << "and weight, separated by spaces."
+        << endl;
 
-    num2 = 4 * 5 - 11;
-    cout << "num2 = " << num2 << endl;
+    cin >> firstName >> lastName;
+    cin >> age >> weight;
 
-    sale = 0.02 * 1000;
-    cout << "sale = " << sale << endl;
+    cout << "Name: " << firstName << " "
+         << lastName << endl;
 
-    first = 'D';
-    cout << "first = " << first << endl;
+    cout << "Age: " << age << endl;
 
-    str = "It is a sunny day.";
-    cout << "str = " << str << endl;
+    cout << "Weight: " << weight << endl;
 
     return 0;
 }
