@@ -1,0 +1,6 @@
+﻿  precedence.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  precedence.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\precedence\precedence\Release\precedence.exe
