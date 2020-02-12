@@ -1,0 +1,5 @@
+﻿  casting.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\casting\casting\casting.cpp(31,33): error C2059: syntax error: 'static_cast'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\casting\casting\casting.cpp(31,33): error C2143: syntax error: missing '(' before 'static_cast'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\casting\casting\casting.cpp(34,33): error C2059: syntax error: 'static_cast'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\casting\casting\casting.cpp(34,33): error C2143: syntax error: missing '(' before 'static_cast'
