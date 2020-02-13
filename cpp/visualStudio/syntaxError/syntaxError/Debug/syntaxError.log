@@ -1,0 +1,9 @@
+﻿  syntaxError.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(12,5): error C2146: syntax error: missing ';' before identifier 'num'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(14,5): error C2065: 'tempNum': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(16,47): error C2065: 'tempNum': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(16,62): error C2563: mismatch in formal parameter list
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(16,62): error C2568: '<<': unable to resolve function overload
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(16,62): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(18,11): error C2561: 'main': function must return a value
+C:\data\Jeremiah\github\codes\cpp\visualStudio\syntaxError\syntaxError\syntaxError.cpp(8): message : see declaration of 'main'
