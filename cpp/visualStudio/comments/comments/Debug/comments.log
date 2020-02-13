@@ -1,0 +1,5 @@
+﻿  comments.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\comments\comments\comments.cpp(6,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\data\Jeremiah\github\codes\cpp\visualStudio\comments\comments\comments.cpp(6,14): error C2146: syntax error: missing ';' before identifier 'directives'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\comments\comments\comments.cpp(13,1): error C2143: syntax error: missing ';' before '{'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\comments\comments\comments.cpp(13,1): error C2447: '{': missing function header (old-style formal list?)
