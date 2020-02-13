@@ -1,0 +1,2 @@
+﻿  indent.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\indent\indent\indent.cpp(33): error C4700: uninitialized local variable 'height' used
