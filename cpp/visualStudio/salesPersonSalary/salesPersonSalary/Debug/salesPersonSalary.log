@@ -1,0 +1,5 @@
+﻿  salesPersonSalary.cpp
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\salesPersonSalary\salesPersonSalary\salesPersonSalary.cpp(31,40): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\salesPersonSalary\salesPersonSalary\salesPersonSalary.cpp(32,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\salesPersonSalary\salesPersonSalary\salesPersonSalary.cpp(34,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  salesPersonSalary.vcxproj -> C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\salesPersonSalary\salesPersonSalary\Debug\salesPersonSalary.exe
