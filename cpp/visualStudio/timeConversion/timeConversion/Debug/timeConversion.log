@@ -1,0 +1,3 @@
+﻿  timeConversion.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\timeConversion\timeConversion\timeConversion.cpp(104,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  timeConversion.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\timeConversion\timeConversion\Debug\timeConversion.exe
