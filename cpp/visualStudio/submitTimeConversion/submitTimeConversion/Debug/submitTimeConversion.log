@@ -1,0 +1,5 @@
+﻿  apex_code.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\submitTimeConversion\submitTimeConversion\apex_code.cpp(98,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  submitTimeConversion.cpp
+  Generating Code...
+  submitTimeConversion.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\submitTimeConversion\submitTimeConversion\Debug\submitTimeConversion.exe
