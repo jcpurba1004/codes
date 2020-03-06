@@ -1,0 +1,5 @@
+﻿  constructors.cpp
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\constructors\constructors\constructors.cpp(25,20): error C2001: newline in constant
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\constructors\constructors\constructors.cpp(26,5): error C2146: syntax error: missing ')' before identifier 'cout'
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\constructors\constructors\constructors.cpp(28,21): error C2001: newline in constant
+C:\data\Jeremiah\college\Mesa_College\spring_2020\cisc_192_CPP\practice\constructors\constructors\constructors.cpp(29,5): error C2146: syntax error: missing ')' before identifier 'cout'
