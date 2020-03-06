@@ -1,0 +1,6 @@
+﻿  variableDeclarations.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\variableDeclarations\variableDeclarations\variableDeclarations.cpp(10,12): warning C4101: 'z': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\variableDeclarations\variableDeclarations\variableDeclarations.cpp(9,9): warning C4101: 'a': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\variableDeclarations\variableDeclarations\variableDeclarations.cpp(9,12): warning C4101: 'b': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\variableDeclarations\variableDeclarations\variableDeclarations.cpp(11,10): warning C4101: 'ch': unreferenced local variable
+  variableDeclarations.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\variableDeclarations\variableDeclarations\Debug\variableDeclarations.exe
