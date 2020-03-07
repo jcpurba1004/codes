@@ -1,0 +1,3 @@
+﻿  unit3-10.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit3-10\unit3-10\unit3-10.cpp(29,36): error C2100: illegal indirection
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit3-10\unit3-10\unit3-10.cpp(29,33): error C2088: '<<': illegal for class
