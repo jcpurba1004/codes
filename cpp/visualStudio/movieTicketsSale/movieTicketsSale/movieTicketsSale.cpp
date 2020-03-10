@@ -44,13 +44,14 @@ int main()
        cout << "Enter the price of a child ticket: "; //Step 7
        cin >> childTicketPrice;                       //Step 8
        cout << endl;
-       cout << "Enter the number of adult ticket: "
+
+       cout << "Enter the number of adult tickets: "
             << "sold: ";                              //Step 9
        cin >> noOfAdultTicketsSold;                   //Step 10
        cout << endl;
 
-       cout << "Enter the number of ldch ticket: "
-           << "sold: ";                               //Step 11
+       cout << "Enter the number of child tickets: "
+            << "sold: ";                               //Step 11
        cin >> noOfChildTicketsSold;                   //Step 12
        cout << endl;
 
