@@ -1,43 +1,50 @@
-//
-//
+// Jeremiah Purba
+// Unit 3 Apex Lab, 3-13-2020 
 #include <iostream>
 #include <string>
+#include <iomanip>
 #include "apex_code.h"
 
 using namespace std;
 
-void street_address(stringstream& cin, stringstream& cout)
-{
-    // Place code for getting the street address
-    // Pretend this is your main function and you can use cin/cout
-    // as you would in main.
+// This function will get the address from input and pass it as output
+void street_address(stringstream& cin, stringstream& cout) {
+    
+    const int SKIPCHAR = 18;
+    string address;
 
-    // If you want to print to the console for debugging use std::cout.
-    // Use cout for your final solution.
+    cin.ignore(SKIPCHAR, '\n');    // ignore the family
+    getline(cin, address);         // get the address from input
+    cout << address;               // return address as required
 }
 
+// This function will get drink type, number and price from input.
+// It calculates the total sales and return it as result on output
 void coffee_sale_item(stringstream& cin, stringstream& cout) {
-    // Place code for outputting the total sales of a coffee item
-    // Pretend this is your main function and you can use cin/cout
-    // as you would in main.
+    
+    string drink;
+    int number;
+    double price, total;
 
-    // If you want to print to the console for debugging use std::cout.
-    // Use cout for your final solution.
+    cin >> drink >> number >> price;                 // get input data
+    total = number * price;                          // calculate total price
+    cout << fixed << showpoint << setprecision(2);   // set output precision
 
-    // Get user input
-    //  - drink
-    //  - number sold
-    //  - price
-    // calculate the total sales
-    // output the formatted result
+    cout << drink << " total sales = $" << total;    // return results 
 }
 
-void first_name_and_country(std::stringstream& cin, std::stringstream& cout)
-{
-    // Place code for reading the first name and country here
-    // Pretend this is your main function and you can use cin/cout
-    // as you would in main.
+// This function gets first name and country from input string
+// and returns it on output
+void first_name_and_country(std::stringstream& cin, std::stringstream& cout) {
 
-    // If you want to print to the console for debugging use std::cout.
-    // Use cout for your final solution.
+    string name, country;
+    const int SKIPCHAR = 29;
+
+    cin >> name;                             // get the name from input stream
+    cin.ignore(29, '.');                     // ignore the address
+    cin >> country;                          // get the country
+    if (country == ",")                      // check for extra comma
+        cin >> country;
+
+    cout << name << " is from " << country;  // return name and country
 }
