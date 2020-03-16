@@ -1,0 +1,3 @@
+﻿  randomNumberGenerator.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\mixedExpressions\randomNumberGenerator\randomNumberGenerator.cpp(11,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  randomNumberGenerator.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\mixedExpressions\randomNumberGenerator\Debug\randomNumberGenerator.exe
