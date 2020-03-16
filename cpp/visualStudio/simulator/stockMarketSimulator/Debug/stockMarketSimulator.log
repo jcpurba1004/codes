@@ -1,0 +1,5 @@
+﻿  stockMarketSimulator.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\simulator\stockMarketSimulator\stockMarketSimulator.cpp(13,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\simulator\stockMarketSimulator\stockMarketSimulator.cpp(17,22): error C2143: syntax error: missing ';' before 'string'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\simulator\stockMarketSimulator\stockMarketSimulator.cpp(17,37): error C2296: '<<': illegal, left operand has type 'const char [8]'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\simulator\stockMarketSimulator\stockMarketSimulator.cpp(17,37): error C2297: '<<': illegal, right operand has type 'float'
