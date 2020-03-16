@@ -1,0 +1,4 @@
+﻿  logicalOperators.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\logicalOperators\logicalOperators.cpp(14,32): error C2065: 'test': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\logicalOperators\logicalOperators.cpp(14,40): error C2065: 'test': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\logicalOperators\logicalOperators.cpp(14,48): error C2065: 'test': undeclared identifier
