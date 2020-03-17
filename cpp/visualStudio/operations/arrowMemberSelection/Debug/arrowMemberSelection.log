@@ -1,0 +1,118 @@
+﻿  arrowMemberSelection.cpp
+  Sally.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(7,3): error C2146: syntax error: missing ':' before identifier 'Sally'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(7,10): error C2238: unexpected token(s) preceding ';'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(8,16): error C3646: 'printCrap': unknown override specifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(8,16): error C2059: syntax error: '('
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(8,18): error C2238: unexpected token(s) preceding ';'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(10,9): error C2059: syntax error: ':'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\Sally.h(10,9): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\sal.h(2361,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\sal.h(2361,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\concurrencysal.h(22,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\concurrencysal.h(22,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vadefs.h(18,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vadefs.h(18,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vadefs.h(128,12): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vadefs.h(129,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime.h(93,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime.h(93,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\limits.h(13,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\limits.h(13,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(12,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(12,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime_new.h(13,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime_new.h(13,14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime_new_debug.h(13,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\vcruntime_new_debug.h(13,14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(15,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(15,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\yvals.h(135,45): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\yvals.h(139,85): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\yvals.h(150,63): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\yvals.h(308,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\yvals.h(308,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(14,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_math.h(14,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_malloc.h(13,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_malloc.h(13,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stddef.h(14,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stddef.h(14,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_search.h(16,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_search.h(16,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(13,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(13,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(18,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(35,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\cstdlib(35,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtr1common(19,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtr1common(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(22,1): error C2059: syntax error: 'namespace'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(22,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,17): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,37): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,37): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,12): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,12): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,12): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(37,119): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,17): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,37): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,37): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,12): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,12): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,12): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(59,49): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(60,72): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,6): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,26): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,26): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(91,111): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(132,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(159,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(177,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(178,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2143: syntax error: missing ';' before '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2059: syntax error: '<'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(180,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(182,1): error C2039: '_Common_float_type_t': is not a member of 'std'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\arrowMemberSelection\predefined C++ types (compiler internal)(367): message : see declaration of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(182,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xtgmath.h(182,1): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...
