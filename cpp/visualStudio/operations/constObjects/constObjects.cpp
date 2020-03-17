@@ -7,12 +7,9 @@
 using namespace std;
 
 int main() {
+	Sally so(3, 87);
+	so.print();
 
-	Sally salObj;
-	salObj.printShiz();
-
-	const Sally constObj;
-	constObj.printShiz2();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

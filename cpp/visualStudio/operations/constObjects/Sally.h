@@ -5,11 +5,11 @@
 class Sally
 {
 	public:
-		Sally();
-		void printShiz();
-		void printShiz2() const;
-	protected:
+		Sally(int a, int b);
+		void print();
 	private:
+		int regVar;
+		const int constVar;
 };
 
 #endif // Sally_H
