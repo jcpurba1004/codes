@@ -5,7 +5,7 @@ class Sally
 {
 	public
 		Sally();
-
+	    ~Sally();
 	protected:
 	private:
 };

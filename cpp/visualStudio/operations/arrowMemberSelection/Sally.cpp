@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 
-Sally::Sally()
-{
+Sally::Sally() {
+	cout << "i am the contruscot!" << endl;
 }
 
-void Sally::printCrap() {
-	cout << "did someone say steak? << endl;
+Sally::~Sally() {
+	cout << "I the deconsrutcot!" << endl;
 }

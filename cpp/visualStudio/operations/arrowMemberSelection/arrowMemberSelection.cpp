@@ -7,12 +7,8 @@ using namespace std;
 
 int main() {
     
-    Sally sallyObject;
-    Sally sallyPointer = &sallyObject;
-
-    sallyObject.printCrap();
-    sallyPointer->printCrap();
-
+    Sally so;
+    cout << "omg wtf is this on my shoe?" << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
