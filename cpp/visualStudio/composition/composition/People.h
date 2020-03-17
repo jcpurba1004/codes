@@ -8,6 +8,7 @@ class People
 {
 	public:
 		People(string x, Birthday bo);
+		void printInfo();
 	private:
 		string name;
 		Birthday dateOfBirth;
