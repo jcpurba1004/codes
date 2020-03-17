@@ -9,7 +9,7 @@ using namespace std;
 int main() {
 
     Daughter tina;
-    tina.sayname();
+    tina.doSomething();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

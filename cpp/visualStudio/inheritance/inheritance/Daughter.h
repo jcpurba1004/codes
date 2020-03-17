@@ -2,10 +2,9 @@
 #define Daughter_H
 
 
-class Daughter: public Mother
-{
+class Daughter: public Mother {
 	public:
-		Daughter();
+		void doSomething();
 };
 
 #endif // Daughter_H
