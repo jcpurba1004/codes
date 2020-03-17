@@ -6,7 +6,12 @@
 using namespace std;
 
 int main() {
-   
+    Sally a(34);
+    Sally b(21);
+    Sally c;
+
+    c = a.add(b);
+    cout << c.num << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

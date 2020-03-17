@@ -1,0 +1,6 @@
+﻿  operatorOperation.cpp
+  Sally.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\operatorOperation\Sally.cpp(12,35): error C2601: 'Sally::operator +': local function definitions are illegal
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\operatorOperation\Sally.cpp(10): message : this line contains a '{' which has not yet been matched
+C:\data\Jeremiah\github\codes\cpp\visualStudio\operations\operatorOperation\Sally.cpp(10): fatal error C1075: '{': no matching token found
+  Generating Code...
