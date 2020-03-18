@@ -1,0 +1,4 @@
+﻿  polymorphism.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\polymorphism\polymorphism\polymorphism.cpp(22,13): error C2011: 'Ninja': 'class' type redefinition
+C:\data\Jeremiah\github\codes\cpp\visualStudio\polymorphism\polymorphism\polymorphism.cpp(16): message : see declaration of 'Ninja'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\polymorphism\polymorphism\polymorphism.cpp(49,1): fatal error C1004: unexpected end-of-file found
