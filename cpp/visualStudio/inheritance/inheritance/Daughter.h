@@ -4,7 +4,8 @@
 
 class Daughter: public Mother {
 	public:
-		void doSomething();
+		Daughter();
+		~Daughter();
 };
 
 #endif // Daughter_H

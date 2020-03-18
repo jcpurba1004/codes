@@ -8,8 +8,8 @@ using namespace std;
 
 int main() {
 
-    Daughter tina;
-    tina.doSomething();
+    Daughter dina;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

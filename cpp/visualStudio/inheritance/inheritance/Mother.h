@@ -5,11 +5,9 @@
 class Mother
 {
 	public:
-		int publicv;
-	protected:
-		int protectedv;
-	private:
-		int privatev;
+		Mother();
+		~Mother();
+
 };
 
 #endif // MOTHER_H

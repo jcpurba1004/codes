@@ -3,10 +3,10 @@
 #include "Daughter.h"
 using namespace std;
 
-Mother::Mother()
-{
+Mother::Mother() {
+	cout << "I am the mother constructor" << endl;
 }
 
-void Mother::sayName() {
-	cout << "I am a RobnertsQ!" << endl;
+Mother::~Mother() {
+	cout << "mother constructor" << endl;
 }

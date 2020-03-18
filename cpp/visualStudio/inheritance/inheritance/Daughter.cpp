@@ -3,8 +3,10 @@
 #include "Daughter.h"
 using namespace std;
 
-void Daughter::doSomething() {
-	publicv = 1;
-	protectedv = 2;
-	privatev = 3;
+Daughter::Daughter() {
+	cout << "I am the Daughter constructor" << endl;
+}
+
+Daughter::~Daughter() {
+	cout << "Daughter constructor" << endl;
 }

@@ -1,0 +1,8 @@
+﻿  Daughter.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\inheritance\inheritance\Daughter.cpp(7,2): error C2065: 'publicv': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\inheritance\inheritance\Daughter.cpp(8,2): error C2065: 'protectedv': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\inheritance\inheritance\Daughter.cpp(9,2): error C2065: 'privatev': undeclared identifier
+  inheritance.cpp
+  Mother.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\inheritance\inheritance\Mother.cpp(10,24): error C2577: 'Mother::~Mother': a destructor cannot have a return type
+  Generating Code...
