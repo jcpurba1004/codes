@@ -1,0 +1,17 @@
+﻿  multipleParameters.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\cinFunction\multipleParameters\multipleParameters.cpp(9,14): warning C4244: 'return': conversion from 'SECOND' to 'FIRST', possible loss of data
+          with
+          [
+              SECOND=double
+          ]
+          and
+          [
+              FIRST=int
+          ]
+C:\data\Jeremiah\github\codes\cpp\visualStudio\cinFunction\multipleParameters\multipleParameters.cpp(16): message : see reference to function template instantiation 'FIRST smaller<int,double>(FIRST,SECOND)' being compiled
+          with
+          [
+              FIRST=int,
+              SECOND=double
+          ]
+  multipleParameters.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\cinFunction\multipleParameters\Debug\multipleParameters.exe
