@@ -2,13 +2,69 @@
 //
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
     int a, b;
     double z;
-    char ch, ch1, ch2;
+    char ch, ch1, ch2; 
+    cout << fixed << showpoint << setprecision(2);  // set output format to 2 decimal places
+
+    cout << "Enter character: ";
+    cin >> ch;
+    cout << "Character entered: " << ch;
+
+    cout << endl;
+
+    cout << "Enter character: ";
+    cin >> ch;
+    cout << "Character entered: " << ch;
+
+    cout << endl;
+
+    cout << "Enter integer: ";
+    cin >> a;
+    cout << "Integer entered: " << a;
+
+    cout << endl;
+
+    cout << "Enter integer: ";
+    cin >> z;
+    cout << "Integer entered: " << z;
+
+    cout << endl;
+
+    cout << "Enter integer: ";
+    cin >> z;
+    cout << "Integer entered: " << z;
+
+    cout << endl;
+
+    cout << "Enter floating point: ";
+    cin >> z;
+    cout << "Floating point entered: " << z;
+
+    cout << endl;
+
+    cout << "Enter floating point and integer: ";
+    cin >> z >> a;
+    cout << "Input entered: " << z << " " << a;
+
+    cout << endl;
+
+    cout << "Enter integer and integer: ";
+    cin >> a >> b;
+    cout << "2 Integer entered: " << a << " " << b;
+
+    cout << endl;
+
+    cout << "Enter  integer  and floating point: ";
+    cin >> a >> z;
+    cout << "Input entered: " << a << " " << z;
+
+    cout << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
