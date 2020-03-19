@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -9,6 +10,31 @@ int main()
     int a;
     double z;
     char ch;
+    cout << fixed << showpoint << setprecision(2);  // set output format to 2 decimal places
+
+    cout << "Enter integer, character and double: ";
+    cin >> a >> ch >> z;
+    cout << "Integer, character and double entered: " << a << " " << ch << " " << z;
+
+    cout << endl;
+
+    cout << "Enter  integer, character and double: ";
+    cin >> a >> ch >> z;
+    cout << "Input entered: " << a << " " << ch << " " << z;
+
+    cout << endl;
+
+    cout << "Enter integer, character and double: ";
+    cin >> a >> ch >> z;
+    cout << "Integer, character and double entered: " << a << " " << ch << " " << z;
+
+    cout << endl;
+
+    cout << "Enter  integer, character and double: ";
+    cin >> a >> ch >> z;
+    cout << "Input entered: " << a << " " << ch << " " << z;
+
+    cout << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
