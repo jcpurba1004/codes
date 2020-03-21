@@ -1,0 +1,3 @@
+﻿  relationalOperators.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\relationalOperators\relationalOperators\relationalOperators.cpp(16,23): warning C4804: '<=': unsafe use of type 'bool' in operation
+  relationalOperators.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\relationalOperators\relationalOperators\Debug\relationalOperators.exe
