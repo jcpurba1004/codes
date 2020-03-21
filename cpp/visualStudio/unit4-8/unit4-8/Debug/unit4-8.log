@@ -1,0 +1,10 @@
+﻿  unit4-8.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(10,9): error C2065: 'hours': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(11,5): error C2065: 'wages': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(11,20): error C2065: 'rate': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(12,15): error C2065: 'rate': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(12,23): error C2065: 'hours': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(13,5): error C2181: illegal else without matching if
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(14,9): error C2065: 'wages': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(14,17): error C2065: 'hours': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-8\unit4-8\unit4-8.cpp(14,25): error C2065: 'rate': undeclared identifier
