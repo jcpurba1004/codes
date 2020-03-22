@@ -1,0 +1,3 @@
+﻿  unit4-22.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-22\unit4-22\unit4-22.cpp(10,13): error C2065: 'grade': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-22\unit4-22\unit4-22.cpp(11,5): error C2050: switch expression not integral
