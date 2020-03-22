@@ -1,0 +1,2 @@
+﻿  inputData.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\inputData\inputData\inputData.cpp(10,20): error C2079: 'infile' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
