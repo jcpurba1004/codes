@@ -1,0 +1,3 @@
+﻿  unit5-1.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit5-1\unit5-1\unit5-1.cpp(42,5): error C2065: 'calBurnedInAWeek': undeclared identifier
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit5-1\unit5-1\unit5-1.cpp(47,13): error C2065: 'calBurnedInAWeek': undeclared identifier
