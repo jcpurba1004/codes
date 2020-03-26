@@ -1,0 +1,4 @@
+﻿  unit6-3.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-3\unit6-3\unit6-3.cpp(29): warning C4715: 'courseGrade': not all control paths return a value
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-3\unit6-3\Debug\unit6-3.exe : fatal error LNK1120: 1 unresolved externals
