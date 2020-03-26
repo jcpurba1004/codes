@@ -1,0 +1,3 @@
+﻿  cableCompanyBilling.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-7\cableCompanyBilling\cableCompanyBilling.cpp(24,14): error C2374: 'RES_BASIC_SERV_COST': redefinition; multiple initialization
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-7\cableCompanyBilling\cableCompanyBilling.cpp(19): message : see declaration of 'RES_BASIC_SERV_COST'
