@@ -38,10 +38,10 @@ void coffee_sale_item(stringstream& cin, stringstream& cout) {
 void first_name_and_country(std::stringstream& cin, std::stringstream& cout) {
 
 	string name, country;
-	const int SKIPCHAR = 29;
+	const int SKIPCHAR = 30;
 
 	cin >> name;			                 // get the name from input stream
-	cin.ignore(29, '.');                     // ignore the address
+	cin.ignore(SKIPCHAR, '.');                     // ignore the address
 	cin >> country;                          // get the country
 	if (country == ",")                      // check for extra comma
 		cin >> country;
