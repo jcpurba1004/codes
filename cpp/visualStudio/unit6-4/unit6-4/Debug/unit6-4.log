@@ -1,0 +1,3 @@
+﻿  unit6-4.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-4\unit6-4\unit6-4.cpp(31,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  unit6-4.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6-4\unit6-4\Debug\unit6-4.exe
