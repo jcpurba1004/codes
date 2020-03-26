@@ -1,0 +1,3 @@
+﻿  bugsData.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\bugsData\bugsData\bugsData.cpp(20): error C4700: uninitialized local variable 'j' used
+C:\data\Jeremiah\github\codes\cpp\visualStudio\bugsData\bugsData\bugsData.cpp(24): error C4700: uninitialized local variable 'sum' used
