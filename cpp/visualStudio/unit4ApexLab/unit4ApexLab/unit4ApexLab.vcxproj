@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{2FDABA67-B1C9-4D28-907D-C99533BA9D17}</ProjectGuid>
+    <ProjectGuid>{8251ADDD-71D0-4C21-A08F-C6428FBA9C0E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>unit4ApexLab</RootNamespace>
+    <RootNamespace>Unit4ApexLab</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="apex_code.cpp" />
-    <ClCompile Include="unit4ApexLab.cpp" />
+    <ClCompile Include="Unit4ApexLab.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apex_code.h" />

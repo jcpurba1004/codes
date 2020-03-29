@@ -1,4 +1,4 @@
 ﻿  apex_code.cpp
-  unit4ApexLab.cpp
+  Unit4ApexLab.cpp
   Generating Code...
-C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4ApexLab\unit4ApexLab\apex_code.cpp(106): error C4700: uninitialized local variable 'restaurant2ToCustomer2' used
+  Unit4ApexLab.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\Unit4ApexLab\Unit4ApexLab\Debug\Unit4ApexLab.exe

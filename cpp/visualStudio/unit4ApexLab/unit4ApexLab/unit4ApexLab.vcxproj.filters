@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unit4ApexLab.cpp">
+    <ClCompile Include="Unit4ApexLab.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="apex_code.cpp">

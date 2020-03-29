@@ -1,3 +1,4 @@
+#pragma once
 //
 // Don't modify code in this file.
 //

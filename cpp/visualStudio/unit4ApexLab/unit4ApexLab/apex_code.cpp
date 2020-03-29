@@ -12,7 +12,7 @@ using namespace std;
 // if it comes before or after the word "middle" in the dictionary
 // (lexicographical ordering) according to the ASCII table.
 void middle_word_check(stringstream& cin, stringstream& cout) {
-    
+
     string compare("middle");
     string input;
 
@@ -23,7 +23,7 @@ void middle_word_check(stringstream& cin, stringstream& cout) {
     else
         cout << input << " comes after " << compare;  // input appears after "middle"
 
-} 
+}
 
 
 // It takes from input one character. It outputs the name of
@@ -32,7 +32,7 @@ void middle_word_check(stringstream& cin, stringstream& cout) {
 // The lower case and capital letters will produce the same animal name,
 // with the same capitalization as the input. Try not to duplicate code.
 void animal_abcs(stringstream& cin, stringstream& cout) {
-    
+
     char inputChar, lowCase;
 
     cin >> inputChar;
@@ -83,7 +83,7 @@ void animal_abcs(stringstream& cin, stringstream& cout) {
 // if it can what transportation the driver should use.
 
 void delivery_range_check(std::stringstream& cin, std::stringstream& cout) {
- 
+
     string carType;
     int maxDistance;
     const int maxTime = 2;
@@ -101,6 +101,7 @@ void delivery_range_check(std::stringstream& cin, std::stringstream& cout) {
     cin >> houseToRestaurant1;
     cin >> restaurant1ToCustomer1;
     cin >> customer1ToRestaurant2;
+    cin >> restaurant2ToCustomer2;
 
     // calculate total distance and total time
     totalDistance = houseToRestaurant1 + restaurant1ToCustomer1 + customer1ToRestaurant2 + restaurant2ToCustomer2;
@@ -108,10 +109,10 @@ void delivery_range_check(std::stringstream& cin, std::stringstream& cout) {
 
     if (totalDistance < (double)maxDistance)  // check if the gas tank / battery can make the distance
     {
-        if (totalDistance < (double)maxDistance)  // check if the driver can use scooter
+        if (totalDistance < (double)minMiles)  // check if the driver can use scooter
             cout << "You can make it on an electric scooter!";
         else if (totalTime < (double)maxTime) // check if time is within 2 hours window
-            cout << "You can make it with your " << carType << " car!";
+            cout << "You can make it in your " << carType << " car!";
         else
             cout << "Not going to happen";     // driver can't make it within 2 hours
     }

@@ -1,6 +1,3 @@
-// unit4ApexLab.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 //
 // Don't modify code in this file, with the exception
 // of adding test cases.
@@ -39,6 +36,7 @@ int main()
     test(middle_word_check, "Middle", "Middle comes before middle");
     test(middle_word_check, "tree", "tree comes after middle");
     test(middle_word_check, "1tree", "1tree comes before middle");
+    test(middle_word_check, "2bee", "2bee comes before middle");
     test(animal_abcs, "a", "anteater");
     test(animal_abcs, "B", "bat");
     test(animal_abcs, "c", "caterpillar");
@@ -46,16 +44,18 @@ int main()
     test(animal_abcs, "e", "emu");
     test(animal_abcs, "F", "frog");
     test(animal_abcs, "T", "T is not supported");
+    test(animal_abcs, "*", "* is not supported");
     test(animal_abcs, "1", "1 is not supported");
     test(animal_abcs, "2", "2 is not supported");
-    test(delivery_range_check, "electric 85 3.2 5 5.06 3", "You can do it with your electric car!");
-    test(delivery_range_check, "gas 240 12 3.5 4.3 20 5", "You can do it with your gas car!");
+    test(delivery_range_check, "electric 85 3.2 5 5.06 3", "You can make it in your electric car!");
+    test(delivery_range_check, "gas 240 12 3.5 4.3 20 5", "You can make it in your gas car!");
     test(delivery_range_check, "electric 200 30 30 30 30", "Not going to happen");
     test(delivery_range_check, "gas 100 30 30 30 30", "Not going to happen");
+    test(delivery_range_check, "gas 100 50 30 50 30", "Not going to happen");
     test(delivery_range_check, "gas 10 5 5 5 5", "Not going to happen");
     test(delivery_range_check, "electric 85 3.4 10 5 5", "You can make it in your electric car!");
     test(delivery_range_check, "gas 85 3 3 3 3", "You can make it on an electric scooter!");
+    test(delivery_range_check, "gas 85 3 3 5 3", "You can make it on an electric scooter!");
     test(delivery_range_check, "gas 200 2.57 6.7 40 3", "You can make it in your gas car!");
-
     return 0;
 }
