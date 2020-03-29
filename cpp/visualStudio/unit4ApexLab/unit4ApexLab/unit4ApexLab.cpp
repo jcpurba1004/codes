@@ -50,9 +50,9 @@ int main()
     test(animal_abcs, "2", "2 is not supported");
     test(delivery_range_check, "electric 85 3.2 5 5.06 3", "You can do it with your electric car!");
     test(delivery_range_check, "gas 240 12 3.5 4.3 20 5", "You can do it with your gas car!");
-    test(delivery_range_check, "electric 200 30 30 30 30", "Not going to happen.");
-    test(delivery_range_check, "gas 100 30 30 30 30", "Not going to happen.");
-    test(delivery_range_check, "gas 10 5 5 5 5", "Not going to happen.");
+    test(delivery_range_check, "electric 200 30 30 30 30", "Not going to happen");
+    test(delivery_range_check, "gas 100 30 30 30 30", "Not going to happen");
+    test(delivery_range_check, "gas 10 5 5 5 5", "Not going to happen");
     test(delivery_range_check, "electric 85 3.4 10 5 5", "You can make it in your electric car!");
     test(delivery_range_check, "gas 85 3 3 3 3", "You can make it on an electric scooter!");
     test(delivery_range_check, "gas 200 2.57 6.7 40 3", "You can make it in your gas car!");
