@@ -1,0 +1,3 @@
+﻿  unit4-2f.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-2f\unit4-2f\unit4-2f.cpp(16,23): warning C4804: '<=': unsafe use of type 'bool' in operation
+  unit4-2f.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-2f\unit4-2f\Debug\unit4-2f.exe
