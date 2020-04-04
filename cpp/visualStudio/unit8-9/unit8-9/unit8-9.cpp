@@ -15,6 +15,13 @@ int main()
 
     int i;
 
+    cout << "Before sorting, the list elements are:"
+         << endl;
+
+    for (i = 0; i < 10; i++)
+        cout << list[i] << " ";
+    cout << endl;
+
     selectionSort(list, 10);
 
     cout << "After sorting, the list elements are:"
