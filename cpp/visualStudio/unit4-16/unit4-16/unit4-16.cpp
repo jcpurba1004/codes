@@ -2,11 +2,21 @@
 //
 
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main()
 {
+
+    double balance; 
+    double interestRate;
+    char ch, ch1, ch2;
+    cout << fixed << showpoint << setprecision(2);
+
+    cout << "Enter balance: ";
+    cin >> balance;
+    
+
     if (balance > 50000.00)
         interestRate = 0.07;
     else if (balance >= 25000.00)
@@ -15,6 +25,8 @@ int main()
         interestRate = 0.03;
     else
         interestRate = 0.00;
+
+    cout << "Balance: " << balance << " and interest rate: " << interestRate << endl;
 
     return 0;
 }

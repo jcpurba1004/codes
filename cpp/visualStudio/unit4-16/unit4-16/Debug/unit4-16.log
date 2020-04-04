@@ -1,0 +1,5 @@
+﻿  unit4-16.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-16\unit4-16\unit4-16.cpp(13,19): warning C4101: 'ch2': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-16\unit4-16\unit4-16.cpp(13,14): warning C4101: 'ch1': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-16\unit4-16\unit4-16.cpp(13,10): warning C4101: 'ch': unreferenced local variable
+  unit4-16.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit4-16\unit4-16\Debug\unit4-16.exe
