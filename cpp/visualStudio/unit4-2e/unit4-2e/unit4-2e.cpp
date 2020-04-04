@@ -26,10 +26,9 @@ int main()
         cout << "x and y are not the same." << endl;
 
     if (fabs(x - y) < 0.000001)
-        cout << "x and y are the same within the tolerance ";
-    else     << "0.000001." << endl;
-        cout << " x and y are not the same within the "
-             << "tolerance 0.000001." << endl;
+        cout << "x and y are the same within the tolerance 0.000001." << endl;
+    else
+        cout << " x and y are not the same within the tolerance 0.000001." << endl;
 
     return 0;
 }
