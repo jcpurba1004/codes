@@ -54,10 +54,10 @@ int main()
 
     if (counter != 0)
         cout << "Line 33: The average number of "
-        << "boxes sold by each volunteer: "
-        << totalNumOfBoxesSold / counter << endl;
-    else
-        cout << "Line 35: No input." << endl;
+             << "boxes sold by each volunteer: "
+             << totalNumOfBoxesSold / counter << endl;
+        else
+            cout << "Line 35: No input." << endl;
 
     return 0;
 }
