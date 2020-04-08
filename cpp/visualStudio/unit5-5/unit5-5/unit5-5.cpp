@@ -52,10 +52,10 @@ int main()
             cout << "Invalid input." << endl;
 
         cout << "\nEnter another uppercase "
-            << "letter to find its corresponding "
-            << "telephone digit." << endl;
+             << "letter to find its corresponding "
+             << "telephone digit." << endl;
         cout << "To stop the program enter #."
-            << endl;
+             << endl;
 
         cout << "Enter a letter: ";
         cin >> letter;

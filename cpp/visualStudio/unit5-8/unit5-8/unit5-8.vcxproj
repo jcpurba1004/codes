@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClCompile Include="unit5-8.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Ch5_stData.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
