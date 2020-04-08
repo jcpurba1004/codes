@@ -19,7 +19,7 @@ int main()
           //Declare variables
     int previous1;
     int previous2;
-    int current;
+    int current{};
     int counter;
     int nthFibonacci;
 
@@ -58,6 +58,7 @@ int main()
     cout << "The Fibonacci number at position "
          << nthFibonacci << " is " << current
          << endl;
+
     return 0;
 }//end main
 
