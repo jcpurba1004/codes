@@ -1,2 +1,2 @@
 ﻿  bugsData.cpp
-C:\data\Jeremiah\github\codes\cpp\visualStudio\bugsData\bugsData\bugsData.cpp(26): error C4700: uninitialized local variable 'sum' used
+  bugsData.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\bugsData\bugsData\Debug\bugsData.exe

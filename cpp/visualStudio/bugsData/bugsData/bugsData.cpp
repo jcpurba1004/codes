@@ -19,14 +19,19 @@ int main()
 
     for (i = 1; i <= 4; j++)
     {
-        for (j = 1; j <= 4; j++)
+        sum = 0;
+
+        if (i != 4)
         {
-            infile >> num;
-            cout << num << " ";
-            sum = sum + num;
+            for (j = 1; j <= 4; j++)
+            {
+                infile >> num;
+                cout << num << " ";
+                sum = sum + num;
+            }
+
+            cout << "sum = " << sum << endl;
         }
-        
-        cout << "sum = " << sum << endl;
     }
 
     return 0;
