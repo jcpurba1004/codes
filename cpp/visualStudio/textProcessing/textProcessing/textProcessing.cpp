@@ -103,8 +103,8 @@ void writeTotal(ofstream& outtext, int lc, int list[])
 
     for (int index = 0; index < 26; index++)
         outtext << static_cast<char>(index + static_cast<int>('A'))
-                << " count = "
-}
+                << " count = " << list[index] << endl;
+} //end withdrawal
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

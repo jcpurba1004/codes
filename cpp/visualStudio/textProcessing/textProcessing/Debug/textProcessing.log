@@ -1,0 +1,9 @@
+﻿  textProcessing.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(121,1): error C2084: function 'void initialize(int &,int [])' already has a body
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(65): message : see previous definition of 'initialize'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(125,1): error C2084: function 'void copyText(std::ifstream &,std::ofstream &,char &,int [])' already has a body
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(73): message : see previous definition of 'copyText'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(129,1): error C2084: function 'void characterCount(char,int [])' already has a body
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(86): message : see previous definition of 'characterCount'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(133,1): error C2084: function 'void writeTotal(std::ofstream &,int,int [])' already has a body
+C:\data\Jeremiah\github\codes\cpp\visualStudio\textProcessing\textProcessing\textProcessing.cpp(99): message : see previous definition of 'writeTotal'
