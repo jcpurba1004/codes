@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Basics</title>
+<style type="text/css">
+
+</style>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<div class="container">
+<article class="content">
+<section id="box_model">
+<h2>The Box Model</h2>
+<p>The first concept concerns what has come to be known as &quot;the box model&quot;. Browsers reads HTML code, interpret its structure and formatting, and then display the webpage. CSS does its work by stepping between HTML and the browser, redefining how each element should be rendered. It imposes an imaginary <em>box</em> around each element and then enables you to format almost every aspect of how that box and its contents are displayed.</p>
+<p><img src="images/boxmodel.png" width="400" height="219" alt=""/></p>
+<p>CSS permits you to specify fonts, line spacing, colors, borders, background shading and graphics, margins, and padding, among other things. In most instances these boxes are invisible, and although CSS gives you the ability to format them, it does not require you to do so.</p>
+<p>CSS defines each HTML element  into one of three basic categories: Block, inline or hidden.</p>
+<h3>Block elements by default:</h3>
+<ul>
+<li>Occupy the  full width of the screen or their parent element, unless an alternative width is specified.</li>
+<li>Stack on top of other block elements, regardless of their width.</li>
+<li>Dimensions are calculated by adding up width, height, padding, borders and margins.</li>
+<li>Will expand vertically to the  height of its content, plus any padding.</li>
+<li>Include  div, h1-h6, p, li, among others.</li>
+</ul>
+<h3>Inline elements by default:</h3>
+<ul>
+<li>Appear within the body of another element</li>
+<li>Are only as wide as its content.</li>
+<li>Do not honor width or height specifications.</li>
+<li>Do honor left and right padding and margin specifications.</li>
+<li>Do not honor  top and bottom padding or margin specifications.</li>
+<li>Include  span, em, strong among others.</li>
+</ul>
+<h3>Hidden elements by default</h3>
+<ul>
+<li>Do not appear in the browser</li>
+<li>Take up no space</li>
+<li>Do not affect the flow or appearance of other elements</li>
+<li>Include head, meta, script, style among others.</li>
+</ul>
+</section>
+</article>
+  <!-- end .container --></div>
+</body>
+</html>
