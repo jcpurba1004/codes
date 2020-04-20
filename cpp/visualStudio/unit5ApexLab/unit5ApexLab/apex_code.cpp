@@ -54,7 +54,7 @@ void donation_total(stringstream& cin, stringstream& cout) {
         cout << "Total donations made $" << total;
     }
     else {
-        cout << "Total donations made $" << total; // if it is less or equal 100
+        cout << "Total donations made $" << total; // less or equal 100, don't send anything
     }
 
 }
@@ -100,8 +100,8 @@ void rectangles(std::stringstream& cin, std::stringstream& cout) {
 
     cin >> column >> row >> inputChar;
 
-    for (i = 0; i < row; i++) {           // for row
-        for (j = 0; j < column; j++) {    // for column
+    for (i = 0; i < row; i++) {           // loop for row
+        for (j = 0; j < column; j++) {    // loop for column
             cout << inputChar << " ";     // draw output
         }
         cout << endl;                     // go to next row after finish with column 
