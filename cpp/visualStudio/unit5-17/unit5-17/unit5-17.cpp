@@ -10,9 +10,9 @@ using namespace std;
 int main()
 {
     int counter;  //loop control variable
-    int sum;  //variable to store the sum of numbers
-    int N;    //variable to store the number of
-              //first positive integers to be added
+    int sum;      //variable to store the sum of numbers
+    int N;        //variable to store the number of
+                  //first positive integers to be added
 
     cout << "Line 8: Enter the number of positive "
          << "integers to be added: ";

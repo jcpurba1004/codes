@@ -1,2 +1,3 @@
 ﻿  unit5-4.cpp
-  unit5-4.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit5-4\unit5-4\Debug\unit5-4.exe
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit5-4\unit5-4\unit5-4.cpp(29,10): error C2059: syntax error: '<<'
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit5-4\unit5-4\unit5-4.cpp(52,5): error C2146: syntax error: missing ';' before identifier 'cin'

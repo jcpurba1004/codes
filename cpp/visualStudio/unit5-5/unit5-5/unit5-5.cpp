@@ -33,7 +33,7 @@ int main()
         cout << ", Corresponding telephone digit: ";
 
         num = static_cast<int>(letter)
-            - static_cast<int>('A');
+             - static_cast<int>('A');
 
         if (0 <= num && num < 26)
         {

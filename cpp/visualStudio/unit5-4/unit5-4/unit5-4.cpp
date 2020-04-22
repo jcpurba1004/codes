@@ -1,141 +1,68 @@
 // unit5-4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <string>
+//Program: Sentinel-Controlled Loop
+//This program computes and outputs the total number of boxes of
+//cookies soold, the total revenue and the average number of
+//boxes sold by each volunteer.
+
 #include <iostream>
-#include <sstream>
+#include <string>
+#include <iomanip>
 
 using namespace std;
 
-void letter2number(void) {
-
-    char* pLetter;
-    string inputLetter1;
-    unsigned int i;
-    int counter = 0;
-
-    cout << "Enter a telephone number using letters: ";
-    getline(cin, inputLetter1);
-    //cout << "Input string: " << inputLetter1 << endl;
-    //cout << "InputLetter1 size: " << "InputLetter1 size() << endl;
-
-    pLetter = &inputLetter1[0];
-    for (i = 0; i <= inputLetter1.size(); i++) {
-        
-        //cout << "\nCharacter: " << *pLetter << endl;
-        /*Process non space character*/
-        if (*pLetter != ' ') {
-
-
-            if (counter < 7) {
-                if (*pLetter >= 'A' && *pLetter <= 'z') {
-                    counter++; // increase counter if valid char
-                    if (*pLetter > 'Z')
-                        *pLetter = (int)*pLetter - 32; // convert to capital letter 
-                }
-
-                if (counter == 4)
-                    cout << "-"; // Print the hyphen when required
-
-                switch (*pLetter) {
-                    case 'A':
-                    case 'B':
-                    case 'C':
-                        cout << "2";
-                        break;
-
-                    case 'D':
-                    case 'E':
-                    case 'F':
-                        cout << "3";
-                        break;
-
-                    case 'G':
-                    case 'H':
-                    case 'I':
-                        cout << "4";
-                        break;
-
-                    case 'J':
-                    case 'K':
-                    case 'L':
-                        cout << "5";
-                        break;
-
-                    case 'M':
-                    case 'N':
-                    case 'O':
-                        cout << "6";
-                        break;
-
-                    case 'P':
-                    case 'Q':
-                    case 'R':
-                    case 'S':
-                        cout << "7";
-                        break;
-
-                    case 'T':
-                    case 'U':
-                    case 'V':
-                        cout << "8";
-                        break;
-
-                    case 'W':
-                    case 'X':
-                    case 'Y':
-                    case 'Z':
-                        cout << "9";
-
-                    default:
-                        break;
-                } // case switch
-
-            }
-
-            //cout << "\nValid letter: " << *pLetter << " ; counter: " << counter << endl;
-
-        }
-        pLetter++;
-    }
-
-}
+const string SENTINEL = "-1";
 
 int main()
 {
-    string confirm;
-    char* pLetter;
-
-
     string name;
+    int numOfVolunteers;
+    int numOfBoxesSold;
+    int totalNumOfBoxesSold;
+    double costOfOneBox;
 
-    cout << "Enter Y/y to convert a telephone number from letters to digits." << endl;
-    cout << "Enter any other letter to terminate the program: ";
-    getline(cin, confirm);
+    cout << fixed << showpoint << setprecision(2);
 
-    pLetter = &confirm[0];
+    cout << "Line 14: Enter each volunteer's name and "
+         << "the number of boxes " << endl;
+         << "         sold by each volunteer, ending "
+         << "with -1: " << endl;
 
-    //cout << "Response: " << confirm << endl;
-    while (true) {
+    totalNumOfBoxesSold = 0;
+    numOfVolunteers = 0;
 
-        if ((*pLetter == 'Y') || (*pLetter == 'y')) {
+    cin >> name;
 
-            letter2number();
-
-        }
-        else {
-            break;
-        }
-
-        cout << "\n\nTo process another telephone number, enter Y / y" << endl;
-        cout << "Enter any other letter to terminate the program :";
-
-        getline(cin, confirm);
-
-        pLetter = &confirm[0];
+    while (name != SENTINEL)
+    {
+        cin >> numOfBoxesSold;
+        totalNumOfBoxesSold = totalNumOfBoxesSold
+                              + numOfBoxesSold;
+        numOfVolunteers++;
+        cin >> name;
     }
 
     cout << endl;
+
+    cout << "Line 26: The total number of boxes sold: "
+         << totalNumOfBoxesSold << endl;
+
+    cout << "Line 27: Enter the cost of one box: "
+    cin >> costOfOneBox;
+    cout << endl;
+
+    cout << "Line 30: The total money made by selling "
+         << "cookies: $"
+         << totalNumOfBoxesSold * costOfOneBox << endl;
+
+    if (numOfVolunteers != 0)
+        cout << "Line 32: The average number of "
+             << "boxes sold by each volunteer: "
+             << totalNumOfBoxesSold / numOfVolunteers
+             << endl;
+    else
+        cout << "Line 34: No input." << endl;
+
     return 0;
 }
-
