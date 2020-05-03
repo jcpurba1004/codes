@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{14FF2D68-8F20-4D31-A0F0-37201F709430}</ProjectGuid>
+    <ProjectGuid>{27F2604B-2BD7-4EF7-8F46-17982B0E15FB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>dataComparison</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>

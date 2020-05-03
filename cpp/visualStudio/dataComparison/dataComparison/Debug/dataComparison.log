@@ -1,5 +1,0 @@
-﻿  dataComparison.cpp
-C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(145,1): error C2084: function 'void calculateAverage(std::ifstream &,double &)' already has a body
-C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(106): message : see previous definition of 'calculateAverage'
-C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(149,1): error C2084: function 'void printResult(std::ofstream &,std::string,int,double)' already has a body
-C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(123): message : see previous definition of 'printResult'

@@ -17,6 +17,7 @@
 #include <fstream>
 #include <iomanip>
 #include <string>
+#include "salesDataAnalysis.h"
 
 using namespace std;
 
@@ -45,7 +46,6 @@ int main()
     ofstream outfile;   //output file stream variable
     string inputfile;   //variable to hold the input file name
     string outputfile;   //variable to hold the output file name
-}
 
     double totalSaleByQuarter[4];    //array to hold the
                                      //sale by quarter
@@ -84,11 +84,6 @@ int main()
         return 1;
     }
 
-    initialize(infile, salesPersonList, NO_OF_SALES_PERSON);
-
-    infile.close();
-    infile.clear();
-
     cout << "Enter the sales data file name: ";
     cin >> inputFile;
     cout << endl;
@@ -111,6 +106,10 @@ int main()
 
     return 0;
 }
+//Place the definitions of the functions initialize,
+//getData, saleByQuarter, totalSaleByPerson,
+//printReport, maxSaleByPerson and maxSaleByQuarter here.
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
