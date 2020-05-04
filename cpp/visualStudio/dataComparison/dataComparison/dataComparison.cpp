@@ -40,10 +40,10 @@ int main()
 	{
 		cout << "Unable to open files." << endl;
 		cout << "Program terminates." << endl;
-		return 1;
+		return 0;
 	}
 
-	outfile.open("student.out");
+	outfile.open("student.txt");
 	outfile << fixed << showpoint;
 	outfile << setprecision(2);
 
@@ -57,6 +57,8 @@ int main()
 
 	group1 >> courseId1;
 	group2 >> courseId2;
+	cout << "courseID1: " << courseId1 
+		 << "; courseId2: " << courseId2 << endl;
 	while (group1 && group2)
 	{
 		if (courseId1 != courseId2)
@@ -64,13 +66,14 @@ int main()
 			cout << "Data error: Course IDs "
 				 << "do not match." << endl;
 			cout << "Program terminates." << endl;
-			return 1;
+			return 0;
 		}
 
 		else
 		{
 			calculateAverage(group1, avg1);
 			calculateAverage(group2, avg2);
+			cout << "Avg1 = " << avg1 << " ; Avg2 = " << avg2 << endl;
 			printResult(outfile, courseId1, 1, avg1);
 			printResult(outfile, courseId2, 2, avg2);
 			avgGroup1 = avgGroup1 + avg1;
@@ -81,6 +84,8 @@ int main()
 
 		group1 >> courseId1;
 		group2 >> courseId2;
+		cout << "\ncourseID1: " << courseId1
+			 << "; courseId2: " << courseId2 << endl;
 	} //end while
 
 	if (group1 && !group2)
@@ -112,55 +117,29 @@ void calculateAverage(ifstream& inp, double& courseAvg)
 	int numberOfStudents = 0;
 	int score;
 
+	//cout << "\n";
 	inp >> score;
+	//cout << score;
 	while (score != -999)
 	{
 		totalScore = totalScore + score;
-
 		numberOfStudents++;
 		inp >> score;
+		//cout << "\ntotalScore" << totalScore << endl;
 	}//end while
 
 	courseAvg = totalScore / numberOfStudents;
 } //end calculate Average
 
-void printResult(ofstream outp, string courseID, int groupNo, double avg)
+void printResult(ofstream& outp, string courseID, int groupNo, double avg)
 {
 	int noOfSymbols;
 	int count;
 
 	if (groupNo == 1)
-		outp << setw(4) << courseID << "   ";
-	else 
-		outp"               "
-
-	noOfSymbols = static_cast<int>(svg)/2;
-	
-	if (groupNo == 1)
-		for (count = 1; count <= noOfSymbols; count++)
-			outp << '*';
+		outp << "    " << courseID << "   ";
 	else
-		for (count = 1; count <= noOfSymbols; count++)
-			outp << '#';
-	outp << endl;
+		outp << "          ";
+	outp << setw(8) << groupNo << setw(17) << avg << endl;
+
 } //end printResult
-
-void printHeading(ofstream& outp)
-{
-	outp << "Course Course Average" << endl;
-	outp << " ID 0 10 20 30 40 50 60 70"
-		 << " 80 90 100" << endl;
-	outp << " | . . . . | . . . . | . . . . | . . . . | . . . . | . . . . | . . . . |"
-		 << ". . . . | . . . . | . . . .|" << endl;
-}//end printHeading
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

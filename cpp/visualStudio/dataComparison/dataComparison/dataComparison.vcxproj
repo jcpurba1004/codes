@@ -149,6 +149,10 @@
   <ItemGroup>
     <ClCompile Include="dataComparison.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="group1.txt" />
+    <Text Include="group2.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

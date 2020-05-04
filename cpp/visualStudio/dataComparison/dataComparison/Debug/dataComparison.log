@@ -1,0 +1,4 @@
+﻿  dataComparison.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(137,6): warning C4101: 'count': unreferenced local variable
+C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\dataComparison.cpp(136,6): warning C4101: 'noOfSymbols': unreferenced local variable
+  dataComparison.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\dataComparison\dataComparison\Debug\dataComparison.exe
