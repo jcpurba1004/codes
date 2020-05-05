@@ -14,22 +14,21 @@ using namespace std;
 // partial tile. Once a tile is cut to fit a space it can't be reused.
 int getNumberTiles(double heightInFt, double widthInFt, int tileSizeInInches) {
 
-	const double foot2Inch = 12.00; // conversion factor from foot to inch
+	const double FOOT2INCH = 12.00; // conversion factor from foot to inch
 	double heightInInches, widthInInches;
-	int heightDiv, widthDiv, fullTile;
+	int heightDiv, widthDiv;
 	int totalTile;
 
 	// convert from foot to inch
-	heightInInches = heightInFt * foot2Inch;
-	widthInInches = widthInFt * foot2Inch;
+	heightInInches = heightInFt * FOOT2INCH;
+	widthInInches = widthInFt * FOOT2INCH;
 
 	// calculate the full part
 	widthDiv = (int)widthInInches / tileSizeInInches; // full part
 	heightDiv = (int)heightInInches / tileSizeInInches; // full part
 
-	fullTile = widthDiv * heightDiv; // full tile part
-
-	// fraction part: check it width is divisible by tile size or not
+	// Info: fullTile = widthDiv * heightDiv; 
+	// fraction part: check if width is divisible by tile size or not
 	if (fmod(widthInInches, tileSizeInInches)) {
 
 		widthDiv += 1;   // if not, need one more tile
@@ -41,11 +40,10 @@ int getNumberTiles(double heightInFt, double widthInFt, int tileSizeInInches) {
 		heightDiv += 1;   // if not, need one more tile
 	}
 
-	totalTile = widthDiv * heightDiv;
+	totalTile = widthDiv * heightDiv; // totalTile = full + fraction
 
 	// return total tile with fraction part
 	return totalTile;
-
 }
 
 // This function takes two characters, checks if they are both upper case.
@@ -55,11 +53,11 @@ bool upperCharAnd(unsigned char char1, unsigned char char2) {
 
 	if (isupper(char1) && isupper(char2)) {
 
-		return true; //Both char 1 and char 2 are upper case
+		return true; //Both char 1 and char 2 are upper case.
 	}
 	else if (isupper(char1) || isupper(char2)) {
 
-		return false; //Either char 1 or char 2 is upper case. Not both
+		return false; //Either char 1 or char 2 is upper case. Not both.
 	}
 	else {
 

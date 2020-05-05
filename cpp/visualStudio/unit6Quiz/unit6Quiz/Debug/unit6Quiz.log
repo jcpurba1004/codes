@@ -1,0 +1,3 @@
+﻿  unit6Quiz.cpp
+C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6Quiz\unit6Quiz\unit6Quiz.cpp(46,9): warning C4101: 'res': unreferenced local variable
+  unit6Quiz.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit6Quiz\unit6Quiz\Debug\unit6Quiz.exe
