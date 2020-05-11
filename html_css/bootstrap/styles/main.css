@@ -1,0 +1,10 @@
+.features figure img {
+  border-radius: 50%; /* bdrs50 */
+  text-align: center; /* ta:c */
+  width: 200px; /* w200 */
+}
+
+img {
+  margin: 1em; /* m1 */
+  box-shadow: 10px 10px 10px #777777; /* bxsh:#777777 */
+}
