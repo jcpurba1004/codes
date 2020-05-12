@@ -1,6 +1,6 @@
 <?php
 
-$dsn      = "mysql:host=localhost;dbname=world";  //data source host and db name
+$dsn      = "mysql:host=localhost;dbname=college_purba";  //data source host and db name
 $username = "root";
 $password = "";
 
@@ -12,7 +12,7 @@ $conn = new PDO($dsn, $username, $password); // creates PDO object
 
 try  {
      $conn = new PDO($dsn, $username, $password);
-     echo "Connection is successful<br><br>";
+     //echo "Connection is successful<br><br>";
 }
 
 catch (PDOException $e) {
@@ -22,7 +22,8 @@ catch (PDOException $e) {
 
 
 // sql statement set up
-$sql = "SELECT Name, CountryCode, Population FROM city LIMIT 100";
+//$sql = "SELECT Name, CountryCode, Population FROM city LIMIT 100";
+$sql = "SELECT lname, fname, address, postal_code, phone, email FROM members WHERE city LIKE 'San Diego' ORDER BY postal_code, lname";
 $statement = $conn->prepare($sql);
 
 // execute (create) the result set
@@ -32,7 +33,7 @@ $statement->execute();
 $rowcount = $statement->rowCount();
 
 // just to test
-echo "Row count is " . $rowcount;
+//echo "Row count is " . $rowcount;
 
 ?>
 
@@ -43,7 +44,7 @@ echo "Row count is " . $rowcount;
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Displaying Data from the Database</title>
+    <title>Student Population by City of Residence</title>
 </head>
 
 <style>
@@ -97,8 +98,8 @@ tbody tr:nth-of-type(odd) {
 <body>
    
  <header>  
-    <h1>Displaying Data from the Database</h1>
-    <h2>Using fetch() and a while loop</h2>
+    <h1>Student Population by City of Residence</h1>
+    <h2><?php echo $rowcount ?> Students Living in San Diego</h2>
  </header>     
  
  
@@ -110,29 +111,35 @@ if ($rowcount != 0){
     // header row of table
   echo "<table>\n\r";  
   echo "<tr>\n\r"; 
-  echo "<th>City  Name</th>\n\r"; 
-  echo "<th>Country Code</th>\n\r"; 
-  echo "<th>Population</th>\n\r"; 
+  echo "<th>lname</th>\n\r"; 
+  echo "<th>fname</th>\n\r"; 
+  echo "<th>address</th>\n\r";
+  echo "<th>postal_code</th>\n\r";
+  echo "<th>phone</th>\n\r";
+  echo "<th>email</th>\n\r";
   echo "</tr>\n\r\n\r"; 
      
      // output data of each row as associative array in result set   
      $rows = $statement->fetchAll();
     
      // body of table
- foreach($rows as $row) {
+ foreach($rows as $row)  {
    echo "<tr>\n\r";
-   echo "<td>" . $row["Name"] . "</td>\n\r";
-   echo "<td>" . $row["CountryCode"] . "</td>\n\r";
-   echo "<td>" . $row["Population"] . "</td>\n\r";
+   echo "<td>" . $row["lname"] . "</td>\n\r";
+   echo "<td>" . $row["fname"] . "</td>\n\r";
+   echo "<td>" . $row["address"] . "</td>\n\r";
+   echo "<td>" . $row["postal_code"] . "</td>\n\r";
+   echo "<td>" . $row["phone"] . "</td>\n\r";
+   echo "<td>" . $row["email"] . "</td>\n\r";
    echo "</tr>\n\r\n\r";         
  } // end foreach
- 
+    
     // end table
    
    echo "</table>\n\r";
     
 }  // end if 
-	
+     
 else {
      echo "Sorry, there were no results";
 } // end else

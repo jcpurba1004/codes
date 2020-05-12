@@ -12,7 +12,7 @@ $conn = new PDO($dsn, $username, $password); // creates PDO object
 
 try  {
      $conn = new PDO($dsn, $username, $password);
-     echo "Connection is successful<br><br>";
+     //echo "Connection is successful<br><br>";
 }
 
 catch (PDOException $e) {
@@ -33,7 +33,7 @@ $statement->execute();
 $rowcount = $statement->rowCount();
 
 // just to test
-echo "Row count is " . $rowcount;
+//echo "Row count is " . $rowcount;
 
 ?>
 
@@ -44,7 +44,7 @@ echo "Row count is " . $rowcount;
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Displaying Data from the Database</title>
+    <title>Student Population by City of Residence</title>
 </head>
 
 <style>
@@ -98,8 +98,8 @@ tbody tr:nth-of-type(odd) {
 <body>
    
  <header>  
-    <h1>Displaying Data from the Database</h1>
-    <h2>Using fetch() and a while loop</h2>
+    <h1>Student Population by City of Residence</h1>
+    <h2><?php echo $rowcount ?> Students Living in San Diego</h2>
  </header>     
  
  
