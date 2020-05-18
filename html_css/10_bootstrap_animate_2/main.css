@@ -1,0 +1,87 @@
+.features figure img {
+  border-radius: 50%; /* bdrs50 */
+  text-align: center; /* ta:c */
+  width: 200px; /* w200 */
+}
+
+img {
+  margin: 1em; /* m1 */
+  box-shadow: 10px 10px 10px #777777; /* bxsh:#777777 */
+}
+
+	
+.button_animate {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  /*background-color: #4CAF50;*/
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button_animate:hover {background-color: #3e8e41}
+
+.button_animate:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body
+{ 
+  /*background: #00b4ff;*/
+  color: #333;
+  font: tahoma;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#background-wrap 
+{
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@keyframes animateCloud
+{
+  0%{margin-left: -1000px;}
+  100%{margin-left: 100%;}
+}
+
+.x1
+{
+  animation: animateCloud 5s linear infinite;
+  transform: scale(0.35);
+  font-size: 4em;
+  text-align: center;
+}
+
+.x2
+{
+  animation: animateCloud 4s linear infinite;
+  transform: scale(0.3);
+  font-size: 4em;
+  text-align: center;
+}
+
+.cloud
+{
+  background: lightblue;
+  background: linear-gradient(top, blue 5%, #f1f1f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lightblue',endColorstr='#f1f1f1',GradientType=0);
+  border-radius: 80px;
+  box-shadow: 0 10px 5px rgba(0,0,0,0.1);
+  height: 80px;
+  position: relative;
+  width: 350px;
+}
