@@ -1,0 +1,33 @@
+.features figure img {
+  border-radius: 50%; /* bdrs50 */
+  text-align: center; /* ta:c */
+  width: 200px; /* w200 */
+}
+
+img {
+  margin: 1em; /* m1 */
+  box-shadow: 10px 10px 10px #777777; /* bxsh:#777777 */
+}
+
+	
+.button_animate {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  /*background-color: #4CAF50;*/
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button_animate:hover {background-color: #3e8e41}
+
+.button_animate:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
