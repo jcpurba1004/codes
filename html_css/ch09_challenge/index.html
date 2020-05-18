@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- so all browsers will work with html5 -->
+<!--[if lt IE 9]>
+<script src="script/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- enable older versions of IE to understand media queries -->
+<script src="scripts/respond.js"></script>
+
+<title>Sharks Comparison</title>
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, video, audio, figure, figcaption, header, footer, hav, section {
+	display: block;
+}
+html {
+	font-size: 100%;
+	line-height: 1.5;
+}
+h1 {
+	font-size: 2.4em;
+	color: #fff9d6;
+	text-shadow: 1px 1px 2px #fff, 
+               2px 2px 3px #666, 
+               3px 3px 5px #999;
+}
+h2 {
+	font-style: 2.4em;
+	line-height: 1.5;
+}
+p {
+	font-style: 8.75em;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+section {
+	font-family: Verdana, Geneva, sans-serif;
+	max-width: 900px;
+	padding: 2%;
+	margin: 0 auto;
+}
+header {
+	text-align: center;
+	position: relative;
+}
+header h1 {
+	color: #033778;
+}
+article {
+	margin-top: 1em;
+}
+.clearIt { clear: both;}
+
+/* CODE for table */
+td, th { /* basic table formatting */
+        padding: 6px;
+        border: 1px solid #ccc;
+        text-align: left;
+        vertical-align: top;
+    }
+	tr:nth-of-type(odd) { /* zebra striping */
+		background: #eee;
+	}
+/* end code for table */
+		
+@media screen and (min-width: 500px) {
+    header h1 {
+      position: absolute;
+      z-index: 10;
+      color: #fff;
+      top: 50%;
+      left: 2%;
+      text-shadow: 1px 1px 2px #000, 
+                   2px 2px 3px #666, 
+                   3px 3px 5px #333;
+    }
+}
+
+/* Large screen */
+@media screen and (min-width: 720px) {
+    article {
+      width: 100%;
+    }
+    header h1 {
+      font-size: 3.2em;
+    }
+	table {
+		border-collapse: collapse;
+	}
+	th {
+		background: #333;
+		color: white;
+		font-weight: bold;
+	}
+	td, th {
+		font-size: 85%;
+	}
+	td:first-child {
+		width: 100%;
+	}
+	
+}
+@media only screen and (max-width: 760px) {
+	
+	table, thead, tbody, th, td, tr {
+		    display: block;
+	    }
+	thead tr {
+		    position: absolute;
+		    top: -9999px;
+		    left: -9999px;
+	    }
+	td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+	tr:nth-of-type(odd) td {
+		border-bottom: solid  
+	}
+	td:before {
+		position: absolute;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		font-weight: bold;
+	}
+	td:nth-of-type(1):before { content: " ";}
+	td:nth-of-type(2):before { content: "Name:"; }
+	td:nth-of-type(3):before { content: "Scientific Name:"; }
+	td:nth-of-type(4):before { content: "Length:"; }
+	td:nth-of-type(5):before { content: "Color:"; }
+	td:nth-of-type(6):before { content: "Diet:"; }
+	td:nth-of-type(7):before { content: "Habitat:"; }
+	td:nth-of-type(8):before { content: "Geographical location:"; }
+	
+	td:nth-of-type(1) {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width:450px){
+	td, th {
+		font-size: 85%;
+	}	
+}
+
+</style>
+</head>
+
+<body>
+<section>
+ 
+<header> 
+  <img src="images/7gillShark.jpg" alt="7 Gill Shark">
+   <h1>Shark Comparison</h1>
+</header>
+ 
+<article>
+
+<table>
+      <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th>Common Name</th>
+          <th>Scientific Name</th>
+          <th>Length</th>
+          <th>Color</th>
+          <th>Diet</th>
+          <th>Habitat</th>
+          <th>Geographical Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="images/bull_shark.png" alt="Bull Shark"></td>
+          <td data-label="Common Name">Bull Shark</td>
+          <td data-label="Scientific Name">Carcharhinus leucas</td>
+          <td data-label="Length">Maximum length of 11.5 feet</td>
+          <td data-label="Color">Pale to dark gray above fading to a pale or white underside</td>
+          <td data-label="Diet">Fish and small sharks</td>
+          <td data-label="Habitat">Marine and freshwater shallow habitats</td>
+          <td data-label="Geographical Location">Worldwide</td>
+        </tr>
+        <tr>
+          <td><img src="images/leopardShark.png" alt="Leopard Shark"></td>
+          <td data-label="Common Name">Leopard Shark</td>
+          <td data-label="Scientific Name">Triakis semifasciata</td>
+          <td data-label="Length">Maximum length of 7 feet</td>
+          <td data-label="Color">Silver to bronzy gray with dark saddles and spots, lighter underside</td>
+          <td data-label="Diet">Small fish, crabs, shrimp, worms, and fish eggs</td>
+          <td data-label="Habitat">Marine, sandy and muddy bays in shallow water less than 20 feet (6 meters) in depth</td>
+          <td data-label="Geographical Location">Eastern Pacific Ocean from Oregon to the Gulf of California</td>
+        </tr>
+        <tr>
+          <td><img src="images/whaleShark.png" alt="Whale Shark"></td>
+          <td data-label="Common Name">Whale Shark</td>
+          <td data-label="Scientific Name">Rhincodon typus</td>
+          <td data-label="Length">Maximum length of 60 feet &#8212; largest living fish</td>
+          <td data-label="Color">Greyish, bluish or brownish above with an upper surface pattern of creamy white spots between pale, vertical and horizontal stripes, the underside is white</td>
+          <td data-label="Diet">Plankton (microscopic plants and animals) and small schooling fish</td>
+          <td data-label="Habitat">Marine, open oceans</td>
+          <td data-label="Geographical Location">Marine, open oceans</td>
+        </tr>
+        <tr>
+          <td><img src="images/blueShark.png" alt="Blue Shark"></td>
+          <td data-label="Common Name">Blue Shark</td>
+          <td data-label="Scientific Name">Prionace glauca</td>
+          <td data-label="Length">Maximum length of 13 feet</td>
+          <td data-label="Color">They range in color from a light blue to a deeper shade of it. They may have several shades of blue on their bodies with he darkest colors on the top</td>
+          <td data-label="Diet">Squid, bony fish, smaller sharks, sea birds, shrimp, and lobster</td>
+          <td data-label="Habitat">Most widely distributed animal on the entire planet (everywhere except polar regions)</td>
+          <td data-label="Geographical Location">Marine, open oceans</td>
+        </tr>
+        <tr>
+          <td><img src="images/7gill_shark.png" alt="7 Gill Shark"></td>
+          <td data-label="Common Name">Broadnose 7 Gill Shark</td>
+          <td data-label="Scientific Name">Notorynchys cepedianus</td>
+          <td data-label="Length">Maximum length of 10 feet</td>
+          <td data-label="Color">Silver-grey or brownish upperparts and paler underparts. Adults also have small black and white speckles on the body and fins</td>
+          <td data-label="Diet">Many kinds of bony fish, dolphins, seals, other sharks, rays, and dead matter</td>
+          <td data-label="Habitat">The broadnose sevengill is a coastal shark. It usually stays in water less than 50 ft deep, in bays and estuaries. However, it also occurs in deeper waters on continental shelves</td>
+          <td data-label="Geographical Location">Temperate regions of the world's oceans</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+  <div class="clearIt"></div>
+</section>
+</body>
+</html>
