@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{9D5F64DF-0DC7-4024-B7E1-99775FEDE2C0}</ProjectGuid>
+    <ProjectGuid>{C06F009D-DE9B-48C7-A840-62AFA2A77E5E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>salesDataAnalysis</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>

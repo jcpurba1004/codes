@@ -1,6 +1,9 @@
 // salesDataAnalysis.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// salesDataAnalysis.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
 //***************************************************************
 // Author: Jeremiah Purba
 //
@@ -41,7 +44,7 @@ void maxSaleByQuarter(ofstream& outData, double saleByQuarter[]);
 
 int main()
 {
-        //Step 1
+    //Step 1
     ifstream infile;    //input file stream variable
     ofstream outfile;   //output file stream variable
     string inputfile;   //variable to hold the input file name
@@ -62,7 +65,7 @@ int main()
     if (!infile)
     {
         cout << "Cannot open the input file."
-             << endl;
+            << endl;
         return 1;
     }
 
@@ -80,7 +83,7 @@ int main()
     if (!infile)
     {
         cout << "Cannot open the input file."
-             << endl;
+            << endl;
         return 1;
     }
 
@@ -91,7 +94,7 @@ int main()
     outfile.open(inputFile.c_str());
 
     outfile << fixed << showpoint
-            << setprecision(2);
+        << setprecision(2);
 
     getData(infile, salesPersonList, NO_OF_SALES_PERSON);
     saleByQuarter(salesPersonList, NO_OF_SALES_PERSON, totalSaleByQuarter);
@@ -109,6 +112,17 @@ int main()
 //Place the definitions of the functions initialize,
 //getData, saleByQuarter, totalSaleByPerson,
 //printReport, maxSaleByPerson and maxSaleByQuarter here.
+
+// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+// Debug program: F5 or Debug > Start Debugging menu
+
+// Tips for Getting Started: 
+//   1. Use the Solution Explorer window to add/manage files
+//   2. Use the Team Explorer window to connect to source control
+//   3. Use the Output window to see build output and other messages
+//   4. Use the Error List window to view errors
+//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
