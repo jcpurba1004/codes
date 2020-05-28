@@ -1,5 +1,2 @@
 ﻿  unit12-3.cpp
-C:\data\Jeremiah\github\codes\cpp\visualStudio\unit12-3\unit12-3\unit12-3.cpp(22,28): error C2065: 'PI': undeclared identifier
-C:\data\Jeremiah\github\codes\cpp\visualStudio\unit12-3\unit12-3\unit12-3.cpp(27,13): error C2065: 'PI': undeclared identifier
-C:\data\Jeremiah\github\codes\cpp\visualStudio\unit12-3\unit12-3\unit12-3.cpp(34,13): error C2065: 'PI': undeclared identifier
-C:\data\Jeremiah\github\codes\cpp\visualStudio\unit12-3\unit12-3\unit12-3.cpp(37,13): error C2065: 'PI': undeclared identifier
+  unit12-3.vcxproj -> C:\data\Jeremiah\github\codes\cpp\visualStudio\unit12-3\unit12-3\Debug\unit12-3.exe

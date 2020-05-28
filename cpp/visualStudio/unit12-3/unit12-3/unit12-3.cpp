@@ -8,10 +8,12 @@
 
 using namespace std;
 
+const double PI = 3.1416;
+
 int main()
 {
     double radius;
-    double* radiusPtr;
+    double *radiusPtr;
 
     cout << fixed << showpoint << setprecision(2);
 
