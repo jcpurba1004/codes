@@ -39,7 +39,7 @@ int main()
     return 0;
 }
 
-void fill(int** p, int rowSize, int columnSize)
+void fill(int **p, int rowSize, int columnSize)
 {
     for (int row = 0; row < rowSize; row++)
     {
@@ -51,11 +51,7 @@ void fill(int** p, int rowSize, int columnSize)
     }
 }
 
-void print(int** p, int rowSize, int columnSize)
-{
-}
-
-void fill(int** p, int rowSize, int columnSize)
+void print(int **p, int rowSize, int columnSize)
 {
     for (int row = 0; row < rowSize; row++)
     {
