@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rotating CSS Cards by Creative Tim </title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link href='css/bootstrap.css' rel='stylesheet' />
+
+    <link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+    <!--     <link href='css/ct-navbar.css' rel='stylesheet' /> -->
+    <link href='css/rotating-card.css' rel='stylesheet' />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+
+    <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<div class="container">
+
+
+    <div class="row">
+        <h1 class="title">
+            Caribean Vacation Destination
+            <br>
+            <small>Three unique countries with great white sand beach</small>
+        </h1>
+        <div class="col-sm-10 col-sm-offset-1">
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Aruba/Aruba-beach_2.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Aruba</h3>
+                                    <p class="profession">Capital City: Oranjestad</p>
+                                    <p class="text-center">"this nation of 112,000 is home to 90+ nationalities and ethnic groups whose native traditions and cultures are all celebrated on the island."
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h4 class="motto">"Motto: One Happy island"</h4>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-left">Temperature: 76F - 91F </h4>
+                                    <h4 class="text-left">Population: 106,766</h4>
+
+                                    <h4 class="text-left">Time to fly from US:</h4>
+                                    <p class="text-left">5 hours and 20 minutes (Miami)</p>
+
+                                    <h4 class="text-left">Top attractions:</h4>
+                                    <p class="text-left">Beautiful beaches and caves</p>
+                                    <p class="text-left">Ostrich and butterfly farm</p>
+                                    <p class="text-left">Fort Zoutman Historical Museum</p>
+                                    <p class="text-left">Aruba natural pool</p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end card-container -->
+            </div>
+            <!-- end col sm 3 -->
+            <!--         <div class="col-sm-1"></div> -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Bahamas/Bahamas-beach_1.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Bahamas</h3>
+                                    <p class="profession">Capital City: Nassau </p>
+                                    <p class="text-center">"Located in the Atlantic Ocean, the Bahamas consists of 700 tropical islands. Only about 30 of them are inhabited by people. "</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h5 class="motto">"Motto: Forward Upward Onward Together"</h5>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-left">Temperature: 72F - 84F </h4>
+                                    <h4 class="text-left">Population: 393,244</h4>
+
+                                    <h4 class="text-left">Time to fly from US:</h4>
+                                    <p class="text-left">1 hours and 4 minutes (Miami)</p>
+
+                                    <h4 class="text-left">Top attractions:</h4>
+                                    <p class="text-left">Nassau</p>
+                                    <p class="text-left">Atlantis Paradise Island</p>
+                                    <p class="text-left">Exuma Cays Land and Sea Park</p>
+                                    <p class="text-left">Harbour Island</p>
+
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">                                
+                            </button>
+
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <!-- end card-container -->
+            </div>
+            <!-- end col sm 3 -->
+            <!--         <div class="col-sm-1"></div> -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Barbados/Barbados-beach_1.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Barbados</h3>
+                                    <p class="profession">Capital City: Bridgetown</p>
+                                    <p class="text-center">"The sandy beaches are made up of pulverized coral, which makes for fine, soft sand with coral reefs with their exotic undewater life."</p>
+                                </div>
+                                <div class="footer">
+                                    <i class="fa fa-mail-forward"></i> Auto Rotation
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back">
+                            <div class="header">
+                                <h5 class="motto">"Motto: Pride and Industry"</h5>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h4 class="text-left">Temperature: 73F - 88F </h4>
+                                    <h4 class="text-left">Population: 287,375</h4>
+
+                                    <h4 class="text-left">Time to fly from US:</h4>
+                                    <p class="text-left">3 hours and 42 minutes (Miami)</p>
+
+                                    <h4 class="text-left">Top attractions:</h4>
+                                    <p class="text-left">The Beaches of Carlisle Bay</p>
+                                    <p class="text-left">Bathsheba Bay</p>
+                                    <p class="text-left">Barbados wildlife Reserve</p>
+                                    <p class="text-left">Animal Flower Cave</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <div class="card-footer">
+                    <a href="barbados.html" target="_blank" class="btn btn-primary button_animate">Barbados</a
+                    >
+                </div>
+                <!-- end card-container -->
+            </div>
+            <!-- end col-sm-3 -->
+        </div>
+        <!-- end col-sm-10 -->
+    </div>
+    <!-- end row -->
+    <div class="space-200"></div>
+</div>
+
+
+
+<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $().ready(function() {
+        $('[rel="tooltip"]').tooltip();
+
+        $('a.scroll-down').click(function(e) {
+            e.preventDefault();
+            scroll_target = $(this).data('href');
+            $('html, body').animate({
+                scrollTop: $(scroll_target).offset().top - 60
+            }, 1000);
+        });
+
+    });
+
+    function rotateCard(btn) {
+        var $card = $(btn).closest('.card-container');
+        console.log($card);
+        if ($card.hasClass('hover')) {
+            $card.removeClass('hover');
+        } else {
+            $card.addClass('hover');
+        }
+    }
+</script>
+
+</body>
+
+</html>
