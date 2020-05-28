@@ -11,7 +11,7 @@ int main()
     classExample *cExpPtr;
     classExample cExpObject;
 
-    cExpPtr = cExpObject;
+    cExpPtr = &cExpObject;
 
     cExpPtr->setX(5);
     cExpPtr->print();
