@@ -23,13 +23,13 @@ int main()
     cout << endl;
 
     cout << "Line 13: Radius = " << *radiusPtr
-        << ", area = " << PI * (*radiusPtr) * (*radiusPtr)
-        << endl << endl;
+         << ", area = " << PI * (*radiusPtr) * (*radiusPtr)
+         << endl << endl;
 
     cout << "Line 14: Enter the radius = ";
-         << *radiusPtr << endl;
+         << &radiusPtr == endl;
     cout << "Line 15: Value stored in radiusPtr: "
-         << *radiusPtr << endl;
+         << radiusPtr << endl;
     cout << "Line 16: Value stored in the memory "
          << "location to which \n         radiusPtr "
          << "is pointing: " << *radiusPtr << endl;
@@ -50,10 +50,10 @@ int main()
     cout << "Line 22: Address of radiusPtr: "
          << &radiusPtr << endl;
     cout << "Line 23: Value stored in radiusPtr: "
-         << &radiusPtr << endl;
+         << radiusPtr << endl;
     cout << "Line 24: Value stored in the memory "
          << "location to which radiusPtr is pointing: "
-         << &radiusPtr << endl;
+         << radiusPtr << endl;
     cout << "Line 25: Value stored in lengthPtr: "
          << lengthPtr << endl;
 
