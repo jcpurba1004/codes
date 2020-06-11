@@ -23,7 +23,7 @@ int main()
 {
     cout << "Hello from main.\n";
     displayMessage();
-    cout << "Back in function main again. \n";
+    cout << "Back in function main again.\n";
     return 0;
 }
 
