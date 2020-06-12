@@ -1,0 +1,5 @@
+﻿  unit6-5.cpp
+C:\data\Jeremiah\github\codes\187_cpp\unit6-5\unit6-5\unit6-5.cpp(53,1): error C2084: function 'void first(void)' already has a body
+C:\data\Jeremiah\github\codes\187_cpp\unit6-5\unit6-5\unit6-5.cpp(26): message : see previous definition of 'first'
+C:\data\Jeremiah\github\codes\187_cpp\unit6-5\unit6-5\unit6-5.cpp(57,1): error C2084: function 'void second(void)' already has a body
+C:\data\Jeremiah\github\codes\187_cpp\unit6-5\unit6-5\unit6-5.cpp(36): message : see previous definition of 'second'
