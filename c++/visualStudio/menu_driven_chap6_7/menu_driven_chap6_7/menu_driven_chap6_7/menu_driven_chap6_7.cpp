@@ -1,11 +1,11 @@
-/* 
-* 
-* Jeremiah Purba 
-* 
-* Programming Assignment REVIEW Chapters 6 & 7 
-* 
-* January 18, 2020 
-* 
+/*
+*
+* Jeremiah Purba
+*
+* Programming Assignment REVIEW Chapters 6 & 7
+*
+* January 18, 2020
+*
 * File name: menu_driven_chap6_7.cpp
 *
 */
@@ -24,8 +24,8 @@ void totalVowel(char str[ROWS][COLUMNS]);
 void display2DArray(char* str, int ROWS, int COLUMNS);
 void searchCountChar(char str[ROWS][COLUMNS]);
 
-int main(){
-    
+int main() {
+
     const int EXITCHOICES = 5;  //Assumed 5 is the exit out
 
     // Note: extra one character in column is 6
@@ -35,7 +35,7 @@ int main(){
     int choice = 0;
 
     // This part of the code follow the example from teacher template
-    while (choice != EXITCHOICES) { 
+    while (choice != EXITCHOICES) {
 
         cout << endl;
         cout << "1. Interchange column 1 and 4" << endl;
@@ -53,7 +53,7 @@ int main(){
             break;
         case 2:   totalVowel(str);
             break;
-        case 3:   display2DArray((char*)str,ROWS,COLUMNS); // use pointer instead
+        case 3:   display2DArray((char*)str, ROWS, COLUMNS); // use pointer instead
             break;
         case 4:   searchCountChar(str);
             break;
@@ -79,7 +79,7 @@ int main(){
 // prints out message to screen that the value are switched *
 // **********************************************************
 
-void columnSwitch(char str[ROWS][COLUMNS]){
+void columnSwitch(char str[ROWS][COLUMNS]) {
 
     int i;
     char temp;              // temporary var for interchange the values
@@ -170,7 +170,7 @@ void display2DArray(char* str, int ROWS, int COLUMNS) {
 // to screen total of instances of character in the 2D array.    *
 // ***************************************************************
 
-void searchCountChar(char str[ROWS][COLUMNS]){
+void searchCountChar(char str[ROWS][COLUMNS]) {
 
     int i;
     int j;
