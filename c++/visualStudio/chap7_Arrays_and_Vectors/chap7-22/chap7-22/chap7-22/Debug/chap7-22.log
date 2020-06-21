@@ -1,2 +1,7 @@
 ﻿  chap7-22.cpp
-  chap7-22.vcxproj -> C:\data\jeremiah\code\github\codes\187_c++\chap7-22\chap7-22\Debug\chap7-22.exe
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(13,11): error C2374: 'TBL1_ROWS': redefinition; multiple initialization
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(12): message : see declaration of 'TBL1_ROWS'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(19,9): error C2078: too many initializers
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(22,16): error C2065: 'TBL2_ROWS': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(22,9): error C2078: too many initializers
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\chap7-22\chap7-22\chap7-22\chap7-22.cpp(30,23): error C2065: 'TBL2_ROWS': undeclared identifier

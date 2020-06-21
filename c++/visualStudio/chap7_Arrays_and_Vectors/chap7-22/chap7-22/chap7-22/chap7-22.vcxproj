@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dc24e17d-40c0-489c-aba8-7b6123ec47f4}</ProjectGuid>
+    <ProjectGuid>{900da989-41cb-49b9-8079-a44f7df68b2e}</ProjectGuid>
     <RootNamespace>chap722</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,6 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chap7-22.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chap7-22.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
