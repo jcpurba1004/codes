@@ -8,11 +8,11 @@ using namespace std;
 
 int main()
 {
-    const int NUM_DIVS = 3;            // Number of divisions
-    const int NUM_QTRS = 4;            // Number of quarters
-    double sales[NUM_DIVS] [NUM_QTRS]; // Array with 3 rows and 4 columns.
-    double totalSales = 0;             // To hold the total sales.
-    int div, qtr;                      // Loop counters.
+    const int NUM_DIVS = 3;           // Number of divisions
+    const int NUM_QTRS = 4;           // Number of quarters
+    double sales[NUM_DIVS][NUM_QTRS]; // Array with 3 rows and 4 columns.
+    double totalSales = 0;            // To hold the total sales.
+    int div, qtr;                     // Loop counters.
 
     cout << "This program will calculate the total sales of\n";
     cout << "all the company's divisions.\n";
@@ -38,10 +38,9 @@ int main()
             totalSales += sales[div][qtr];
     }
 
-    cout << fixed  << showpoint << setprecision(2);
+    cout << fixed << showpoint << setprecision(2);
     cout << "The total sales for the company are: $";
     cout << totalSales << endl;
-    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

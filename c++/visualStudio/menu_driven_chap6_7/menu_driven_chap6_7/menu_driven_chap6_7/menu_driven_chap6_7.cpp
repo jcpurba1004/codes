@@ -21,7 +21,7 @@ const int COLUMNS = 6;
 // functions prototypes
 void columnSwitch(char str[ROWS][COLUMNS]);
 void totalVowel(char str[ROWS][COLUMNS]);
-void display2DArray(char* str, int ROWS, int COLUMNS);
+void display2DArray(char str[ROWS][COLUMNS]);
 void searchCountChar(char str[ROWS][COLUMNS]);
 
 int main() {
@@ -53,7 +53,7 @@ int main() {
             break;
         case 2:   totalVowel(str);
             break;
-        case 3:   display2DArray((char*)str, ROWS, COLUMNS); // use pointer instead
+        case 3:   display2DArray(str);
             break;
         case 4:   searchCountChar(str);
             break;
@@ -134,14 +134,14 @@ void totalVowel(char str[ROWS][COLUMNS]) {
 // *******************************************************
 // name:      display2DArray
 // called by: main
-// passed:    char* str, int ROWS, int COLUMNS
+// passed:    char str[ROWS][COLUMNS]
 // returns:   nothing
 // calls:     nobody
 // The display2DArray function displays all cell values  *
 // of 2D array in matrix form to screen.                 *
 // *******************************************************
 
-void display2DArray(char* str, int ROWS, int COLUMNS) {
+void display2DArray(char str[ROWS][COLUMNS]) {
 
     int i;
     int j;
@@ -153,7 +153,7 @@ void display2DArray(char* str, int ROWS, int COLUMNS) {
 
         for (j = 0; j < COLUMNS; j++) {
 
-            cout << *(str + (i * COLUMNS) + j) << " "; // print out the value
+            cout << str[i][j] << " "; // print out the value
         }
         cout << endl << endl;
     }
