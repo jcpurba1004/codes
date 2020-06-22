@@ -1,3 +1,5 @@
+package MyFirstProgram;
+
 /**
  * Lead Author(s):
  * Jeremiah Purba; 5550010017

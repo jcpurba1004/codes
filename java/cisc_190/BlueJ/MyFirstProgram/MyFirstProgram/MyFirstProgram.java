@@ -9,7 +9,6 @@
  * Gaddis, T. (2015). Starting Out With Java Myprogramming Lab 
  * From Control Structures Through Objects. (6th ed.). Addison-Wesley. 
  * 
- *
  * Version: 1.0 (06-21-2020)
  */ 
 
