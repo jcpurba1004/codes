@@ -1,0 +1,3 @@
+﻿  chap9-15.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap9_Pointer\chap9-15\chap9-15\chap9-15\chap9-15.cpp(50,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  chap9-15.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\chap9_Pointer\chap9-15\chap9-15\Debug\chap9-15.exe
