@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SalesTaxCalculator
+comment0.text=\r\n\ Class\ Name\:\ SalesTaxCalculator\r\n\ Purpose\ \ \ \:\ Calculate\ state\ sales\ tax\ (4%)\ and\ county\ sales\ tax\ (2%)\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ from\ purchase\ amount.\ Then\ add\ all\ of\ them\ to\ calculate\ total\ tax.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Compute\ also\ total\ sale\ which\ includes\ total\ tax.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Ask\ user\ input\ for\ purchase\ amount\ then\ display\ to\ screen\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ purchase\ amount,\ state\ and\ county\ sales\ tax,\ total\ sales\ tax\ and\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ total\ sale.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

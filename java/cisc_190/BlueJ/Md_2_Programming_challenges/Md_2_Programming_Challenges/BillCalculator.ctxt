@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BillCalculator
+comment0.text=\r\n\ Class\ Name\:\ BillCalculator\r\n\ Purpose\ \ \ \:\ Computes\ the\ tax\ (6.75%)\ from\ meal\ charge\ and\ tip\ (20%)\ of\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ total\ after\ adding\ the\ tax.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Then\ calculate\ the\ total\ bill\ which\ includes\ tax\ and\ tips.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Ask\ user\ input\ for\ purchase\ amount\ then\ display\ to\ screen\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ meal\ charge,\ tax\ amount,\ tip\ amount\ and\ total\ bill.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
