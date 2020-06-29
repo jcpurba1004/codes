@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RomanNumerals
+comment0.text=\r\n\ Class\ Name\:\ RomanNumerals\r\n\ Purpose\ \ \ \:\ Convert\ user\ input\ number\ into\ corresponding\ Roman\ Numerals\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ number.\ The\ input\ range\ is\ from\ 1\ to\ 10\ and\ if\ the\ input\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ outside\ the\ range,\ the\ code\ should\ display\ error\ message.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

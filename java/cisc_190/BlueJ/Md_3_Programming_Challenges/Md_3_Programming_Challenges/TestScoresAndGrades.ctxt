@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestScoresAndGrades
+comment0.text=\r\n\ Class\ Name\:\ TestScoresAndGrade\r\n\ Purpose\ \ \ \:\ Ask\ user\ input\ 3\ numbers\ than\ calculate\ the\ average\ of\ these\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ numbers.\ The\ program\ should\ display\ the\ average\ and\ the\ letter\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ grade\ that\ is\ assigned\ for\ the\ test\ score\ average.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Use\ the\ following\ table\ for\ the\ grading\ system\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Test\ Score\ Average\ \ \ \ \ \ \ \ \ \ Letter\ Grade\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 90\ -\ 100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ A\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 80\ -\ 89\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ B\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 70\ -\ 79\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 60\ -\ 69\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ D\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Below\ 60\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ F\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

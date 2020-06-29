@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InternetServiceProvider
+comment0.text=\r\n\ Class\ Name\:\ InternetServiceProvider\r\n\ Purpose\ \ \ \:\ To\ calculate\ Internet\ Service\ Provider\ customer's\ monthly\ bill.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ There\ are\ 3\ packages\ for\ customer\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Package\ A\:\ $9.95\ /\ month\ with\ 10\ hours\ access\ and\ $2/hour\ after\ that.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Package\ B\:\ $13.95\ /\ month\ with\ 20\ hours\ access\ and\ $1/hour\ after\ that.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ Package\ C\:\ $19.95\ /\ month\ with\ unlimited\ access.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ The\ code\ should\ ask\ user\ input\ for\ package\ that\ is\ used\ and\ number\ of\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ hours\ that\ are\ used.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ The\ code\ then\ compare\ the\ price\ if\ the\ user\ choose\ other\ packages.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ The\ code\ display\ the\ total\ charges\ and\ the\ comparison\ for\ other\ charges\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ other\ charges\ are\ cheaper.\ If\ there\ is\ no\ saving,\ no\ message\ should\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ be\ printed\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
