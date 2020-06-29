@@ -1,0 +1,28 @@
+﻿  chap13-3.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(18,5): error C2065: 'Rectangle': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(18,15): error C2146: syntax error: missing ';' before identifier 'kitchen'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(18,15): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(19,5): error C2065: 'Rectangle': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(19,15): error C2146: syntax error: missing ';' before identifier 'bedroom'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(19,15): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(20,5): error C2065: 'Rectangle': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(20,15): error C2146: syntax error: missing ';' before identifier 'den'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(20,15): error C2065: 'den': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(25,5): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(28,5): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(33,5): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(36,5): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(41,5): error C2065: 'den': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(44,5): error C2065: 'den': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(47,17): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(47,37): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(48,17): error C2065: 'den': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(55,12): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(55,19): error C2541: 'delete': cannot delete objects that are not pointers
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(56,12): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(56,19): error C2541: 'delete': cannot delete objects that are not pointers
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(57,12): error C2065: 'den': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(57,15): error C2541: 'delete': cannot delete objects that are not pointers
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(58,5): error C2065: 'kitchen': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(59,5): error C2065: 'bedroom': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-3\chap13-3\chap13-3\chap13-3.cpp(60,5): error C2065: 'den': undeclared identifier
