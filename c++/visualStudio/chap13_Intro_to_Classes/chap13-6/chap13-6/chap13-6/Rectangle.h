@@ -9,7 +9,7 @@ class Rectangle
 	   double width;
 	   double length;
 	public:
-	   Rectangle();
+	   Rectangle();                     // Constructor
 	   void setWidth(double);
 	   void setLength(double);
 	   
