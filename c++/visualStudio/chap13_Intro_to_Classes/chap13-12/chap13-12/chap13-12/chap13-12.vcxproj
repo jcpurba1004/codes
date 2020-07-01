@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="chap13-12.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ContactInfo.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
