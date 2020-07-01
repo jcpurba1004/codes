@@ -1,0 +1,3 @@
+﻿  chap13-13.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-13\chap13-13\chap13-13\chap13-13.cpp(15,19): error C2039: 'setUnits': is not a member of 'InventoryItem'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap13_Intro_to_Classes\chap13-13\chap13-13\chap13-13\InventoryItem.h(7): message : see declaration of 'InventoryItem'
