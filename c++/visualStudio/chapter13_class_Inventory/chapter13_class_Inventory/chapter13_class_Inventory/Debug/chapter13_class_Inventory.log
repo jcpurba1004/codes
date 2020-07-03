@@ -1,0 +1,6 @@
+﻿  chapter13_class_Inventory.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chapter13_class_Inventory\chapter13_class_Inventory\chapter13_class_Inventory\chapter13_class_Inventory.cpp(16,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chapter13_class_Inventory\chapter13_class_Inventory\chapter13_class_Inventory\chapter13_class_Inventory.cpp(25,81): warning C4305: 'argument': truncation from 'double' to 'float'
+  Inventory.cpp
+  Generating Code...
+  chapter13_class_Inventory.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\chapter13_class_Inventory\chapter13_class_Inventory\Debug\chapter13_class_Inventory.exe
