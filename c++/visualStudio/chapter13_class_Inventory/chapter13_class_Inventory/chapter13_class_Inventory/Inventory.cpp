@@ -77,7 +77,7 @@ string Inventory::getDamageDesc(void) {
 void Inventory::setCustomerLast(string lastName) {
 
 	if (lastName.size() > nameLength) {
-		cout << "Error ! Number is either zero or less than zero !" << endl;
+		cout << "Error ! Last name is too long !" << endl;
 		exit(EXIT_FAILURE);
 	}
 	else {

@@ -22,7 +22,6 @@ int main()
 {
 
     Inventory repair[customerInventoryNumber];   // create inventory array objects
-    Inventory repairOverload(5, "data 5", "Purba 5", "1234567890", 56.98, 05.67); // to test overloading constructor
 
     cout << "Mr.Ding Board Repair and Surf Shop" << endl;
 
