@@ -16,7 +16,7 @@ public class RandomNumberGuessingGameEnhancement {
 			userInputString = JOptionPane.showInputDialog( "Guess the number: " );
 			userGuessedNumber = Integer.parseInt( userInputString );
 			if( userGuessedNumber > randomNumber ) {
-				JOptionPane.showMessageDialog null, "Too high, try again" );
+				JOptionPane.showMessageDialog( null, "Too high, try again" );
 			} else if( userGuessedNumber < randomNumber) {
 				JOptionPane.showMessageDialog( null, "Too low, try again" );
 			} else{
