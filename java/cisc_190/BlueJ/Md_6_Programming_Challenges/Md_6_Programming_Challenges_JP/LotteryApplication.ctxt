@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=LotteryApplication
+comment0.text=\r\n\ Class\ Name\:\ LotteryApplication\r\n\ Purpose\ \ \ \:\ 1.\ Get\ user\ pick\ number.\ User\ can't\ use\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ same\ number\ twice.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 2.\ Get\ winning\ number\ picked\ by\ computer.\ Computer\ can't\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ use\ same\ number\ twice.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 3.\ Check\ how\ many\ number\ match\ between\ them\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 4.\ Display\ the\ results\ \ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=arrayNumber\ number
+comment2.target=java.lang.Boolean\ contains(int[],\ int)
+comment2.text=\r\n\ Purpose\:\ check\ the\ input\ number\ whether\ it's\ on\ the\ \r\n\ \ \ \ \ \ \ \ \ \ array\ or\ not.\ Return\ the\ results\ as\ boolean\r\n\ \ \ \ \ \ \ \ \ \ whether\ it's\ true\ or\ false\r\n\ Signature\:\ input\ array\ of\ integers\ and\ integer,\ return\ boolean\ \r\n\ Examples\:\ \r\n\ contains({1,\ 2,\ 3},\ 2)\ returns\ true\r\n\ contains({1,\ 2,\ 3},\ 4)\ returns\ false\r\n
+comment3.params=inputArray
+comment3.target=java.lang.String\ arrayToString(int[])
+comment3.text=\r\n\ Purpose\:\ convert\ array\ of\ integer\ to\ string\r\n\ Signature\:\ input\ array\ of\ integers\ return\ string\ \r\n\ Examples\:\ \r\n\ arrayToString({1,\ 2,\ 3})\ returns\ "1,2,3"\r\n\ arrayToString({1,\ 2,\ 3,\ 4})\ returns\ "1,2,3,4"\r\n
+comment4.params=
+comment4.target=int[]\ inputUserPicks()
+comment4.text=\r\n\ Purpose\:\ Ask\ user\ input\ number\ between\ 1\ to\ 9.\r\n\ \ \ \ \ \ \ \ \ \ Then,\ assign\ them\ to\ array\ of\ integer.\ \r\n\ Signature\:\ input\ nothing\ return\ array\ of\ integer\ \r\n\ Examples\:\ \r\n\ inputUserPicks()\ return\ [2,7,5,8,4]\r\n\ inputUserPicks()\ return\ [9,6,1,3,2]\r\n
+comment5.params=
+comment5.target=int[]\ pickWinningNumbers()
+comment5.text=\r\n\ Purpose\:\ Generate\ random\ number\ between\ 1\ to\ 9.\r\n\ \ \ \ \ \ \ \ \ \ Then,\ assign\ them\ to\ array\ of\ integer.\ \r\n\ Signature\:\ input\ nothing\ return\ array\ of\ integer\ \r\n\ Examples\:\ \r\n\ pickWinningNumbers()\ return\ [1,4,6,9,3]\r\n\ pickWinningNumbers()\ return\ [5,1,2,7,5]\r\n
+comment6.params=userPicks\ winningNumbers
+comment6.target=int\ getNumberOfMatches(int[],\ int[])
+comment6.text=\r\n\ Purpose\:\ Count\ the\ match\ number\ between\ 2\ input\ array.\r\n\ \ \ \ \ \ \ \ \ \ Then,\ it\ returns\ count\ of\ match\ number\ \r\n\ Signature\:\ input\ two\ arrays\ of\ integer\ return\ integer\ \r\n\ Examples\:\ \r\n\ getNumberOfMatches(userPicks,\ winningNumbers)\ return\ 1\r\n\ getNumberOfMatches(userPicks,\ winningNumbers)\ return\ 3\r\n
+numComments=7

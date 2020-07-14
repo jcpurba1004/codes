@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CelciusTemperatureTable
+comment0.text=\r\n\ This\ class\ would\ convert\ the\ temperature\ from\ Fahrenheit\ to\ Celsius\ using\r\n\ formula\:\r\n\ \r\n\ C\ \=\ 5/9(F-32)\r\n\ \r\n\ where\ F\ is\ the\ Fahrenheit\ temperature\ and\ C\ is\ the\ Celsius\ temperature.\r\n\ Write\ a\ method\ that\ use\ verb\ that\ accepts\ a\ Fahrenheit\ temperature\ as\ an\r\n\ argument.\ The\ method\ should\ return\ the\ temperature,\ converted\ to\ Celsius.\r\n\ Demonstrate\ the\ method\ by\ calling\ it\ in\ a\ loop\ that\ displays\ a\ table\ of\r\n\ the\ Fahrenheit\ temperatures\ 0\ through\ 20\ and\ their\ Celsius\ equivalents.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=fahrenheitTemperature
+comment2.target=double\ convertFahrenheitToCelsius(double)
+comment2.text=\r\n\ Purpose\:\ convert\ temperature\ from\ Fahrenheit\ to\ Celsius\r\n\ Signature\:\ input\ one\ double\ return\ double\ \r\n\ Examples\:\ \r\n\ convertFahrenheitToCelcius(0.00)\ return\ -17.78\r\n\ convertFahrenheitToCelcius(5.00)\ return\ -15.00\r\n\ convertFahrenheitToCelcius(20.00)\ return\ -6.67\r\n
+numComments=3

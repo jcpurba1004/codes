@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CISC190ArrayOperations
+comment0.text=\r\n\ Class\ Name\:\ CISC190ArrayOperations\r\n\ Purpose\ \ \ \:\ 1.\ Check\ the\ input\ value\ whether\ it's\ on\ the\ array\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ then\ return\ the\ boolean\ results\ whether\ it's\ true\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ or\ wrong\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ 2.\ convert\ integer\ array\ to\ string\ \ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=arrayNumber\ number
+comment2.target=java.lang.Boolean\ contains(int[],\ int)
+comment2.text=\r\n\ Purpose\:\ check\ the\ input\ number\ whether\ it's\ on\ the\ \r\n\ \ \ \ \ \ \ \ \ \ array\ or\ not.\ Return\ the\ results\ as\ boolean\r\n\ \ \ \ \ \ \ \ \ \ whether\ it's\ true\ or\ not\r\n\ Signature\:\ input\ array\ of\ integers\ and\ integer,\ return\ boolean\ \r\n\ Examples\:\ \r\n\ contains({1,\ 2,\ 3},\ 2)\ returns\ true\r\n\ contains({1,\ 2,\ 3},\ 4)\ returns\ false\r\n
+comment3.params=inputArray
+comment3.target=java.lang.String\ arrayToString(int[])
+comment3.text=\r\n\ Purpose\:\ convert\ array\ of\ integer\ to\ string\r\n\ Signature\:\ input\ array\ of\ integers\ return\ boolean\ \r\n\ Examples\:\ \r\n\ arrayToString({1,\ 2,\ 3})\ returns\ "1,2,3"\r\n\ arrayToString({1,\ 2,\ 3,\ 4})\ returns\ "1,2,3,4"\r\n
+numComments=4

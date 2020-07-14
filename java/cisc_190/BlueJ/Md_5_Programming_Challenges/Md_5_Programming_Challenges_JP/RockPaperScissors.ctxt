@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=RockPaperScissors
+comment0.text=\r\n\ This\ class\ would\ perform\ Rock,\ Paper\ and\ Scissors\ game\ against\ the\ computer.\r\n\ 1.\ When\ the\ program\ begins,\ a\ random\ number\ in\ the\ range\ of\ 1\ through\ 3\ is\r\n\ generated.\ If\ the\ number\ is\ 1,\ then\ the\ computer\ has\ chosen\ rock.\ If\ the\ \r\n\ number\ is\ 2,\ then\ the\ computer\ has\ chosen\ paper.\ If\ the\ number\ is\ 3,\ then\r\n\ the\ computer\ has\ chosen\ scissors.\ (Don't\ display\ the\ computer's\ choice\ yet.)\r\n\ 2.\ The\ user\ enters\ his\ or\ her\ choice\ of\ "rock",\ "paper",\ or\ "scissors"\ at\r\n\ the\ keyboard.\ (You\ can\ use\ a\ menu\ if\ you\ prefer.)\r\n\ 3.\ The\ computer's\ choice\ is\ displayed.\r\n\ 4.\ A\ winner\ is\ selected\ according\ to\ the\ following\ rules\:\r\n\ \ \ \ *\ If\ one\ player\ chooses\ rock\ and\ the\ other\ player\ chooses\ scissors,\ \r\n\ \ \ \ then\ rock\ wins.\ (The\ rock\ smashes\ the\ scissors.)\r\n\ \ \ \ *\ If\ one\ player\ chooses\ scissors\ and\ the\ other\ player\ chooses\ paper,\r\n\ \ \ \ then\ scissors\ wins.\ (Scissors\ cuts\ paper.)\r\n\ \ \ \ *\ If\ one\ player\ chooses\ paper\ and\ the\ other\ player\ chooses\ rock,\r\n\ \ \ \ then\ paper\ wins.\ (Paper\ wraps\ rock.)\r\n\ \ \ \ *\ If\ both\ players\ make\ the\ same\ choice,\ the\ game\ must\ be\ played\ again\r\n\ \ \ \ to\ determine\ the\ winner.\r\n\ Be\ sure\ to\ divide\ the\ program\ into\ methods\ that\ perform\ each\ major\ task.\ \ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=java.lang.String\ getComputerChoice()
+comment2.text=\r\n\ Purpose\:\ Generate\ random\ number\ and\ \r\n\ \ \ \ \ \ \ \ \ \ returns\ either\ "Rock",\ "Paper"\ or\ "Scissors".\r\n\ Signature\:\ input\ nothing\ and\ return\ string\ \r\n\ Examples\:\ \r\n\ getComputerChoice()\ return\ "Rock"\r\n\ getComputerChoice()\ return\ "Paper"\r\n\ getComputerChoice()\ return\ "Scissors"\r\n
+comment3.params=
+comment3.target=java.lang.String\ getUserInput()
+comment3.text=\r\n\ Purpose\:\ Show\ the\ menu\ of\ choices\ and\ get\ User\ input\ choice\ \r\n\ Signature\:\ input\ nothing\ and\ return\ string\ \r\n\ Examples\:\ \r\n\ getUserInput()\ return\ "Rock"\r\n\ getUserInput()\ return\ "Paper"\r\n\ getUserInput()\ return\ "Scissors"\r\n\ getUserInput()\ return\ exit\ the\ program.\r\n
+comment4.params=userChoice\ computerChoice
+comment4.target=java.lang.String\ determineWinner(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Purpose\:\ randomly\ returns\ either\ "Rock",\ "Paper"\ or\ "Scissors".\r\n\ Signature\:\ input\ 2\ strings\ and\ return\ string\ \r\n\ Examples\:\ \r\n\ getComputerChoice("Rock","Scissors")\ return\ "User"\r\n\ getComputerChoice("Scissors","Paper")\ return\ "User"\r\n\ getComputerChoice("Rock","Paper")\ return\ "Computer"\r\n
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RetailPriceCalculator
+comment0.text=\r\n\ Class\ Name\:\ RetailPriceCalculator\r\n\ Purpose\ \ \ \:\ Calculate\ the\ retail\ price\ after\ adding\ markup\ price\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ to\ wholesale\ price\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=wholeSalePrice\ markupPercentage
+comment2.target=double\ calculateRetailPrice(double,\ double)
+comment2.text=\r\n\ Purpose\:\ calculate\ retail\ price\ from\ wholesale\ price\r\n\ Signature\:\ input\ two\ doubles\ and\ return\ double\ \r\n\ Examples\:\ \r\n\ calculateRetailPrice(100.00,\ 50.00)\ return\ 150.00\r\n\ calculateRetailPrice(1500.00,\ 100.00)\ return\ 3000.00\r\n
+numComments=3
