@@ -33,6 +33,10 @@ int main()
     cout << "Pushing 15\n";
     stack.push(15);
 
+    // Display the value in the stack
+    cout << "\nThe following are stack content " << endl;
+    stack.display();
+
     // Pop the values off the stack and display them.
     cout << "Popping...\n";
     stack.pop(catchVar);

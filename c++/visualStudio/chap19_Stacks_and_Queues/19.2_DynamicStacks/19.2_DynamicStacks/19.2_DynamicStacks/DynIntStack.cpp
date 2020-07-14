@@ -105,3 +105,27 @@ bool DynIntStack::isEmpty()
 
 	return status;
 }
+
+
+//****************************************************
+// Member function display would print stack content *
+// to screen.                                        *
+//****************************************************
+void DynIntStack::display() const
+{
+	StackNode* nodePtr;    // To move through the list
+
+	// Position nodePtr at the top of the stack
+	nodePtr = top;
+
+	// While nodePtr points to a node, traverse the list
+	while (nodePtr)
+	{
+
+		// Display the value in this node
+		cout << nodePtr->value << endl;
+
+		// Move to the next node
+		nodePtr = nodePtr->next;
+	}
+}

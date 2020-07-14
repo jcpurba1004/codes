@@ -40,5 +40,6 @@ public:
 	 void push(int);
 	 void pop(int &);
 	 bool isEmpty();
+	 void display() const;
 };
 #endif
