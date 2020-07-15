@@ -20,6 +20,8 @@ public:
 	// Destructor
 	~IntQueue();
 
+	void enqueue(int num);
+
 	// Queue operations
 	void enquene(int);
 	void dequene(int &);

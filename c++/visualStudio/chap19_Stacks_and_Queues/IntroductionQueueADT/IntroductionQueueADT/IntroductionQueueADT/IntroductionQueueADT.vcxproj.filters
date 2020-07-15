@@ -26,5 +26,8 @@
     <ClInclude Include="IntQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IntroductionQueueADT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
