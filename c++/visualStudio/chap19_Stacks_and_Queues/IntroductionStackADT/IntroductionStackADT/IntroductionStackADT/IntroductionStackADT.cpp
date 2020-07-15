@@ -1,20 +1,41 @@
 // IntroductionStackADT.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// This program demonstrates the IntStack class.
 #include <iostream>
+#include "IntStack.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int catchVar; // To hold values popped off the stack
+
+    // Define a stack object to hold 5 values.
+    IntStack stack(5);
+
+    // Push the values 5, 10, 15, 20 and 25 onto the stack.
+    cout << "Pushing 5\n";
+    stack.push(5);
+    cout << "Pushing 10\n";
+    stack.push(10);
+    cout << "Pushing 15\n";
+    stack.push(15);
+    cout << "Pushing 20\n";
+    stack.push(20);
+    cout << "Pushing 25\n";
+    stack.push(25);
+
+    // Pop the values off the stack.
+    cout << "Popping...\n";
+    stack.pop(catchVar);
+    cout << catchVar << endl;
+    stack.pop(catchVar);
+    cout << catchVar << endl;
+    stack.pop(catchVar);
+    cout << catchVar << endl;
+    stack.pop(catchVar);
+    cout << catchVar << endl;
+    stack.pop(catchVar);
+    cout << catchVar << endl;
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
