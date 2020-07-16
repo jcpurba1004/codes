@@ -1,0 +1,6 @@
+﻿  DynamicQueueTemplate.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap19_Stacks_and_Queues\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueue.h(51,18): error C2995: 'DynamicQueue<T>::DynamicQueue(void)': function template has already been defined
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap19_Stacks_and_Queues\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueue.h(23): message : see declaration of 'DynamicQueue<T>::DynamicQueue'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap19_Stacks_and_Queues\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueue.h(91,23): error C2995: 'void DynamicQueue<T>::dequeue(T &)': function template has already been defined
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap19_Stacks_and_Queues\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueue.h(30): message : see declaration of 'DynamicQueue<T>::dequeue'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap19_Stacks_and_Queues\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate\DynamicQueueTemplate.cpp(17,31): error C2264: 'DynamicQueue<std::string>::DynamicQueue': error in function definition or declaration; function not called
