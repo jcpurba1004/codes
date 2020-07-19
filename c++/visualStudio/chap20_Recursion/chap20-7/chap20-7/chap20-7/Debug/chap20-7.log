@@ -1,0 +1,4 @@
+﻿chap20-7.obj : error LNK2019: unresolved external symbol "private: int __thiscall NumberList::countNodes(struct NumberList::ListNode *)const " (?countNodes@NumberList@@ABEHPAUListNode@1@@Z) referenced in function "public: int __thiscall NumberList::numNodes(void)const " (?numNodes@NumberList@@QBEHXZ)
+chap20-7.obj : error LNK2019: unresolved external symbol "public: __thiscall NumberList::~NumberList(void)" (??1NumberList@@QAE@XZ) referenced in function _main
+chap20-7.obj : error LNK2019: unresolved external symbol "public: void __thiscall NumberList::insertNode(double)" (?insertNode@NumberList@@QAEXN@Z) referenced in function _main
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap20_Recursion\chap20-7\chap20-7\Debug\chap20-7.exe : fatal error LNK1120: 3 unresolved externals
