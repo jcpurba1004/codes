@@ -1,0 +1,4 @@
+﻿  chap20-12.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap20_Recursion\chap20-12\chap20-12\chap20-12\chap20-12.cpp(47,12): error C2065: 'numCoins': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap20_Recursion\chap20-12\chap20-12\chap20-12\chap20-12.cpp(50,16): error C2065: 'numCoins': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap20_Recursion\chap20-12\chap20-12\chap20-12\chap20-12.cpp(102,15): error C2065: 'numCoins': undeclared identifier
