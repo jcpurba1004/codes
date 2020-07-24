@@ -1,0 +1,3 @@
+﻿chap21-1.obj : error LNK2019: unresolved external symbol "private: void __thiscall IntBinaryTree::destroySubTree(struct IntBinaryTree::TreeNode *)" (?destroySubTree@IntBinaryTree@@AAEXPAUTreeNode@1@@Z) referenced in function "public: __thiscall IntBinaryTree::~IntBinaryTree(void)" (??1IntBinaryTree@@QAE@XZ)
+chap21-1.obj : error LNK2019: unresolved external symbol "public: void __thiscall IntBinaryTree::insertNode(int)" (?insertNode@IntBinaryTree@@QAEXH@Z) referenced in function _main
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap21_Binary_Trees\chap21-1\chap21-1\Debug\chap21-1.exe : fatal error LNK1120: 2 unresolved externals
