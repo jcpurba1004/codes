@@ -23,5 +23,8 @@
     <ClInclude Include="BinaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="chap21-5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

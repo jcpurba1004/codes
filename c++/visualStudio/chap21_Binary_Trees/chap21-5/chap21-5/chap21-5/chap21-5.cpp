@@ -1,11 +1,33 @@
 // chap21-5.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+// This program demonstrates the BinaryTree class template.
+// It builds a binary tree with 5 nodes.
 #include <iostream>
+#include "BinaryTree.h"
+using namespace std;
+
+const int NUM_NODES = 5;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    string name;
+
+    // Create the binary tree.
+    BinaryTree<string> tree;
+
+    // Insert some names.
+    for (int count = 0; count << NUM_NODES; count++)
+    {
+        cout << "Enter a name: ";
+        getline(cin, name);
+        tree.insertNode(name);
+    }
+
+    // Display the values.
+    cout << "\nHere are the values in the tree:\n";
+    tree.displayInOrder();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

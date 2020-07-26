@@ -23,6 +23,7 @@ private:
 	void deleteNode(T, TreeNode *&);
 	void makeDeletion(TreeNode *&);
 	void displayInOrder(TreeNode *) const;
+	void displayPreOrder(TreeNode* nodePtr) const;
 	void displaypreOrder(TreeNode *) const;
 	void displayPostOrder(TreeNode *) const;
 
@@ -190,3 +191,49 @@ void BinaryTree<T>::makeDeletion(TreeNode *&nodePtr)
 		delete tempNodePtr;
 	}
 }
+
+//***************************************************************
+// The displayInOrder member function displays the values       *
+// in the subtree pointed to by nodePtr, via inorder traversal. *
+//***************************************************************
+template <class T>
+void BinaryTree<T>::displayInOrder(TreeNode *nodePtr) const
+{
+	if (nodePtr)
+	{
+		displayInOrder(nodePtr->left);
+		cout << nodePtr->value << endl;
+		displayInOrder(nodePtr->right);
+	}
+}
+
+//****************************************************************
+// The displayPreOrder member function displays the values       *
+// in the subtree pointed to by nodePtr, via preorder traversal. *
+//****************************************************************
+template <class T>
+void BinaryTree<T>::displayPreOrder(TreeNode *nodePtr) const
+{
+	if (nodePtr)
+	{
+		cout << nodePtr->value << endl;
+		displayPreOrder(nodePtr->left);
+		displayPreOrder(nodePtr->right);
+	}
+}
+
+//*****************************************************************
+// The displayPostOrder member function displays the values       *
+// in the subtree pointed to by nodePtr, via postorder traversal. *
+//*****************************************************************
+template <class T>
+void BinaryTree<T>::displayPostOrder(TreeNode* nodePtr) const
+{
+	if (nodePtr)
+	{
+		displayPostOrder(nodePtr->left);
+		displayPostOrder(nodePtr->right);
+		cout << nodePtr->value << endl;
+	}
+}
+#endif
