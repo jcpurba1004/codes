@@ -83,3 +83,110 @@ void BinaryTree<T>::insertNode(T item)
 	// Insert the node.
 	insert(root, newNode);
 }
+
+//*************************************************
+// destroySubTree is called by the destructor. It *
+// deletes all nodes in the tree.                 *
+//*************************************************
+template <class T>
+void BinaryTree<T>::destroySubTree(TreeNode *nodePtr)
+{
+	if (nodePtr)
+	{
+		if (nodePtr->left)
+			destroySubTree(nodePtr->left);
+		if (nodePtr->right)
+			destroySubTree(nodePtr->right);
+		delete nodePtr;
+	}
+}
+
+//*************************************************
+// searchNode determines if a value is present in *
+// the tree. If so, the function returns true.    *
+// Otherwise, it returns false.                   *
+//*************************************************
+template <class T>
+bool BinaryTree<T>::searchNode(T item)
+{
+	TreeNode *nodePtr = root;
+
+	while (nodePtr)
+	{
+		if (nodePtr->value == item)
+			return true;
+		else if (item < nodePtr->value)
+			nodePtr = nodePtr->left;
+		else
+			nodePtr = nodePtr->right;
+	}
+	return false;
+}
+
+//**********************************************
+// remove calls deletNode to delete the        *
+// node whose value member is the same as num. *
+//**********************************************
+template <class T>
+void BinaryTree<T>::remove(T item)
+{
+	deleteNode(item, root);
+}
+
+//******************************************
+// deleteNode deletes the node whose value *
+// member is the same as num.              *
+//******************************************
+template <class T>
+void BinaryTree<T>::deleteNode(T item, TreeNode *&nodePtr)
+{
+	if (item < nodePtr->value)
+		deleteNode(item, nodePtr->left);
+	else if (item > nodePtr->value)
+		deleteNode(item, nodePtr->right);
+	else
+		makeDeletion(nodePtr);
+}
+
+//**********************************************************
+// makeDeletion takes a reference to a pointer to the node *
+// that is to be deleted. The node is removed and the      *
+// branches of the tree below the node are reattached.     *
+//**********************************************************
+template <class T>
+void BinaryTree<T>::makeDeletion(TreeNode *&nodePtr)
+{
+	// Define a temporary pointer to use in reattaching
+	// the left subtree.
+	TreeNode *tempNodePtr = nullptr;
+
+	if (nodePtr == nullptr)
+		cout << "Cannot delete empty node.\n";
+	else if (nodePtr->right == nullptr)
+	{
+		tempNodePtr = nodePtr;
+		nodePtr = nodePtr->left;   // Reattach the left child
+		delete tempNodePtr;
+	}
+	else if (nodePtr->left == nullptr)
+	{
+		tempNodePtr = nodePtr;
+		nodePtr = nodePtr->right;   // Reattach a right child
+		delete tempNodePtr;
+	}
+	// If the node has two children.
+	else
+	{
+		// Move one node to the right.
+		tempNodePtr = nodePtr->right;
+		// Go to the end left node.
+		while (tempNodePtr->left)
+		   tempNodePtr = tempNodePtr->left;
+		// Reattach the left subtree.
+		tempNodePtr->left = nodePtr->left;
+		tempNodePtr = nodePtr;
+		// Reattach the right subtree.
+		nodePtr = nodePtr->right;
+		delete tempNodePtr;
+	}
+}
