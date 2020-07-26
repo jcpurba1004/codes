@@ -18,5 +18,8 @@
     <ClCompile Include="chap21-4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IntBinaryTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
