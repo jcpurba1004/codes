@@ -4,7 +4,7 @@
 *
 * Chapters 21 Programming Example CISC 187 Summer 2020
 *
-* July 29, 2020
+* July 30, 2020
 *
 * File name: IntBinaryTree.cpp
 *
@@ -41,7 +41,7 @@ void IntBinaryTree::insertNode(int inputNumber)
 	TreeNode* newNode = nullptr;
 
 	// input validation, inputNumber should be >= 0
-	if (inputNumber < 0)
+	if (inputNumber < zeroConstant)
 	{
 		cout << "Error ! Wrong input integer ... Exit ! \n";
 		cout << "Number should be at least zero and larger .\n";
@@ -122,6 +122,7 @@ void IntBinaryTree::displayInOrder() const
 // Purpose: Display the element in the tree in order (from smaller number 
 //          to larger number. As long as the node is not empty, it 
 //          will traverse from left to right to print the value of element
+//          recursively
 //*************************************************************************
 void IntBinaryTree::displayInOrder(TreeNode* nodePtr) const
 {
@@ -130,8 +131,10 @@ void IntBinaryTree::displayInOrder(TreeNode* nodePtr) const
 	{
 		// traversal to the left
 		displayInOrder(nodePtr->left);
+
 		cout << nodePtr->data;
 		cout << " ";
+
 		// traversal to the right
 		displayInOrder(nodePtr->right);
 	}
@@ -182,7 +185,7 @@ int IntBinaryTree::leafCount(TreeNode* nodePtr) const
 	// If the tree is empty
 	if (!nodePtr)
 	{
-		return 0;
+		return zeroConstant;
 	}
 	if ((nodePtr->left == nullptr) && (nodePtr->right == nullptr))
 	{
@@ -211,9 +214,11 @@ int IntBinaryTree::height()
 	// If root of the tree is not empty
 	if (root)
 	{
+
 		treeHeight = height(root);
+
 		cout << "Display the tree height : ";
-		if (treeHeight == 0)
+		if (treeHeight == zeroConstant)
 		{
 			cout << treeHeight << " (only root)\n\n";
 		}
@@ -240,7 +245,7 @@ int IntBinaryTree::height()
 
 int IntBinaryTree::findMax(int left, int right)
 {
-	int maximum = 0;
+	int maximum = zeroConstant;
 
 	maximum = (left > right) ? left : right;  // compare input numbers
 
@@ -261,9 +266,9 @@ int IntBinaryTree::findMax(int left, int right)
 
 int IntBinaryTree::height(TreeNode* nodePtr)
 {
-	int leftSide = 0;
-	int rightSide = 0;
-	int maximum = 0;
+	int leftSide = zeroConstant;
+	int rightSide = zeroConstant;
+	int maximum = zeroConstant;
 
 	// If the tree is empty, return 0;
 	if (!nodePtr)
@@ -272,10 +277,13 @@ int IntBinaryTree::height(TreeNode* nodePtr)
 	}
 	else
 	{
+		// calculate the height on left side recursively
 		leftSide = height(nodePtr->left);
 
+		// calculate the height on right side recursively
 		rightSide = height(nodePtr->right);
 
+		// get the larger value
 		maximum = findMax(leftSide, rightSide);
 
 		return  maximum + positiveOne;
@@ -301,7 +309,7 @@ int IntBinaryTree::widthTree()
 	{
 		treeWidth = widthTree(root);
 		cout << "Display the tree width : ";
-		if (treeWidth == 0)
+		if (treeWidth == zeroConstant)
 		{
 			cout << treeWidth << " (only root)\n\n";
 		}
@@ -330,7 +338,7 @@ int IntBinaryTree::widthTree()
 
 int IntBinaryTree::widthTree(TreeNode* nodePtr)
 {
-	int maxWidth = 0;
+	int maxWidth = zeroConstant;
 	int treeWidth;
 	int index;
 	int treeHeight;
@@ -341,19 +349,18 @@ int IntBinaryTree::widthTree(TreeNode* nodePtr)
 	}
 	else
 	{
-		treeHeight = height(nodePtr);
+		treeHeight = height(nodePtr);   // compute the hight
 
+		// calculate the maximum width for each level of the tree
 		for (index = positiveOne; index <= treeHeight; index++)
 		{
 			treeWidth = calculateWidth(nodePtr, index);
 
 			if (treeWidth > maxWidth)
 			{
-				maxWidth = treeWidth;
-
+				maxWidth = treeWidth;   // replace the maxwidth with new value
 			}
 		}
-
 		return maxWidth;
 	}
 }
@@ -370,14 +377,18 @@ int IntBinaryTree::widthTree(TreeNode* nodePtr)
 
 int IntBinaryTree::calculateWidth(TreeNode* nodePtr, int level)
 {
+	int levelOne = zeroConstant;
+
 	// if tree is empty, return 0
 	if (nodePtr == nullptr)
-		return 0;
+		return zeroConstant;
 
-	if (level == positiveOne)
+	// return one on root
+	if (level == zeroConstant)
+	{
 		return positiveOne;
-
-	else if (level > positiveOne)
+	}
+	else if (level > zeroConstant)
 	{
 		return (calculateWidth(nodePtr->left, level - positiveOne))
 			+ (calculateWidth(nodePtr->right, level - positiveOne));

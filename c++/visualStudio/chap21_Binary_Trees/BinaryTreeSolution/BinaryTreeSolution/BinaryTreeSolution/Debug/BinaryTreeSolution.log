@@ -1,5 +1,5 @@
 ﻿  BinaryTreeSolution.cpp
   IntBinaryTree.cpp
   Generating Code...
-C:\data\jeremiah\code\github\codes\c++\visualStudio\chap21_Binary_Trees\BinaryTreeSolution\BinaryTreeSolution\BinaryTreeSolution\IntBinaryTree.cpp(386): warning C4715: 'IntBinaryTree::calculateWidth': not all control paths return a value
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap21_Binary_Trees\BinaryTreeSolution\BinaryTreeSolution\BinaryTreeSolution\IntBinaryTree.cpp(397): warning C4715: 'IntBinaryTree::calculateWidth': not all control paths return a value
   BinaryTreeSolution.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\chap21_Binary_Trees\BinaryTreeSolution\BinaryTreeSolution\Debug\BinaryTreeSolution.exe
