@@ -17,7 +17,7 @@ public class Score
 		if (testScore > 90)
 		{
 			System.out.println("That's a great score!");
-			System.out.println("Keep up the good work ");
+			System.out.println("Keep up the good work.");
 		}
 	}
 }
