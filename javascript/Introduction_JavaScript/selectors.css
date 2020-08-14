@@ -1,0 +1,8 @@
+#one {width: 50%;}
+.red {color: red;}
+p    {line-height: 1.5em;}
+#one b {font-style: italic;}
+
+<p id="one" class="red">
+  My dog is <b>very</b> big!
+</p>
