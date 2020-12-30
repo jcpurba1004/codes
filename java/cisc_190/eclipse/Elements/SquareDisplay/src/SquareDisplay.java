@@ -1,3 +1,20 @@
+/*
+  
+Problem 4.20: Square Display
+  
+Write a program that asks the user for a positive integer no greater than 15.
+For example, if the user enters 5, the program should display the following:
+
+XXXXX 
+XXXXX
+XXXXX
+XXXXX
+XXXXX
+ 
+If the user enters 8, the program should display the following:
+
+*/
+
 import java.util.Scanner;
 
 public class SquareDisplay{
@@ -16,7 +33,7 @@ public class SquareDisplay{
 		}
 		
 		for( int row = 1; row <= userInteger; row++ ) {
-			for( column = 1; column <= userInteger; column++ ) {
+			for( int column = 1; column <= userInteger; column++ ) {
 				System.out.print( "X" );
 			}
 			System.out.println();
