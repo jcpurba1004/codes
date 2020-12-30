@@ -13,13 +13,13 @@ Write a program that plays a simple dice game between the computer and the user.
 
 import java.util.Random;
 
-public class DiceGame {
-
+public class DiceGame{
 	public static void main(String[] args) {
 		
 		Random random = new Random();
 		int totalNumberOfTurns = 10;
 		int computerDie;
+		int userDie;
 		int computerScore = 0;
 		int userScore = 0;
 		
@@ -29,13 +29,27 @@ public class DiceGame {
 			
 			if( computerDie > userDie ) {
 				computerScore = computerScore + 1;
-				System.out.println( "Computer won't turn " + turn );
+				System.out.println( "Computer won turn " + turn );
 			} else if( userDie > computerDie ) {
-				System.out.println( "Computer won't turn " + turn );
+				System.out.println( "User won turn " + turn );
 				userScore = userScore + 1;
 			} else  {
 				System.out.println( "Turn " + turn + " was a tie" );
 			}
+		}
+		
+		System.out.println();
+		
+		if( computerScore > userScore ) {
+			System.out.println( "Computer was the grand winner, winning " + computerScore + " out of  " totalNumberOfTurns + 
+								" turns" );
+		} else if( userScore > computerScore ) {
+			System.out.println( "User was the grand winner, winning " + userScore + " out of  " totalNumberOfTurns + 
+								" turns" );
+		} else if( computerScore == userScore ){
+			System.out.println( "It was a tie with computer winning " + computerScore + " turns and user winning " +
+							  userScore + " turns all out of " + totalNumberOfTurns );
+			
 		}
 		
 	}
