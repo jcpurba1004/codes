@@ -13,6 +13,15 @@ XXXXX
  
 If the user enters 8, the program should display the following:
 
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
 */
 
 import java.util.Scanner;

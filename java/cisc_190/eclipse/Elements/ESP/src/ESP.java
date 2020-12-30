@@ -1,3 +1,16 @@
+/*
+  
+Problem 4.19: ESP Game
+  
+Write a program that tests your ESP (extrasensory perception). The program should randomly select the name of a color from the
+following list of words:
+ 
+Red, Green, Blue, Orange, Yellow
+ 
+To select a word, the program can generate a random number. For example, if the number is 0, the selected word is Red,
+if the number is 1, the selected word is Green and so forth.
+
+*/
 
 import javax.swing.JOptionPane;
 import java.util.Random;
