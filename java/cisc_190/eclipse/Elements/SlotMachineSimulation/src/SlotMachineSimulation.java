@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-
 /*
   
 Problem 4.22: Slot Machine Simulation
@@ -20,10 +18,44 @@ randomly select a word from this list three times and display all three of the w
 
 */
 
+import javax.swing.JOptionPane;
+import java.util.Random;
+
 public class SlotMachineSimulation{
 	public static void main(String[ ] args) {
 		
-		JOptionPane.showInputDialog( "Insert money: " );
+		String userStringInput;
+		double userAmountEntered;
+		Random random = new Random();
+		int wordIndex;
+		String word = "";
+		
+		userStringInput = JOptionPane.showInputDialog( "Insert money: " );
+		userAmountEntered = Double.parseDouble( userStringInput );
+		
+		for( int wordCount = 1; wordCount <= 3; wordCount++ ) {
+			
+		}
+		
+		wordIndex = random.nextInt( 6 );
+		
+		if( wordIndex == 0 ){
+			word = "Cherries";
+		} else if( wordIndex == 1 ) {
+			word = "Oranges";
+		} else if( wordIndex == 2 ) {
+			word = "Plums";
+		} else if( wordIndex == 3 ) {
+			word = "Bells";
+		} else if( wordIndex == 4 ) {
+			word = "Melons";
+		} else if( wordIndex == 5 ) {
+			word = "Bars";
+		}
+		
+		JOptionPane.showMessageDialog( null, word + "\n" );
+			
+		System.exit( 0 );
 		
 	}
 }
