@@ -29,33 +29,50 @@ public class SlotMachineSimulation{
 		Random random = new Random();
 		int wordIndex;
 		String word = "";
+		String outputString = "";
+		String word1 = "";
+		String word2 = "";
+		String word3 = "";
 		
 		userStringInput = JOptionPane.showInputDialog( "Insert money: " );
 		userAmountEntered = Double.parseDouble( userStringInput );
 		
 		for( int wordCount = 1; wordCount <= 3; wordCount++ ) {
-			
+			wordIndex = random.nextInt( 6 );
+		
+			if( wordIndex == 0 ){
+				word = "Cherries";
+			} else if( wordIndex == 1 ) {
+				word = "Oranges";
+			} else if( wordIndex == 2 ) {
+				word = "Plums";
+			} else if( wordIndex == 3 ) {
+				word = "Bells";
+			} else if( wordIndex == 4 ) {
+				word = "Melons";
+			} else if( wordIndex == 5 ) {
+				word = "Bars";
+			}
+		
+			if ( wordCount == 1) {
+				 word1 = word;
+			} else if( wordCount == 2 ) {
+				word2 = word;
+			} else if( wordCount == 3 ) {
+				word3 = word;
+			} 
+		}
+		outputString = outputString + "[ " + word1 + " ]\t\t\t\t\t\t[ " + word2 + " ]\t\t\t\t\t\t[ " + word3 + " ]";
+		
+		// word1   word2   word3
+		
+		if( ( word1 != word2 ) && ( word1 != word3 ) && ( word2 != word3 ) ) {
+			outputString = outputString + "\nYou have won $0";
 		}
 		
-		wordIndex = random.nextInt( 6 );
-		
-		if( wordIndex == 0 ){
-			word = "Cherries";
-		} else if( wordIndex == 1 ) {
-			word = "Oranges";
-		} else if( wordIndex == 2 ) {
-			word = "Plums";
-		} else if( wordIndex == 3 ) {
-			word = "Bells";
-		} else if( wordIndex == 4 ) {
-			word = "Melons";
-		} else if( wordIndex == 5 ) {
-			word = "Bars";
-		}
-		
-		JOptionPane.showMessageDialog( null, word + "\n" );
-			
+		JOptionPane.showMessageDialog( null, outputString );
+	
 		System.exit( 0 );
-		
+	
 	}
 }
