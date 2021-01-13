@@ -33,6 +33,5 @@ public class RectangleArea{
 		double userLength = getLength();
 		double userWidth = getWidth();
 		displayArea( userLength, userWidth, getArea( userLength, userWidth ) );
-
 	}
 }
