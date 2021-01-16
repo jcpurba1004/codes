@@ -13,6 +13,7 @@ else
 }
 
 Write a program with a method named isEven that accepts an int argument.
+
 */
 
 import java.util.Random;
