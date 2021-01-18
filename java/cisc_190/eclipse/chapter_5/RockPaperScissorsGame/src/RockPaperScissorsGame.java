@@ -1,4 +1,5 @@
 /*
+ 
 Problem 5.17: Rock, Paper, Scissors Game
 
 Write a program that lets the user play the game of Rock, Paper Scissors against the computer. The program should work as follows.
@@ -90,8 +91,12 @@ public class RockPaperScissorsGame{
 		}
 		
 	    finalMessage = winner + " won(" + customMessage + ")";
-		return finalMessage;
-		
+	    if( finalMessage.contentEquals( "No winner won()" ) ) {
+	    	finalMessage = "No winner won";
+	    	return finalMessage;
+	    } else {
+	    	return finalMessage;
+	    }
 	}
 	
 	public static void main(String[ ] args) {
@@ -119,7 +124,5 @@ public class RockPaperScissorsGame{
 			System.out.println( "You chose " + userChoice + "\nComputer chose " + computerChoice );
 			System.out.println( winner );
 		}
-		
 	}
-
 }
