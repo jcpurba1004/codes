@@ -40,13 +40,25 @@ public class ESPGame{
 		return computerChoseColor;
 	}
 	
-	public static String getUserColor( Scanner scanner ) {
+	public static String getUserColor( Scanner scanner, int guessNumber ) {
 		String userColor;
 		
-		System.out.println( "User, guess the computers color: " );
+		System.out.println( "Guess number " + guessNumber + ".) User guess the computers color: " );
 		userColor = scanner.nextLine();
 		
 		return userColor;
+	}
+	
+	public static boolean compareColors( String color1, String color2 ) {
+		if( color1.equalsIgnoreCase( color2 ) ) { 
+		   return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public static void displayUserCorrectGuesses( int userCorrectGuesses ) {
+		System.out.println( "The user correctly guessed " + userCorrectGuesses + " times" );
 	}
 	
 	public static void main(String[ ] args) {
@@ -55,11 +67,17 @@ public class ESPGame{
 		Scanner scanner = new Scanner( System.in );
 		String computerColor;
 		String userColor;
+		int userCorrectGuesses = 0;
 		
-		computerColor = generateComputerColor( random );
-		userColor = getUserColor( scanner );
-		System.out.println( "The computer selected " + computerColor + "\nYou selected " + userColor );
-		
+		for( int currentGuessNumber = 1; currentGuessNumber <= 10; currentGuessNumber++ ) {
+			computerColor = generateComputerColor( random );
+			userColor = getUserColor( scanner, currentGuessNumber );
+			System.out.println( "The computer selected " + computerColor + "\nYou selected " + userColor );
+			if( compareColors( computerColor, userColor ) ) {
+				userCorrectGuesses = userCorrectGuesses + 1;
+			}
+		}
+		displayUserCorrectGuesses( userCorrectGuesses );
 	}
 	
 }
