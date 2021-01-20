@@ -13,9 +13,9 @@ and returns the retail price of the item.
  
 */
 
-import javax.util.JOptionPane;
+import javax.swing.JOptionPane;
 
-public class priceCalculator{
+public class PriceCalculator{
 	
 	private static final String JOptionPane = null;
 
@@ -25,7 +25,7 @@ public class priceCalculator{
 		return retailPrice;
 	}
 
-	public static void main(String[  ] args) {
+	public static void main(String[ ] args) {
 		String userStringInput;
 		double userWholeSaleCost;
 		double userMarkupPercentage;
@@ -44,5 +44,4 @@ public class priceCalculator{
 				                                           calculateRetail( userWholeSaleCost, userMarkupPercentage ) ) );
 		System.exit( 0 );
 	}
-
 }
