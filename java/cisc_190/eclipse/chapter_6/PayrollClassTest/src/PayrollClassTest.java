@@ -12,7 +12,7 @@ the user to enter the data for an employee. The program should display the amoun
 
 import javax.swing.JOptionPane;
 
-public class Payroll{
+public class PayrollClassTest{
 	public static void main( String [ ] args ) {
 		
 		String userInputString;
@@ -29,11 +29,6 @@ public class Payroll{
 		userHourlyPayRate = Double.parseDouble(userInputString);
 		userInputString = JOptionPane.showInputDialog( "Enter the hours worked: " );
 		userHoursWorked = Double.parseDouble( userInputString );
-		
-		Payroll payroll1 = new Payroll( userName, userId );
-		payroll1.setHourlyPayRate( userHourlyPayRate );
-		payroll1.setHoursWorked( userHoursWorked );
-		String.format( "%s has a gross pay of $%,.2f", payroll1.getName(), payroll1.calculateGrossPay() );
 		
 		System.exit( 0 );
 	}
