@@ -1,3 +1,5 @@
+import java.awt.Rectangle;
+
 /**
    This program demonstrates the Rectangle class's
    setLength, setWidth, getLength, getWidth and

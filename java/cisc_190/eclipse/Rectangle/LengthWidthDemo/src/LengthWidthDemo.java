@@ -20,8 +20,8 @@ public class LengthWidthDemo
 		
 		// Display the object's length and width.
 		System.out.println("The box's length is " +
-		                   box.getLength());
+						   box.getLength());
 		System.out.println("The box's width is " +
-                		   box.getWidth());
+				   		   box.getWidth());
 	}
 }
