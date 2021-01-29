@@ -1,6 +1,5 @@
 /**
-   Rectangle class, phase 3
-   Under construction!
+   Rectangle class, phase 5
 */
 
 public class Rectangle 
