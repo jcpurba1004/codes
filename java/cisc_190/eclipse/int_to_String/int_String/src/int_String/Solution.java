@@ -12,9 +12,9 @@ public class Solution {
 	  // There are many ways to solve this question. Here are some.
 	  
     // 1. Solution
-    String s1 = String.valueOf(n);
+    String s = String.valueOf(n);
     // 2. Solution
-    String s2 = Integer.toString(n);
+    String s = Integer.toString(n);
     // 3.Solution
     // Stack stc = new Stack();
     // int count=0;
@@ -30,7 +30,7 @@ public class Solution {
 	// }
     // String s=sb.toString();
     
-       if (n == Integer.parseInt(s1)) {
+       if (n == Integer.parseInt(s)) {
     	System.out.println("Good job");
        } else {
     	System.out.println("Wrong answer.");
