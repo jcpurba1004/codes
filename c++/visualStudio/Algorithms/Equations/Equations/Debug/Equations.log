@@ -1,0 +1,7 @@
+﻿  Equations.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Equations\Equations.cpp(12,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Equations\Equations.cpp(12,13): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Equations\Equations.cpp(50,15): warning C4101: 'k': unreferenced local variable
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Equations\Equations.cpp(50,12): warning C4101: 'j': unreferenced local variable
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Equations\Equations.cpp(50,9): warning C4101: 'i': unreferenced local variable
+  Equations.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\Equations\Debug\Equations.exe
