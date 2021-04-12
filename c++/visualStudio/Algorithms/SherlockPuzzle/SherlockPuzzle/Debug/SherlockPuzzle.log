@@ -1,0 +1,9 @@
+﻿  SherlockPuzzle.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(68,23): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(69,23): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(71,14): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(113,23): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(115,23): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(116,27): warning C4018: '<': signed/unsigned mismatch
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\SherlockPuzzle\SherlockPuzzle.cpp(169,36): warning C4244: 'argument': conversion from 'LL' to 'int', possible loss of data
+  SherlockPuzzle.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\SherlockPuzzle\Debug\SherlockPuzzle.exe
