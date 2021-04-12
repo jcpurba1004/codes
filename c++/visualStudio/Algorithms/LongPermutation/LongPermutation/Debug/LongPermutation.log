@@ -1,0 +1,3 @@
+﻿  LongPermutation.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\LongPermutation\LongPermutation\LongPermutation.cpp(10,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  LongPermutation.vcxproj -> C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\LongPermutation\Debug\LongPermutation.exe
