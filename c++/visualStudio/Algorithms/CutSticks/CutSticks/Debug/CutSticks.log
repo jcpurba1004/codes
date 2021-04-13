@@ -1,0 +1,15 @@
+﻿  CutSticks.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(7,5): error C2065: 'vector': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(7,16): error C2062: type 'int' unexpected
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(10,16): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(13,27): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(13,43): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(13,15): error C3861: 'max_element': identifier not found
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(19,17): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(20,30): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(20,22): error C3861: 'min': identifier not found
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(23,17): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(25,17): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(30,27): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(30,43): error C2065: 'height': undeclared identifier
+C:\data\jeremiah\code\github\codes\c++\visualStudio\Algorithms\CutSticks\CutSticks\CutSticks.cpp(30,15): error C3861: 'max_element': identifier not found
