@@ -1,5 +1,3 @@
-package abstractclasses;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,6 +8,9 @@ package abstractclasses;
  *
  * @author jpurba
  */
+
+package abstractclasses;
+
 public class Triangle extends Shape {
     private double base;
     private double height;
