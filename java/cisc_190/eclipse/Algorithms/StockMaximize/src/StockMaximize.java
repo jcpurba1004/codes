@@ -1,28 +1,32 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
 public class StockMaximize {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int size = scanner.nextInt();
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+        for(int a0 = 0; a0 < t; a0++){
+            int n = in.nextInt();
+            int[] arr = new int[n];
+            for(int arr_i = 0; arr_i < n; arr_i++){
+                arr[arr_i] = in.nextInt();
+            }
 
-        for (int testcase = 0; testcase < size; testcase++) {
-            int numOfDays = scanner.nextInt();
-            int[] prices = new int[numOfDays];
-            for (int j = 0; j < numOfDays; j++) {
-                prices[j] = scanner.nextInt();
-            }
-            long ans = 0;
-            for(int i = 0; i < numOfDays ; i++){
-                int maxprice = 0;
-                for(int j = i; j < numOfDays; j++){
-                    if(prices[j] > maxprice){
-                        maxprice = prices[j];
-                    }
+            int maximum = arr[n-1];
+            long counter = 0;
+            for (int i = n - 2; i >= 0; i--) {
+                if (maximum > arr[i]) {
+                    counter += maximum - arr[i];
+                } else {
+                    maximum = arr[i];
                 }
-                ans = ans + (maxprice - prices[i]);
             }
-            System.out.println(ans);
+            System.out.println(counter);
         }
-        
+        in.close();
     }
 }
