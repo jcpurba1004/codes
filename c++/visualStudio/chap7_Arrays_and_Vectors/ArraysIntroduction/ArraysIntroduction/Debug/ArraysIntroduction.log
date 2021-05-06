@@ -1,0 +1,6 @@
+﻿  ArraysIntroduction.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\ArraysIntroduction\ArraysIntroduction\ArraysIntroduction.cpp(12,10): error C2131: expression did not evaluate to a constant
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\ArraysIntroduction\ArraysIntroduction\ArraysIntroduction.cpp(12,10): message : failure was caused by a read of a variable outside its lifetime
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\ArraysIntroduction\ArraysIntroduction\ArraysIntroduction.cpp(12,10): message : see usage of 'N'
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\ArraysIntroduction\ArraysIntroduction\ArraysIntroduction.cpp(14,7): warning C4552: '>>': result of expression not used
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\ArraysIntroduction\ArraysIntroduction\ArraysIntroduction.cpp(17,17): warning C4552: '<<': result of expression not used
