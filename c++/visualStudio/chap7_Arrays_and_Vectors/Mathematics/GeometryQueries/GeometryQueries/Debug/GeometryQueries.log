@@ -1,0 +1,5 @@
+﻿  GeometryQueries.cpp
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\Mathematics\GeometryQueries\GeometryQueries\GeometryQueries.cpp(36,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\Mathematics\GeometryQueries\GeometryQueries\GeometryQueries.cpp(37,32): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\Mathematics\GeometryQueries\GeometryQueries\GeometryQueries.cpp(39,28): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\data\jeremiah\code\github\codes\c++\visualStudio\chap7_Arrays_and_Vectors\Mathematics\GeometryQueries\GeometryQueries\GeometryQueries.cpp(136,15): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
