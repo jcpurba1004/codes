@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class Stdin_and_Stdout_II {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        double f = sc.nextDouble();
+        sc.nextLine();
+        String line = sc.nextLine();
 
-        // Write your code here.
-
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
+        System.out.println("String: " + line);
+        System.out.println("Double: " + f);
+        System.out.println("Int: " +  x);
     }
 }
