@@ -39,7 +39,7 @@ public static PerformOperation isOdd() {
     }
 }
    
-public class Solution {
+public class Lambda_Expressions {
 
  public static void main(String[] args) throws IOException {
   MyMath ob = new MyMath();
