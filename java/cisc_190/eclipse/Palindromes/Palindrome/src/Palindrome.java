@@ -16,7 +16,8 @@ public class Palindrome {
 
 	static Set<String> dict = new HashSet<>();
     static Map<String, Double> ans = new HashMap<>();
-
+	public static void main(String[] args) {
+		
     static String convert(String s) {
         StringBuilder builder = new StringBuilder();
         char[] map = new char[26];
@@ -37,13 +38,16 @@ public class Palindrome {
             if (i % 2 == 1) oddCnt++;
         return oddCnt <= 1;
     }
-
+		//Ex: mom, dad, poop, race car, nurses run
+		
     static boolean isPalindrome(String s) {
         for (int i = 0, j = s.length() - 1; i < j; i++, j--)
             if (s.charAt(i) != s.charAt(j)) return false;
         return true;
     }
-
+		String original = "nurses run";
+		original = original.replace(" ", "");
+		
     static void generate(String s) {
         if (s.length() > 0 && isValid(s)) dict.add(convert(s));
         if (s.length() < 8) {
@@ -52,15 +56,23 @@ public class Palindrome {
             generate(s + "c");
             generate(s + "d");
         }
-    }
-
+		String reverse = "";
+		for(int i = original.length() - 1; i >= 0; i--) {
+			reverse += original.charAt(i);
+			System.out.println(reverse);
+		}
+		
     static String swap(String s, int i, int j) {
         char[] arr = s.toCharArray();
         char tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
         return String.copyValueOf(arr);
-    }
+		boolean palindrome =true;
+		for(int i = 0; i < original.length(); i++) {
+			if(original.charAt(i) != reverse.charAt(i)) {
+				palindrome = false;
+			}
 
     static void preprocess() {
         for (int len = 1; len <= 8; len++) {
@@ -70,8 +82,8 @@ public class Palindrome {
                 if (s.length() == len) {
                     reverseMap.put(s, cand.size());
                     cand.add(s);
-                }
-
+		}
+		
             int n = cand.size();
             double[][] A = new double[n][n + 1];
             for (int i = 0; i < n; i++) {
@@ -79,7 +91,9 @@ public class Palindrome {
                 if (isPalindrome(cand.get(i))) {
                     A[i][i] = 1;
                     A[i][n] = 0;
-                } else {
+		if(palindrome) {
+			System.out.println("PALINDROME!");
+		} else {
                     List<Integer> next = new ArrayList<>();
                     for (int x = 0; x < len; x++)
                         for (int y = x + 1; y < len; y++)
@@ -137,11 +151,12 @@ public class Palindrome {
             String convert = convert(s);
             // use abs to prevent -0.000
             cout.write(String.format("%.4f%n", Math.abs(ans.get(convert)))); 
-        }
-
+			System.out.println("Not a palindrome!");
+		}
+		
         cout.close();
-    }
-
+	}
+	
     static class Pair<U extends Comparable<U>, V extends Comparable<V>> implements Comparable<Pair<U, V>> {
         final U _1;
         final V _2;
