@@ -1,45 +1,38 @@
+import java.util.Scanner; // Needed for the Scanner class
 
-public class Payroll {
+/**
+  This program demonstrates the Scanner class.
+*/
 
-	// instance variables - replace the example below with your own
-    private int x;
+public class Payroll
+{
+	public static void main(String[] args)
+	{
+		String name; // To hold a name
+		int hours; // Hours worked
+		double payRate; // Hourly pay rate
+		double grossPay; // Gross pay
 
-    /**
-     * Constructor for objects of class Payroll
-     */
-    public Payroll()
-    {
-        // initialize instance variables
-        x = 0;
-    }
-	
-	/**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int add(int y, int z)
-    {
-        // put your code here
-        return y + z;
-    }
+		// Create a Scanner object to read input.
+		Scanner keyboard = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int hours = 40;
-        double grossPay, payRate = 25.0;
-        int num = 30;
-        int result; 
-        
-        Payroll MyPayroll = new Payroll ();
-        
-        result = MyPayroll.add(hours, num);
-        grossPay = hours * payRate;
-        
-        System.out.println("Your pay rate is $" + payRate);
-        System.out.println("Your hours is: " + hours);
-        System.out.println("Your gross pay is $" + grossPay);
-        System.out.println("Add output = " + result);
+		// Get the user's name.
+		System.out.print("What is your name? ");
+		name = keyboard.nextLine();
+
+		// Get the number of hours worked this week.
+		System.out.print("How many hours did you work this week? ");
+		hours = keyboard.nextInt();
+
+		// Get the user's hourly pay rate.
+		System.out.print("What is your hourly pay rate? ");
+		payRate = keyboard.nextDouble();
+
+		// Calculate the gross pay.
+		grossPay = hours * payRate;
+		
+		// Display the resulting information.
+		System.out.println("Hello, " + name);
+		System.out.println("Your gross pay is $" + grossPay);
 	}
 }
