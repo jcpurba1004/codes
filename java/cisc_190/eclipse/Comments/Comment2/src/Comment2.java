@@ -1,8 +1,8 @@
-// PROGRAM: Comment1.java
+// PROGRAM: Comment2.java
 // Written by Herbert Dorfmann
 // This program calculates company payroll
 
-public class Comment1
+public class Comment2
 {
 	public static void main(String[] args)
 	{
