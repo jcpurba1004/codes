@@ -1,9 +1,21 @@
+/**
+   Rectangle class, phase 1
+   Under construction!
+*/
 
-public class Rectangle {
+public class Rectangle
+{
+	private double length;
+	private double width;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	/**
+ 	   The setLength method stores a value in the
+ 	   length field.
+ 	   @param len The value to store in length.
+	*/
 
+	public void setLength(double len)
+	{
+		length = len;
 	}
-
 }
