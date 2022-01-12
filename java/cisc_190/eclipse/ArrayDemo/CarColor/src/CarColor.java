@@ -1,9 +1,5 @@
+/**
+   CarColor enumerated data type
+*/
 
-public class CarColor {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
+enum CarColor { RED, BLACK, BLUE, SILVER }
