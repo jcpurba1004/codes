@@ -1,9 +1,5 @@
+/**
+   CarType enumerated data type
+*/
 
-public class CarType {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
+enum CarType { PORSCHE, FERRARI, JAGUAR }
