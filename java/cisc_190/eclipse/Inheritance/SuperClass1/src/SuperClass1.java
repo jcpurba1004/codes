@@ -1,9 +1,12 @@
+public class SuperClass1
+{
+	/**
+ 	   Constructor
+	*/
 
-public class SuperClass1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public SuperClass1()
+	{
+		System.out.println("This is the " +
+				  "superclass constructor.");
 	}
-
 }
