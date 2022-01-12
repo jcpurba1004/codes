@@ -1,9 +1,13 @@
+public class SubClass2 extends SuperClass2
+{
+	/**
+ 	   Constructor
+	*/
 
-public class SubClass2 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public SubClass2()
+	{
+		super(10);
+		System.out.println("This is the " +
+						   "subclass constructor.");
 	}
-
 }
