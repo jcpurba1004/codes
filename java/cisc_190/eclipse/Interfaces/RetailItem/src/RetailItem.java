@@ -1,9 +1,8 @@
+/**
+   RetailItem interface
+*/
 
-public class RetailItem {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public interface RetailItem
+{
+	public double getRetailPrice();
 }
