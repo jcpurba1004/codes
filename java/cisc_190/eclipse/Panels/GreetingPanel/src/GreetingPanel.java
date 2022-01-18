@@ -1,9 +1,23 @@
+import javax.swing.*;
 
-public class GreetingPanel {
+/**
+   The GreetingPanel class displays a greeting in a panel.
+*/
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class GreetingPanel extends JPanel
+{
+	private JLabel greeting; // To display a greeting
 
+	/**
+ 	   Constructor
+	*/
+
+	public GreetingPanel()
+	{
+		// Create the label.
+		greeting = new JLabel("Welcome to Brandi's Bagel House");
+
+		// Add the label to this panel.
+		add(greeting);
 	}
-
 }
