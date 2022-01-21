@@ -1,9 +1,12 @@
+/**
+   This class has a recursive method.
+*/
 
-public class EndlessRecursion {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+public class EndlessRecursion
+{
+	public static void message()
+	{
+		System.out.println("This is a recursive method.");
+		message();
 	}
-
 }
