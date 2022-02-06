@@ -18,5 +18,30 @@ public class EvenOdd {
 		else {
 		   System.out.println(userNum + " is odd.");
 		}
+		
+		int bonusVal;
+		int numItems;
+		
+		bonusVal = 15;
+		numItems = 44;
+		if (bonusVal == 14) {
+		   numItems = numItems + 3;
+		}
+		else {
+		   numItems = numItems + 6;
+		}
+		numItems = numItems + 1;
+		System.out.println("numItems = " + numItems);
+		
+		bonusVal = 12;
+		if (bonusVal == 12) {
+		   bonusVal = bonusVal + 2;
+		   bonusVal = 3 * bonusVal;
+		}
+		else {
+		   bonusVal = bonusVal + 10;
+		}
+		
+		System.out.println("bonusVal = " + bonusVal);
 	}
 }
