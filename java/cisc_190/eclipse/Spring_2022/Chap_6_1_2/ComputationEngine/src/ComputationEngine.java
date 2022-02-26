@@ -5,7 +5,7 @@ public class ComputationEngine {
    
       result = 0;
       for (i = 0; i < val1; ++i) {
-         result -= val2 + 3;
+         result += val2 * 3;
       }
       
       return result;  
@@ -16,8 +16,8 @@ public class ComputationEngine {
       int value2;
       int computedValue;
 
-      value1 = 1;
-      value2 = 4;
+      value1 = 3;
+      value2 = 2;
       computedValue = compute(value1, value2);
 
       System.out.println(computedValue);

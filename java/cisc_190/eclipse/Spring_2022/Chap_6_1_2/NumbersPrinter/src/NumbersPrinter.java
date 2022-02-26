@@ -8,14 +8,14 @@ public class NumbersPrinter {
    
       for (i = 0; i < numCount; ++i) {
          number = scnr.nextInt();
-         if ((number % 2) == 0) {
+         if (number < 4) {
             System.out.println(number);
          }
       }
     }
     
    public static void main(String[] args) {
-      int numCount = 5;
+      int numCount = 6;
 
       printSelectedNumbers(numCount);
    }
