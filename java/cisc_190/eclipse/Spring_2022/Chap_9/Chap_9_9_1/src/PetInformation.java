@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class PetInformation {
+	public static void main(String[] args) {
+	   Scanner scnr = new Scanner(System.in);
+	   
+	   Pet myPet = new Pet();
+	   Dog myDog = new Dog();
+	   
+	   String petName, dogName, dogBreed;
+	   int petAge, dogAge;
+	   
+	   petName = scnr.nextLine();
+	   petAge = scnr.nextInt();
+	   scnr.nextLine();
+	   dogName = scnr.next();
+	   dogAge = scnr.nextInt();
+	   scnr.nextLine();
+	   dogBreed = scnr.nextLine();
+	}
+}
