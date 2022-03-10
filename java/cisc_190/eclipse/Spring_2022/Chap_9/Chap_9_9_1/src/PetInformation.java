@@ -17,5 +17,16 @@ public class PetInformation {
 	   dogAge = scnr.nextInt();
 	   scnr.nextLine();
 	   dogBreed = scnr.nextLine();
+	   
+	   myPet.setName(petName);
+	   myPet.setAge(petAge);
+	   myPet.printInfo();
+	   
+	   myDog.setName(dogName);
+	   myDog.setAge(dogAge);
+	   myDog.setBreed(dogBreed);
+	   
+	   myDog.printInfo();
+	   System.out.println("   Breed: " + myDog.getBreed());
 	}
 }
