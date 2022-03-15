@@ -4,8 +4,5 @@ public class Driver {
 		
 		Square s = new Square();
 		Circle c = new Circle();
-		
-		s.draw();
-		c.draw();
 	}
 }
