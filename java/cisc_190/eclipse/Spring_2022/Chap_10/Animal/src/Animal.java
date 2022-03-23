@@ -1,4 +1,4 @@
-public abstract class Animal {
+public abstract class Animal implements Alive, Measurable {
 
 	public abstract void speak();
 	
