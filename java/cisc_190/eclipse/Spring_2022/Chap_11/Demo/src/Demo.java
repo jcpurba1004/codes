@@ -2,11 +2,15 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-		int[] array = {2, 5, 7, 12, 50, 23};
+		int[] array = {2, 5, 9, 12, 58};
 		
-		for (int i=0; i<array.length; i++) {
+		try {
+			for (int i=0; i<=array.length; i++) {
 			System.out.println(array[i]);
+			}
 		}
-		System.out.println("the end");
+		catch (Throwable e) {
+			System.out.println("Reached the end of the array");
+		}
 	}
 }
