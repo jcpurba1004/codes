@@ -2,15 +2,19 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-		int[] array = {2, 5, 9, 12, 58};
+		int x = 0;
 		
 		try {
-			for (int i=0; i<=array.length; i++) {
-			System.out.println(array[i]);
-			}
+			x = divide(6, 0);
 		}
-		catch (Throwable e) {
-			System.out.println("Reached the end of the array");
+		catch (ArithmeticException e) {
+			System.out.println("you cannot divide by zero");
 		}
+		
+		System.out.println(x);
+	}
+		
+	public static int divide(int a, int b) throws ArithmeticException {
+		return a/b;
 	}
 }
