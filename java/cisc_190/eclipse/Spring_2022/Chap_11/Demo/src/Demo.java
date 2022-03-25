@@ -1,20 +1,20 @@
+import java.util.Scanner;
+
 public class Demo {
 
 	public static void main(String[] args) {
 		
-		int x = 0;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter a number between 1 and 10:");
 		
 		try {
-			x = divide(6, 0);
+			int num = keyboard.nextInt();
+			
+			if (num < 1 || num > 10) {
+				throw new InvalidNumberException("Not a valid number!");
+			}
+		} catch (InvalidNumberException e) {
+			System.out.println(e.getMessage());
 		}
-		catch (ArithmeticException e) {
-			System.out.println("you cannot divide by zero");
-		}
-		
-		System.out.println(x);
-	}
-		
-	public static int divide(int a, int b) throws ArithmeticException {
-		return a/b;
 	}
 }
