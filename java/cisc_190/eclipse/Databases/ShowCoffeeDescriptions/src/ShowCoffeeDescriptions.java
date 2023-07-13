@@ -1,4 +1,4 @@
-import java.sql.*;
+import java.sql.*;    // Needed for JDBC classes
 
 /**
    This program demonstrates how to issue an SQL
