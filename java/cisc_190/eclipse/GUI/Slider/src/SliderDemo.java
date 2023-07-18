@@ -46,5 +46,4 @@ public class SliderDemo implements ChangeListener {
 		
 		label.setText(" °C " + slider.getValue());	
 	}
-	
 }
