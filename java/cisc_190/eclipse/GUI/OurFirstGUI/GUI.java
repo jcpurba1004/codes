@@ -9,6 +9,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+//https://introcs.cs.princeton.edu/java/15inout/GUI.java.html
+
 public class GUI implements ActionListener {
 	
 	private int count = 0;
