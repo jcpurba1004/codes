@@ -68,7 +68,7 @@ public class Main {
 		panel5.add(panel7, BorderLayout.SOUTH);
 		panel5.add(panel8, BorderLayout.WEST);
 		panel5.add(panel9, BorderLayout.EAST);
-		panel5.add(panel6, BorderLayout.CENTER);
+		panel5.add(panel10, BorderLayout.CENTER);
 		
 		//-----------  sub panels -----------------------
 		
