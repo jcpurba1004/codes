@@ -14,6 +14,5 @@ public class Main {
 		JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.ERROR_MESSAGE);
 		
 		String name = JOptionPane.showInputDialog("What is your name?: ");
-		
 	}
 }
