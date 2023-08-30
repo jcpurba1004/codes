@@ -5,6 +5,7 @@ import textio.TextIO;
  * It counts how many divisors that number has, and
  * then it prints the result.
  */   
+
 public class CountDivisors {
    
    public static void main(String[] args) {

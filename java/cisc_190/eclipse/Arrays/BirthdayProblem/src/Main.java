@@ -3,6 +3,7 @@
  * were born on.  If the birthday is the same as one that was seen previously, 
  * stop, and output the number of people who were checked.
  */
+
 public class Main {
 
    public static void main(String[] args) {

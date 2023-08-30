@@ -5,6 +5,7 @@ import textio.TextIO;
  * It prints a list of the letters that occur in the text,
  * and it reports how many different letters were found.
  */
+
 public class ListLetters {
    
    public static void main(String[] args) {

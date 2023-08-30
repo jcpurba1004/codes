@@ -9,6 +9,7 @@ import textio.TextIO;
  * input by the user.  (The user can choose to end the program by
  * typing Control-C.)
  */
+
 public class AverageNumbersFromFile {
    
    public static void main(String[] args) {
