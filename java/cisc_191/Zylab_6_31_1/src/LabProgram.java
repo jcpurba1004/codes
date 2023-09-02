@@ -13,11 +13,12 @@ public class LabProgram {
 	}
 	
 	public static void main(String[] args) {
-		Scanner scnr = new Scanner(System.in);
-		Random rand = new Random(2);
-		int n = scnr.nextInt();
-		for(int i = 0; i < n; i++) {
-			System.out.println(coinFlip(rand));
+		try (Scanner scnr = new Scanner(System.in)) {
+			Random rand = new Random(2);
+			int n = scnr.nextInt();
+			for(int i = 0; i < n; i++) {
+				System.out.println(coinFlip(rand));
+			}
 		}
 	}
 }
