@@ -19,16 +19,16 @@ public class PetInformation {
       catBreed = scnr.nextLine();
       
       myPet.setName(petName);
-		myPet.setAge(petAge);
+	  myPet.setAge(petAge);
 
-		myCat.setName(catName);
-		myCat.setAge(catAge);
-		myCat.setBreed(catBreed);
+	  myCat.setName(catName);
+	  myCat.setAge(catAge);
+	  myCat.setBreed(catBreed);
 
-		myPet.printInfo();
-		myCat.printInfo();
-		System.out.println("	Breed: " + myCat.getBreed());
+	  myPet.printInfo();
+	  myCat.printInfo();
+	  System.out.println("	Breed: " + myCat.getBreed());
 
-		scnr.close();
+	  scnr.close();
    }
 }
