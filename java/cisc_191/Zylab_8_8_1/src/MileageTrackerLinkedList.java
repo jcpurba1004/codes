@@ -1,45 +1,43 @@
 import java.util.Scanner;
 
 public class MileageTrackerLinkedList {
-   public static void main (String[] args) {
-      Scanner scnr = new Scanner(System.in);
-     
+    public static void main (String[] args) {
+        Scanner scnr = new Scanner(System.in);
 
-      // References for MileageTrackerNode objects
-      MileageTrackerNode headNode;                                           
-      MileageTrackerNode currNode;
-      MileageTrackerNode lastNode;
+        MileageTrackerNode headNode;
+        MileageTrackerNode currNode = null;
+        MileageTrackerNode lastNode;
 
-      double miles;
-      String date;
-      int i;
-      int count;
+        double miles;
+        String date;
+        int i;
 
-      // Front of nodes list                                                                         
-      headNode = new MileageTrackerNode();
-      lastNode = headNode;
+        headNode = new MileageTrackerNode();
+        lastNode = headNode;
 
-      // TODO: Scan the number of nodes
-      count = scnr.nextInt();
-         
-      // TODO: For the scanned number of nodes, scan
-      //       in data and insert into the linked list
-      for (i = 0; i < count; ++i) {
-         miles = scnr.nextDouble();
-         date = scnr.nextLine();
-         currNode = new MileageTrackerNode(miles, date);
-         lastNode.insertAfter(currNode);
-         lastNode = currNode;
-      }
-      
+        int n = scnr.nextInt();
+
+        for(i = 0;i<n;i++){
             
-
-      // TODO: Call the printNodeData() method 
-      //       to print the entire linked list
-      for (i = 0; i < count; ++i) {
-         headNode.printNodeData();
-         headNode.getNext();
-      }
+            miles = scnr.nextDouble();
+            scnr.nextLine();
             
-   }
+            date = scnr.nextLine();
+
+            if(i==0){
+                headNode = new MileageTrackerNode(miles, date);
+                currNode = headNode;
+            }
+            else{
+                currNode.insertAfter(new MileageTrackerNode(miles, date));
+                currNode = currNode.getNext();
+            }
+        }
+
+        currNode = headNode;
+        while (currNode!=null){
+            currNode.printNodeData();
+            currNode = currNode.getNext();
+        }
+    }
 }
