@@ -44,5 +44,4 @@ public class MyFrame extends JFrame implements ActionListener {
 			textField.setEditable(false);
 		}
 	}
-
 }
