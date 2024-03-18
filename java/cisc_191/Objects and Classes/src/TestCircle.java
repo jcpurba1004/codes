@@ -25,6 +25,7 @@ public class TestCircle {
 
 	// Define the circle class with two constructors
 	class Circle {
+		public static final String numberOfObjects = null;
 		double radius;
   
 		/** Construct a circle with radius 1 */
@@ -51,4 +52,9 @@ public class TestCircle {
 		void setRadius(double newRadius) {
 			radius = newRadius;
 	}
+
+		public String getRadius() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 }
