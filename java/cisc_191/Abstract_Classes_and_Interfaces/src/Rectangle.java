@@ -1,9 +1,3 @@
-
-public class Rectangle {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class Rectangle extends GeometricObject {
+	// Same as lines 2−49 in Listing 11.3, so omitted
 }

@@ -1,9 +1,3 @@
-
-public class Circle {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public class Circle extends GeometricObject {
+	// Same as lines 2−47 in Listing 11.2, so omitted
 }
