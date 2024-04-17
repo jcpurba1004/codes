@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/BubbleSort.java=UTF-8
 encoding//src/Heap.java=UTF-8
+encoding//src/HeapSort.java=UTF-8
 encoding//src/InsertionSort.java=UTF-8
 encoding//src/MergeSort.java=UTF-8
 encoding//src/QuickSort.java=UTF-8
